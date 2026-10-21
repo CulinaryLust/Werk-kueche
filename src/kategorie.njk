@@ -1,0 +1,15 @@
+---
+layout: base.njk
+pagination:
+  data: kategorien
+  size: 1
+  alias: kat
+permalink: "/category/{{ kat.slug }}/"
+---
+<section class="liste">
+  <h1>{{ kat.titel }}</h1>
+  <p class="intro">{{ kat.beschreibung }}</p>
+  <div class="kacheln">
+  {%- for x in collections.artikelNeu | inKategorien(kat.slug) %}{% include "kachel.njk" %}{% endfor %}
+  </div>
+</section>

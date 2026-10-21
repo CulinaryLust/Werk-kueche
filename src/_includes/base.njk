@@ -1,0 +1,57 @@
+{%- set titel = titel or (kat and kat.titel) -%}
+{%- set beschreibung = beschreibung or (kat and kat.beschreibung) -%}
+{%- set seitenTitel = (titel ~ " - " ~ site.name) if titel and not startseite else (site.name ~ " - " ~ site.untertitel) -%}
+{%- set seitenBeschreibung = beschreibung or site.beschreibung -%}
+{%- set kanonisch = page.url | absolut(site.url) -%}
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ seitenTitel }}</title>
+<meta name="description" content="{{ seitenBeschreibung }}">
+<meta name="robots" content="{{ robots or 'index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large' }}">
+<link rel="canonical" href="{{ kanonisch }}">
+<meta name="p:domain_verify" content="{{ site.pinterest_verify }}">
+<meta property="og:locale" content="de_DE">
+<meta property="og:type" content="{{ 'article' if tags and 'artikel' in tags else 'website' }}">
+<meta property="og:title" content="{{ seitenTitel }}">
+<meta property="og:description" content="{{ seitenBeschreibung }}">
+<meta property="og:url" content="{{ kanonisch }}">
+<meta property="og:site_name" content="{{ site.name }}">
+{%- set ogBild = bild or "/wp-content/uploads/2026/10/foto-pizzastein-oder-pizzastahl.jpg" %}
+<meta property="og:image" content="{{ ogBild | absolut(site.url) }}">
+{%- if bild_alt %}
+<meta property="og:image:alt" content="{{ bild_alt }}">
+{%- endif %}
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="{{ site.icon }}" type="image/png">
+<link rel="apple-touch-icon" href="{{ site.icon }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="/feed/">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="{{ koerperKlasse or '' }}">
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+<header class="kopf">
+  <div class="kopf-innen">
+    <a class="logo" href="/"><img src="/wp-content/uploads/2026/10/werkkueche-logo-768x187.png" alt="{{ site.name }}" width="768" height="187"></a>
+    <nav class="hauptmenue" aria-label="Hauptmenü">
+      {%- for punkt in site.hauptmenue %}
+      <a href="{{ punkt.url }}"{% if page.url == punkt.url %} aria-current="page"{% endif %}>{{ punkt.titel }}</a>
+      {%- endfor %}
+    </nav>
+  </div>
+</header>
+<main id="inhalt">
+{{ content | safe }}
+</main>
+<footer class="fuss">
+  <nav aria-label="Fußmenü">
+    {%- for punkt in site.fussmenue %}
+    <a href="{{ punkt.url }}">{{ punkt.titel }}</a>
+    {%- endfor %}
+  </nav>
+  <p>&copy; {{ "now" | jahr }} {{ site.name }}</p>
+</footer>
+</body>
+</html>

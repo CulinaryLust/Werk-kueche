@@ -1,0 +1,41 @@
+---
+layout: base.njk
+---
+{%- set kat = kategorien | finde("slug", kategorie) -%}
+{%- set a = autoren[autor] -%}
+<article class="artikel">
+  <header class="artikel-kopf">
+    <p class="kategorie"><a href="/category/{{ kat.slug }}/">{{ kat.titel }}</a></p>
+    <h1>{{ titel }}</h1>
+    <p class="autor">von <a href="{{ a.seite }}">{{ a.name }}</a></p>
+  </header>
+  {%- if bild %}
+  <img class="titelbild" src="{{ bild }}" alt="{{ bild_alt }}" width="1600" height="1066">
+  {%- endif %}
+  <div class="text">
+{{ content | safe }}
+  </div>
+  <aside class="autorbox">
+    <img src="{{ site.icon | replace('.png', '-150x150.png') }}" alt="" width="64" height="64">
+    <div><p class="autorname">{{ a.name }}</p><p>{{ a.bio }}</p></div>
+  </aside>
+</article>
+{%- set aehnlich = collections.artikelNeu | inKategorien(kategorie) | ohne(page.url) %}
+{%- if aehnlich.length %}
+<section class="aehnlich">
+  <h2>Mehr zu {{ kat.titel }}</h2>
+  <div class="kacheln">
+  {%- for x in aehnlich | head(3) %}{% include "kachel.njk" %}{% endfor %}
+  </div>
+</section>
+{%- endif %}
+<script type="application/ld+json">{{ {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": titel,
+  "description": beschreibung,
+  "image": bild | absolut(site.url),
+  "author": { "@type": "Person", "name": a.name, "url": a.seite | absolut(site.url) },
+  "publisher": { "@type": "Organization", "name": site.name, "logo": { "@type": "ImageObject", "url": site.logo | absolut(site.url) } },
+  "mainEntityOfPage": page.url | absolut(site.url)
+} | dump | safe }}</script>

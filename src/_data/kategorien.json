@@ -1,0 +1,6 @@
+[
+  { "slug": "pizza-brot", "titel": "Pizza", "beschreibung": "Pizzateig, Mehl, Pizzastein, Pizzastahl und Pizzaöfen für zu Hause." },
+  { "slug": "espresso-kaffee", "titel": "Espresso & Kaffee", "beschreibung": "Siebträger, Mühle, Espresso einstellen und Milchschaum." },
+  { "slug": "sous-vide-grill", "titel": "Sous-vide & Grill", "beschreibung": "Temperaturen und Garzeiten für Fleisch, Fisch und Gemüse." },
+  { "slug": "messer-werkzeug", "titel": "Messer & Werkzeug", "beschreibung": "Was du brauchst, was du dir sparen kannst, und wie du es pflegst." }
+]

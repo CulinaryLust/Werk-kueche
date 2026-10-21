@@ -1,0 +1,60 @@
+# werk-kueche.de (statische Seite, Apache bei ALL-INKL)
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Immer https und ohne www
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^(.*)$ https://werk-kueche.de/$1 [R=301,L]
+
+# Alte WordPress-Adressen
+RewriteRule ^sitemap_index\.xml$ /sitemap.xml [R=301,L]
+RewriteRule ^(post|page|category)-sitemap\.xml$ /sitemap.xml [R=301,L]
+RewriteRule ^author/ /ueber-mich/ [R=301,L]
+RewriteRule ^category/uncategorized/?$ / [R=301,L]
+RewriteRule ^(.+)/feed/?$ /feed/ [R=301,L]
+RewriteRule ^comments/feed/?$ /feed/ [R=301,L]
+RewriteRule ^(wp-admin|wp-login\.php|xmlrpc\.php|wp-json) - [R=404,L]
+# Kurzlinks ?p=ID
+RewriteCond %{QUERY_STRING} ^p=19$
+RewriteRule ^$ /sous-vide-temperaturtabelle/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^p=20$
+RewriteRule ^$ /neapolitanischer-pizzateig-48h/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^p=21$
+RewriteRule ^$ /kuechenmesser-grundausstattung/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^p=59$
+RewriteRule ^$ /kerntemperaturen-tabelle/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^p=60$
+RewriteRule ^$ /messer-schaerfen-schleifstein/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^p=61$
+RewriteRule ^$ /pizzastein-oder-pizzastahl/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^p=62$
+RewriteRule ^$ /espresso-einstellen/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^p=63$
+RewriteRule ^$ /milch-aufschaeumen-dampflanze/? [R=301,L]
+
+# Fehlenden Schrägstrich ergänzen (/espresso-einstellen -> /espresso-einstellen/)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}/index.html -f
+RewriteRule ^(.*[^/])$ /$1/ [R=301,L]
+</IfModule>
+
+<Files "index.xml">
+ForceType application/rss+xml
+</Files>
+DirectoryIndex index.html index.xml
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType text/css "access plus 1 week"
+ExpiresByType text/html "access plus 10 minutes"
+</IfModule>
+
+<IfModule mod_headers.c>
+Header always set X-Content-Type-Options "nosniff"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>

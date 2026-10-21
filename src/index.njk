@@ -1,0 +1,26 @@
+---
+layout: base.njk
+startseite: true
+permalink: /
+koerperKlasse: start
+---
+<section class="aufmacher" style="background-image:url('/wp-content/uploads/2026/10/foto-pizzastein-oder-pizzastahl-1536x1024.jpg')">
+  <div>
+    <h1>{{ site.untertitel }}</h1>
+    <p>{{ site.beschreibung }}</p>
+  </div>
+</section>
+<div class="schmal">
+  <p>Ich bin Giacomo, Münchner mit italienischen Wurzeln. Bei uns dreht sich vieles um zwei Dinge: eine gute Pizza und einen guten Espresso. Hier findest du keine Rezepte nach Gefühl, sondern Zahlen, mit denen du direkt loslegen kannst, und ehrliche Empfehlungen, welche Ausrüstung sich wirklich lohnt. <a href="/ueber-mich/">Meine Geschichte</a></p>
+  <h2>Themen</h2>
+  <div class="themen">
+    <p><strong><a href="/category/pizza-brot/">Pizza</a></strong><br>Teig, Mehl, Pizzastein und Pizzastahl, Pizzaofen für Garten und Küche.</p>
+    <p><strong><a href="/category/espresso-kaffee/">Espresso &amp; Kaffee</a></strong><br>Siebträger, Mühle, Espresso einstellen und Milchschaum.</p>
+  </div>
+</div>
+<section class="liste">
+  <h2>Neueste Anleitungen</h2>
+  <div class="kacheln">
+  {%- for x in collections.artikelNeu | inKategorien(site.startseite_kategorien) | head(9) %}{% include "kachel.njk" %}{% endfor %}
+  </div>
+</section>

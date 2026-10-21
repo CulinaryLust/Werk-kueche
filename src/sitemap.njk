@@ -1,0 +1,10 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for x in collections.all %}{% if x.url and not x.data.robots and x.url != "/404.html" %}
+  <url><loc>{{ x.url | absolut(site.url) }}</loc>{% if x.data.datum %}<lastmod>{{ x.data.datum | isoDatum }}</lastmod>{% endif %}</url>
+{%- endif %}{% endfor %}
+</urlset>

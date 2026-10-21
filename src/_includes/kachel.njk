@@ -1,0 +1,4 @@
+<a class="kachel" href="{{ x.url }}">
+  {%- if x.data.bild %}<img src="{{ x.data.bild | karte }}" alt="{{ x.data.bild_alt }}" loading="lazy" width="768" height="512">{% endif %}
+  <span class="kachel-text"><strong>{{ x.data.titel }}</strong><span>{{ x.data.beschreibung or (x.content | auszug) }}</span></span>
+</a>

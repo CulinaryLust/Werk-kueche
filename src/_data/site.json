@@ -1,0 +1,23 @@
+{
+  "name": "Werkküche",
+  "url": "https://werk-kueche.de",
+  "untertitel": "Pizza und Espresso wie in Italien",
+  "beschreibung": "Präzise Anleitungen und ehrliche Kaufberatung für Teig, Pizzaofen, Siebträger und Mühle. Für deine Küche zu Hause.",
+  "pinterest_verify": "62debae30d28b2f60f01b6300e1a4e99",
+  "pinterest_profil": "https://www.pinterest.de/werkkueche",
+  "logo": "/wp-content/uploads/2026/10/werkkueche-logo.png",
+  "icon": "/wp-content/uploads/2026/10/werkkueche-icon.png",
+  "hauptmenue": [
+    { "titel": "Pizza", "url": "/category/pizza-brot/" },
+    { "titel": "Espresso & Kaffee", "url": "/category/espresso-kaffee/" },
+    { "titel": "Über mich", "url": "/ueber-mich/" }
+  ],
+  "fussmenue": [
+    { "titel": "Impressum", "url": "/impressum/" },
+    { "titel": "Datenschutzerklärung", "url": "/datenschutzerklaerung/" },
+    { "titel": "Affiliate-Hinweis", "url": "/affiliate-hinweis/" },
+    { "titel": "Kontakt", "url": "/kontakt/" },
+    { "titel": "Über mich", "url": "/ueber-mich/" }
+  ],
+  "startseite_kategorien": ["pizza-brot", "espresso-kaffee"]
+}

@@ -1,0 +1,27 @@
+---
+permalink: /feed/index.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+  <title>{{ site.name }}</title>
+  <link>{{ site.url }}/</link>
+  <atom:link href="{{ site.url }}/feed/" rel="self" type="application/rss+xml"/>
+  <description>{{ site.beschreibung | xml }}</description>
+  <language>de-DE</language>
+  {%- for x in collections.artikelNeu | head(20) %}
+  <item>
+    <title>{{ x.data.titel | xml }}</title>
+    <link>{{ x.url | absolut(site.url) }}</link>
+    <guid isPermaLink="true">{{ x.url | absolut(site.url) }}</guid>
+    <pubDate>{{ x.data.datum | rfcDatum }}</pubDate>
+    <description>{{ x.data.beschreibung | xml }}</description>
+    {%- if x.data.bild %}
+    <media:content url="{{ x.data.bild | absolut(site.url) }}" medium="image"/>
+    <enclosure url="{{ x.data.bild | absolut(site.url) }}" type="image/jpeg" length="0"/>
+    {%- endif %}
+  </item>
+  {%- endfor %}
+</channel>
+</rss>

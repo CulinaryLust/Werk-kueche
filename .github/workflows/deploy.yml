@@ -1,0 +1,46 @@
+name: Bauen und veröffentlichen
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # Täglich 05:00 UTC: geplante Artikel (Datum erreicht) gehen automatisch online
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  bauen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: npm run check
+
+      - name: Auf ALL-INKL hochladen (FTPS)
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+        run: |
+          if [ -z "$FTP_SERVER" ]; then
+            echo "::warning::FTP-Secrets fehlen noch, Deploy übersprungen."
+            echo "UEBERSPRINGEN=1" >> "$GITHUB_ENV"
+          fi
+      - uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main' && env.UEBERSPRINGEN != '1'
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          local-dir: ./_site/
+          server-dir: ./
