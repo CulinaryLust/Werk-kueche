@@ -30,9 +30,15 @@ jobs:
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         run: |
-          if [ -z "$FTP_SERVER" ]; then
-            echo "::warning::FTP-Secrets fehlen noch, Deploy übersprungen."
+          fehlt=""
+          [ -z "$FTP_SERVER" ] && fehlt="$fehlt FTP_SERVER"
+          [ -z "$FTP_USERNAME" ] && fehlt="$fehlt FTP_USERNAME"
+          [ -z "$FTP_PASSWORD" ] && fehlt="$fehlt FTP_PASSWORD"
+          if [ -n "$fehlt" ]; then
+            echo "::warning::Repository-Secrets fehlen:$fehlt. Deploy übersprungen."
             echo "UEBERSPRINGEN=1" >> "$GITHUB_ENV"
           fi
       - uses: SamKirkland/FTP-Deploy-Action@v4.3.5
