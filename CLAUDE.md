@@ -40,4 +40,4 @@ Statische Website (Eleventy 3). Jeder Push auf `main` baut die Seite und lädt s
 - Feed für Pinterest: `/feed/`, Sitemap: `/sitemap.xml`
 
 ## Deploy
-GitHub Actions (`.github/workflows/deploy.yml`), Secrets `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD`. Der FTP-Zugang ist im KAS auf das Verzeichnis der Website beschränkt.
+GitHub Actions (`.github/workflows/deploy.yml`), Secrets `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD`. Der FTP-Zugang ist im KAS auf das Verzeichnis `/werk-kueche-static/` beschränkt, auf das die Domain werk-kueche.de zeigt. WordPress liegt davon getrennt und ist nicht öffentlich.
