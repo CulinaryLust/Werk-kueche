@@ -3,5 +3,10 @@
     "name": "Giacomo Pellini",
     "bio": "Giacomo Pellini ist in München geboren und hat italienische Wurzeln. Die Leidenschaft für gutes Essen wurde ihm in die Wiege gelegt. Auf Werkküche schreibt er über Küchentechnik mit klaren Zahlen: Temperaturen, Zeiten und Mengen, die funktionieren.",
     "seite": "/ueber-mich/"
+  },
+  "chiara": {
+    "name": "Chiara Pellini",
+    "bio": "Chiara Pellini ist Giacomos Schwester und absoluter Kaffee-Fan. Sie liebt Arabica-Bohnen mit viel Crema, mal pur, mal mit Milch, aus dem Siebträger genauso wie aus der Bialetti oder als guten Filterkaffee. Auf Werkküche schreibt sie über Espresso und Kaffee.",
+    "seite": "/ueber-mich/#chiara"
   }
 }
