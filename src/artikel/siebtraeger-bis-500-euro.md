@@ -7,6 +7,7 @@ bild: /bilder/siebtraeger-bis-500-euro.jpg
 bild_alt: "Espresso läuft aus dem Siebträger einer Espressomaschine"
 datum: 2026-11-06
 ---
+<p><em>Hinweis: Dieser Artikel enthält Werbelinks (*). Für dich ändert sich der Preis nicht.</em></p>
 <p>Du willst Espresso wie in einer italienischen Bar, aber nicht gleich 1.500 € ausgeben? Mit 500 € kommst du weit. Du musst nur wissen, wofür du bezahlst und wo die Hersteller sparen.</p>
 <p>Ich bin in München geboren, meine Familie stammt aus Italien. Bei uns am Tisch zählt der Moment, und man schmeckt die Mühe, die jemand in das Essen gesteckt hat. Beim Espresso ist das genauso: Die Maschine ist nur das Werkzeug. Hier erfährst du, welches Werkzeug für deinen Einstieg sinnvoll ist.</p>
 <p>Wichtig vorab: Die technischen Daten stammen von Herstellern, Händlern und Testseiten, die Quellen nenne ich jeweils. Preise schwanken stark, alle Angaben sind ca.-Werte, Stand Oktober 2026.</p>
@@ -120,6 +121,18 @@ datum: 2026-11-06
 <li><strong>Du willst erst mal testen, ob Siebträger etwas für dich ist:</strong> De'Longhi Dedica plus eine gute Mühle.</li>
 </ul>
 <p>Egal, wofür du dich entscheidest: Gute, frisch geröstete Bohnen und eine Waage bringen dir mehr als jedes Extra an der Maschine. Und dann nimm dir die Zeit, den Espresso in Ruhe zu trinken. Genau dafür hast du dir die Mühe gemacht.</p>
+
+<h2>Wo du die Maschinen findest</h2>
+<p>Die Links führen zur Suche bei Amazon, so siehst du alle Varianten und aktuellen Preise. Preise ändern sich oft, vergleiche vor dem Kauf.</p>
+<ul>
+<li><a href="https://www.amazon.de/s?k=De%27Longhi+Dedica+EC685&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">De'Longhi Dedica EC685 bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Sage+Bambino&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Sage Bambino bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Sage+Bambino+Plus&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Sage Bambino Plus bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Ninja+Luxe+Caf%C3%A9+ES601EU&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Ninja Luxe Café ES601EU bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=De%27Longhi+La+Specialista+Arte&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">De'Longhi La Specialista Arte bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Gaggia+Classic+Evo+Pro&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Gaggia Classic Evo Pro bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Lelit+Anna+PL41TEM&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Lelit Anna PL41TEM bei Amazon</a>*</li>
+</ul>
 
 <p class="bildnachweis"><small>Titelfoto: <a href="https://unsplash.com/@sizzle_king?utm_source=werkkueche&utm_medium=referral" target="_blank" rel="noopener">Scott K</a> auf <a href="https://unsplash.com/?utm_source=werkkueche&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></small></p>
 <!-- LINKS: Produkte und geplante Partner (De'Longhi/Kaffee24/Roastmarket über AWIN, Sage/Ninja über Amazon) -->

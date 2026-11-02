@@ -7,6 +7,7 @@ bild: /bilder/espressomuehle-kaufen.jpg
 bild_alt: "Alte Handkaffeemühle aus Holz mit Kurbel vor dunkelgrüner Wand"
 datum: 2026-11-03
 ---
+<p><em>Hinweis: Dieser Artikel enthält Werbelinks (*). Für dich ändert sich der Preis nicht.</em></p>
 <p>Ich bin in München geboren, meine Vorfahren kommen aus Italien. Für mich ist der Espresso nach dem Essen kein Nebenbei, sondern ein kleines Ritual: ein Moment, der Genuss und Mühe zusammenbringt. Deshalb ärgert mich ein schlechter Espresso mehr als ein mittelmäßiges Hauptgericht. Und oft liegt es nicht an der Maschine, sondern an der Mühle.</p>
 <p>Hier erfährst du, worauf es beim Kauf einer Espressomühle ankommt, welche Technik was bringt und welche Modelle in welcher Preisklasse infrage kommen. Ich habe diese Mühlen nicht selbst getestet. Die technischen Daten stammen von Herstellern und Fachhändlern, die Preise sind Richtwerte, Stand Oktober 2026.</p>
 
@@ -97,6 +98,20 @@ datum: 2026-11-03
 <li><strong>Ab 600 €:</strong> Niche Zero, wenn dir wenig Totraum und ein Kegelmahlwerk wichtig sind.</li>
 </ul>
 <p>Egal welche Mühle: Nach dem Kauf kommt das Einstellen. Nimm dir einen ruhigen Vormittag, eine Waage und eine Packung frischer Bohnen. Am Tisch zählt am Ende der Moment mit der Tasse, aber dahinter steckt diese Mühe. Sie lohnt sich.</p>
+
+<h2>Wo du die Mühlen findest</h2>
+<p>Die Links führen zur Suche bei Amazon, so siehst du alle Varianten und aktuellen Preise. Preise ändern sich oft, vergleiche vor dem Kauf.</p>
+<ul>
+<li><a href="https://www.amazon.de/s?k=Timemore+C3+ESP+Pro&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Timemore C3 ESP Pro bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=1Zpresso+J-Ultra&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">1Zpresso J-Ultra bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Comandante+C40+MK4&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Comandante C40 MK4 bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Baratza+Encore+ESP&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Baratza Encore ESP bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=DF54+Kaffeem%C3%BChle&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">DF54 Kaffeemühle bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Eureka+Mignon+Facile&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Eureka Mignon Facile bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Eureka+Mignon+Specialita&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Eureka Mignon Specialità bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=DF64+Gen+2&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">DF64 Gen 2 bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Niche+Zero+Kaffeem%C3%BChle&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Niche Zero Kaffeemühle bei Amazon</a>*</li>
+</ul>
 
 <p class="bildnachweis"><small>Titelfoto: <a href="https://unsplash.com/@ashkfor121?utm_source=werkkueche&utm_medium=referral" target="_blank" rel="noopener">Ashkan Forouzani</a> auf <a href="https://unsplash.com/?utm_source=werkkueche&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></small></p>
 <!-- LINKS: Produkte und geplante Partner (Kaffee24/Roastmarket über AWIN, sonst Amazon) -->

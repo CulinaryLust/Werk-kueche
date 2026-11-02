@@ -7,6 +7,7 @@ bild: /bilder/pizzaofen-kaufen.jpg
 bild_alt: "Neapolitanische Pizza im Holzofen vor offener Flamme"
 datum: 2026-11-04
 ---
+<p><em>Hinweis: Dieser Artikel enthält Werbelinks (*). Für dich ändert sich der Preis nicht.</em></p>
 <p>Ich bin in München geboren, meine Vorfahren kommen aus Italien. Die Leidenschaft fürs Kochen wurde mir in die Wiege gelegt. Bei Tisch zählen für mich zwei Dinge: der Genuss des Moments und die Mühe, die hinter dem Essen steckt. Eine Pizza, die 90 Sekunden im Ofen war, ist genau so ein Moment. Die Mühe davor steckt im Teig. Und im Ofen.</p>
 <p>Ein normaler Backofen schafft 250–300 °C. Die meisten Pizzaöfen in diesem Artikel sind laut Hersteller für bis zu 500 °C ausgelegt. Die Frage ist also nicht, ob sich ein Pizzaofen lohnt, sondern welcher: Gas, Holz, Pellets oder Strom? 30 oder 40 cm? 200 oder 2.000 Euro?</p>
 <p>Vorweg, damit du weißt, woran du bist: Ich habe die Öfen hier nicht selbst getestet. Alle Zahlen stammen von den Herstellern, aus Händlerdatenblättern oder aus Tests von Which? und Tom's Guide. Ich schreibe jeweils dazu, woher ein Wert kommt. Preise sind ca.-Werte, Stand Oktober 2026. Sie schwanken je nach Händler und Aktion um 100 Euro und mehr.</p>
@@ -85,6 +86,23 @@ datum: 2026-11-04
 <p>Ein Ofen mit 500 °C verzeiht keinen schlechten Teig. Er macht einen guten aber großartig. Wenn du deinen Ofen hast, fang mit meinem <a href="/neapolitanischer-pizzateig-48h/">neapolitanischen Pizzateig mit 48 Stunden Gare</a> an. Mehl, Wasser, Salz, ein bisschen Hefe und vor allem Zeit.</p>
 <p>Du bist noch nicht bereit für einen eigenen Ofen? Dann hol erst das Maximum aus deinem Backofen heraus. Wie das geht, steht in <a href="/pizzastein-oder-pizzastahl/">Pizzastein oder Pizzastahl: Was ist besser für den Backofen?</a></p>
 
+<h2>Wo du die Öfen und das Zubehör findest</h2>
+<p>Die Links führen zur Suche bei Amazon, so siehst du alle Varianten und aktuellen Preise. Preise ändern sich oft, vergleiche vor dem Kauf.</p>
+<ul>
+<li><a href="https://www.amazon.de/s?k=Ooni+Karu+12&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Ooni Karu 12 bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Ooni+Koda+12&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Ooni Koda 12 bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Ooni+Koda+16&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Ooni Koda 16 bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Ooni+Volt+2&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Ooni Volt 2 bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Gozney+Roccbox&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Gozney Roccbox bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Gozney+Arc&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Gozney Arc bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Gozney+Arc+XL&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Gozney Arc XL bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Gozney+Dome&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Gozney Dome bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Burnhard+Nero+Pizzaofen&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Burnhard Nero Pizzaofen bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Effeuno+P134H+509&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Effeuno P134H 509 bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Pizzaschaufel+perforiert&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Pizzaschaufel perforiert bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Infrarot+Thermometer+Pizzaofen&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Infrarot Thermometer Pizzaofen bei Amazon</a>*</li>
+</ul>
+
 <p class="bildnachweis"><small>Titelfoto: <a href="https://unsplash.com/@fabrizio_photopf?utm_source=werkkueche&utm_medium=referral" target="_blank" rel="noopener">Fabrizio Pullara</a> auf <a href="https://unsplash.com/?utm_source=werkkueche&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></small></p>
 
 <!-- LINKS: Liste der Produkte und geplanten Partner
@@ -101,5 +119,4 @@ datum: 2026-11-04
 - Ooni Volt 2 (Amazon)
 - Effeuno P134H 509 (Amazon)
 - Optional Zubehör: Infrarot-Thermometer, Pizzaschaufel, Drehschaufel (Amazon)
-Hinweis: Sobald Links eingebaut sind, oben "Dieser Artikel enthält Werbelinks (*)." ergänzen.
 -->

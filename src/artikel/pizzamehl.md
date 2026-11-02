@@ -7,6 +7,7 @@ bild: /bilder/pizzamehl.jpg
 bild_alt: "Haufen Mehl mit Weizenähren und Holzschaufel auf einem Holztisch"
 datum: 2026-11-05
 ---
+<p><em>Hinweis: Dieser Artikel enthält Werbelinks (*). Für dich ändert sich der Preis nicht.</em></p>
 <p>Ich bin in München geboren, meine Vorfahren kommen aus Italien. Bei uns am Tisch zählt der Moment, in dem die Pizza aus dem Ofen kommt, und die Mühe, die vorher im Teig steckt. Ein großer Teil dieser Mühe ist eine Entscheidung, die viele unterschätzen: das Mehl. Hier bekommst du die Zahlen, mit denen du sie triffst.</p>
 
 <h2>Italienische und deutsche Mehltypen: Was die Zahl wirklich sagt</h2>
@@ -100,6 +101,18 @@ datum: 2026-11-05
 <li>Le 5 Stagioni, Produktseiten Pizza Napoletana Rossa und Superiore (le5stagioni.com)</li>
 <li>Molino Grassi, Datenblatt Farina 00 Pizza e Focaccia, Rev. 22 vom 01.07.2024 (molinograssi.it)</li>
 <li>Diamant Backmehl Type 550, Nährwertangabe im REWE-Onlineshop</li>
+</ul>
+
+<h2>Wo du die Mehle findest</h2>
+<p>Die Links führen zur Suche bei Amazon, so siehst du alle Varianten und aktuellen Preise. Preise ändern sich oft, vergleiche vor dem Kauf.</p>
+<ul>
+<li><a href="https://www.amazon.de/s?k=Caputo+Pizzeria+Tipo+00&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Pizzeria Tipo 00 bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Caputo+Cuoco+Tipo+00&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Cuoco Tipo 00 bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Caputo+Nuvola&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Nuvola bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Le+5+Stagioni+Pizza+Napoletana&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Le 5 Stagioni Pizza Napoletana bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Le+5+Stagioni+Superiore&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Le 5 Stagioni Superiore bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Molino+Grassi+Farina+00+Pizza&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Molino Grassi Farina 00 Pizza bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Caputo+Manitoba+Oro&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Manitoba Oro bei Amazon</a>*</li>
 </ul>
 
 <p class="bildnachweis"><small>Titelfoto: <a href="https://unsplash.com/@tinkerman?utm_source=werkkueche&utm_medium=referral" target="_blank" rel="noopener">Immo Wegmann</a> auf <a href="https://unsplash.com/?utm_source=werkkueche&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></small></p>
