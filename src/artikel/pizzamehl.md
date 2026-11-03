@@ -2,6 +2,7 @@
 titel: "Das richtige Mehl für Pizza: Tipo 00, Manitoba oder Type 550?"
 slug: pizzamehl
 kategorie: pizza-brot
+kaufberatung: true
 beschreibung: "Tipo 00, Manitoba oder Type 550? Protein, W-Wert, Gare und Hydration im Vergleich, und welches Pizzamehl zu Backofen oder Pizzaofen passt."
 bild: /bilder/pizzamehl.jpg
 bild_alt: "Haufen Mehl mit Weizenähren und Holzschaufel auf einem Holztisch"

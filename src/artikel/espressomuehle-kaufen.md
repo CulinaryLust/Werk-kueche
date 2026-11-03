@@ -2,6 +2,7 @@
 titel: "Espressomühle kaufen: Warum die Mühle wichtiger ist als die Maschine"
 slug: espressomuehle-kaufen
 kategorie: espresso-kaffee
+kaufberatung: true
 beschreibung: "Espressomühle kaufen: Kegel oder Scheibe, stufenlos, Single Dosing, Hand oder elektrisch. Mit Vergleichstabelle und Preisen von 70 bis 750 €."
 bild: /bilder/espressomuehle-kaufen.jpg
 bild_alt: "Alte Handkaffeemühle aus Holz mit Kurbel vor dunkelgrüner Wand"

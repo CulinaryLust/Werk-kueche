@@ -6,6 +6,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/wp-content": "wp-content" });
   eleventyConfig.addPassthroughCopy({ "src/bilder": "bilder" });
   eleventyConfig.addPassthroughCopy({ "src/css": "css" });
+  eleventyConfig.addPassthroughCopy({ "src/fonts": "fonts" });
   eleventyConfig.addPassthroughCopy({ "src/static": "/" });
 
   const datumText = (d) => (d instanceof Date ? d.toISOString().slice(0, 10) : String(d));
@@ -38,6 +39,63 @@ export default function (eleventyConfig) {
   });
   eleventyConfig.addFilter("xml", (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"));
   eleventyConfig.addFilter("absolut", (pfad, basis) => new URL(pfad, basis).href);
+  eleventyConfig.addFilter("lesezeit", (html) => {
+    const woerter = String(html).replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length;
+    return Math.max(1, Math.round(woerter / 220));
+  });
+
+  // Artikel aufwerten, ohne den Quelltext der Artikel anzufassen:
+  // Anker an den Zwischenüberschriften, Inhaltsverzeichnis, Sprungknopf zu den Empfehlungen,
+  // Werbehinweis als Kasten, Listen mit Werbelinks als Produktkarten mit Knopf.
+  const nurText = (s) => s.replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").trim();
+  const anker = (s) =>
+    nurText(s).toLowerCase().replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue").replace(/ß/g, "ss")
+      .normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || "abschnitt";
+  eleventyConfig.addTransform("artikelExtras", function (html) {
+    if (!this.page.inputPath.includes("/artikel/") || !String(this.page.outputPath).endsWith(".html")) return html;
+    const start = html.indexOf('<div class="text">');
+    const ende = html.indexOf('<aside class="autorbox">');
+    if (start < 0 || ende < start) return html;
+    let text = html.slice(start, ende);
+
+    const vergeben = new Set();
+    const inhalt = [];
+    text = text.replace(/<h2>([\s\S]*?)<\/h2>/g, (m, innen) => {
+      let id = anker(innen);
+      for (let i = 2; vergeben.has(id); i++) id = `${anker(innen)}-${i}`;
+      vergeben.add(id);
+      inhalt.push({ id, titel: nurText(innen) });
+      return `<h2 id="${id}">${innen}</h2>`;
+    });
+
+    text = text.replace(/<p><em>(Hinweis: Dieser Artikel enthält Werbelinks[\s\S]*?)<\/em><\/p>/, '<p class="werbehinweis">$1</p>');
+
+    let empfehlungen = null;
+    text = text.replace(/<ul>((?:(?!<\/?ul>)[\s\S])*?)<\/ul>/g, (m, innen, pos) => {
+      const punkte = innen.match(/<li>[\s\S]*?<\/li>/g) || [];
+      if (punkte.length < 2 || !punkte.every((li) => /rel="sponsored/.test(li))) return m;
+      const h2 = text.lastIndexOf('<h2 id="', pos);
+      if (!empfehlungen && h2 >= 0) empfehlungen = text.slice(h2 + 8, text.indexOf('"', h2 + 8));
+      const karten = punkte.map((li) =>
+        li.replace(/^<li>(<a [^>]*rel="sponsored[^>]*>)(.+?) bei ([^<]+)<\/a>\*<\/li>$/, (_, a, produkt, shop) =>
+          `<li>${a}<span class="produkt">${produkt}</span><span class="knopf">Bei ${shop} ansehen*</span></a></li>`)
+      );
+      return `<ul class="produktliste">${karten.join("")}</ul>`;
+    });
+
+    let box = "";
+    if (empfehlungen && html.includes('<article class="artikel kaufberatung">')) box += `<a class="knopf-gross" href="#${empfehlungen}">Direkt zu den Empfehlungen ↓</a>`;
+    if (inhalt.length >= 4) {
+      box += `<details><summary>Inhalt</summary><ol>${inhalt.map((h) => `<li><a href="#${h.id}">${h.titel}</a></li>`).join("")}</ol></details>`;
+    }
+    if (box) {
+      box = `<nav class="sprungbox" aria-label="Inhalt">${box}</nav>`;
+      const hinweisEnde = text.indexOf("</p>", text.indexOf('class="werbehinweis"'));
+      const nach = text.includes('class="werbehinweis"') ? hinweisEnde + 4 : '<div class="text">'.length;
+      text = text.slice(0, nach) + box + text.slice(nach);
+    }
+    return html.slice(0, start) + text + html.slice(ende);
+  });
 
   return {
     dir: { input: "src", includes: "_includes", data: "_data", output: "_site" },

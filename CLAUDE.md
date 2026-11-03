@@ -14,6 +14,7 @@ Statische Website (Eleventy 3). Jeder Push auf `main` baut die Seite und lädt s
    bild: /bilder/pizzaofen-kaufen.jpg
    bild_alt: "Beschreibung des Bildes"
    datum: 2026-10-24            # Veröffentlichungstag
+   kaufberatung: true           # optional: nur bei Kaufberatungen/Vergleichen, zeigt oben den Knopf "Direkt zu den Empfehlungen"
    ---
    ```
 3. Bild nach `src/bilder/` legen (JPG, ca. 1600 px breit, ohne EXIF). Unsplash-Fotos mit Bildnachweis am Artikelende (`<p class="bildnachweis"><small>…</small></p>`).
@@ -24,6 +25,7 @@ Statische Website (Eleventy 3). Jeder Push auf `main` baut die Seite und lädt s
 ## Regeln
 - Autor ist das Pseudonym Giacomo Pellini (`src/_data/autoren.json`). Keine erfundenen weiteren Autoren, kein Rückdatieren (`datum` nie in die Vergangenheit setzen).
 - Daten werden auf der Seite nicht angezeigt.
+- Werbelinks am Artikelende als Liste `<li><a href="…" rel="sponsored nofollow noopener" target="_blank">Produkt bei Amazon</a>*</li>`: daraus werden beim Bauen Produktkarten mit Knopf.
 - Werbelinks mit Sternchen (*) kennzeichnen und `rel="sponsored nofollow noopener" target="_blank"` setzen. Artikel mit Werbelinks bekommen oben den Hinweis „Dieser Artikel enthält Werbelinks (*)“.
 - Keine Restaurantfotos, keine Fotos mit erkennbaren Personen.
 - Impressum behält den echten Namen (Pflicht nach § 5 DDG).
