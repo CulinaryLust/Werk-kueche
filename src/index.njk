@@ -4,21 +4,24 @@ startseite: true
 permalink: /
 koerperKlasse: start
 ---
+<div class="aufmacher-rahmen">
 <section class="aufmacher" style="background-image:url('/wp-content/uploads/2026/10/foto-pizzastein-oder-pizzastahl-1536x1024.jpg')">
   <div>
     <h1>{{ site.untertitel }}</h1>
     <p>{{ site.beschreibung }}</p>
+    <p class="knoepfe"><a href="#neueste">Neueste Anleitungen ↓</a></p>
   </div>
 </section>
+</div>
 <div class="schmal">
-  <p>Ich bin Giacomo, Münchner mit italienischen Wurzeln. Bei uns dreht sich vieles um zwei Dinge: eine gute Pizza und einen guten Espresso. Hier findest du keine Rezepte nach Gefühl, sondern Zahlen, mit denen du direkt loslegen kannst, und ehrliche Empfehlungen, welche Ausrüstung sich wirklich lohnt. <a href="/ueber-mich/">Meine Geschichte</a></p>
+  <div class="vorstellung"><img src="{{ site.icon | replace('.png', '-150x150.png') }}" alt="" width="56" height="56"><p>Ich bin Giacomo, Münchner mit italienischen Wurzeln. Bei uns dreht sich vieles um zwei Dinge: eine gute Pizza und einen guten Espresso. Hier findest du keine Rezepte nach Gefühl, sondern Zahlen, mit denen du direkt loslegen kannst, und ehrliche Empfehlungen, welche Ausrüstung sich wirklich lohnt. <a href="/ueber-mich/">Meine Geschichte</a></p></div>
   <h2>Themen</h2>
   <div class="themen">
-    <p><strong><a href="/category/pizza-brot/">Pizza</a></strong><br>Teig, Mehl, Pizzastein und Pizzastahl, Pizzaofen für Garten und Küche.</p>
-    <p><strong><a href="/category/espresso-kaffee/">Espresso &amp; Kaffee</a></strong><br>Siebträger, Mühle, Espresso einstellen und Milchschaum.</p>
+    <a class="thema" href="/category/pizza-brot/"><strong>Pizza</strong>Teig, Mehl, Pizzastein und Pizzastahl, Pizzaofen für Garten und Küche.<br><span>Alle Pizza-Anleitungen ›</span></a>
+    <a class="thema" href="/category/espresso-kaffee/"><strong>Espresso &amp; Kaffee</strong>Siebträger, Mühle, Espresso einstellen und Milchschaum.<br><span>Alle Espresso-Anleitungen ›</span></a>
   </div>
 </div>
-<section class="liste">
+<section class="liste" id="neueste">
   <h2>Neueste Anleitungen</h2>
   <div class="kacheln">
   {%- for x in collections.artikelNeu | inKategorien(site.startseite_kategorien) | head(9) %}{% include "kachel.njk" %}{% endfor %}

@@ -1,4 +1,5 @@
+{%- set xk = kategorien | finde("slug", x.data.kategorie) -%}
 <a class="kachel" href="{{ x.url }}">
   {%- if x.data.bild %}<img src="{{ x.data.bild | karte }}" alt="{{ x.data.bild_alt }}" loading="lazy" width="768" height="512">{% endif %}
-  <span class="kachel-text"><strong>{{ x.data.titel }}</strong><span>{{ x.data.beschreibung or (x.content | auszug) }}</span></span>
+  <span class="kachel-text">{% if xk %}<span class="kachel-kat">{{ xk.titel }}</span>{% endif %}<strong>{{ x.data.titel }}</strong><span>{{ x.data.beschreibung or (x.content | auszug) }}</span></span>
 </a>

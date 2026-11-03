@@ -5,9 +5,9 @@ layout: base.njk
 {%- set a = autoren[autor] -%}
 <article class="artikel">
   <header class="artikel-kopf">
-    <p class="kategorie"><a href="/category/{{ kat.slug }}/">{{ kat.titel }}</a></p>
+    <a class="etikett" href="/category/{{ kat.slug }}/">{{ kat.titel }}</a>
     <h1>{{ titel }}</h1>
-    <p class="autor">von <a href="{{ a.seite }}">{{ a.name }}</a></p>
+    <p class="meta"><img src="{{ site.icon | replace('.png', '-150x150.png') }}" alt="" width="32" height="32"><span>von <a href="{{ a.seite }}">{{ a.name }}</a></span><span class="punkt">·</span><span>{{ content | lesezeit }} Min. Lesezeit</span></p>
   </header>
   {%- if bild %}
   <img class="titelbild" src="{{ bild }}" alt="{{ bild_alt }}" width="1600" height="1066">
@@ -16,7 +16,7 @@ layout: base.njk
 {{ content | safe }}
   </div>
   <aside class="autorbox">
-    <img src="{{ site.icon | replace('.png', '-150x150.png') }}" alt="" width="64" height="64">
+    <img src="{{ site.icon | replace('.png', '-150x150.png') }}" alt="" width="56" height="56">
     <div><p class="autorname">{{ a.name }}</p><p>{{ a.bio }}</p></div>
   </aside>
 </article>
