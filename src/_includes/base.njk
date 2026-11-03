@@ -38,9 +38,9 @@
   <div class="kopf-innen">
     <a class="logo" href="/"><img src="/wp-content/uploads/2026/10/werkkueche-logo-768x187.png" alt="{{ site.name }}" width="768" height="187"></a>
     <nav class="hauptmenue" aria-label="Hauptmenü">
-      {%- for punkt in site.hauptmenue %}
+      {%- for punkt in site.hauptmenue %}{% if not punkt.kategorie or (kategorienAktiv | finde("slug", punkt.kategorie)) %}
       <a href="{{ punkt.url }}"{% if page.url == punkt.url %} aria-current="page"{% endif %}>{{ punkt.titel }}</a>
-      {%- endfor %}
+      {%- endif %}{% endfor %}
     </nav>
   </div>
 </header>

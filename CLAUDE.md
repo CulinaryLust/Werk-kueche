@@ -35,7 +35,8 @@ Statische Website (Eleventy 3). Jeder Push auf `main` baut die Seite und lädt s
 ## Aufbau
 - `src/artikel/` Artikel, `src/seiten/` Impressum, Datenschutz usw.
 - `src/_data/site.json` Name, Menüs, Pinterest-Bestätigung, Startseiten-Kategorien
-- `src/_data/kategorien.json` Kategorien (URL `/category/<slug>/`)
+- `src/_data/kategorien.json` Kategorien (URL `/category/<slug>/`). Eine Kategorie bekommt erst eine Seite, wenn ihr erster Artikel online ist (`src/_data/kategorienAktiv.js`). Menüpunkte mit `"kategorie": "<slug>"` in `site.json` erscheinen ebenfalls erst dann.
+- Autoren in `src/_data/autoren.json`, im Artikelkopf `autor: <schlüssel>` (Standard giacomo): chiara = Espresso, lena = Pasta, matteo = Antipasti & Aufschnitt.
 - `src/_includes/` Vorlagen, `src/css/style.css` Design (Farben aus dem Logo: #c25a2c, #f6f1e9)
 - `src/wp-content/uploads/` Bilder aus der WordPress-Zeit (Pfade bleiben gleich)
 - `src/static/` wird 1:1 ins Wurzelverzeichnis kopiert (`.htaccess`, `robots.txt`)
