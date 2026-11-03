@@ -2,5 +2,7 @@
   { "slug": "pizza-brot", "titel": "Pizza", "beschreibung": "Pizzateig, Mehl, Pizzastein, Pizzastahl und Pizzaöfen für zu Hause." },
   { "slug": "espresso-kaffee", "titel": "Espresso & Kaffee", "beschreibung": "Siebträger, Mühle, Espresso einstellen und Milchschaum." },
   { "slug": "sous-vide-grill", "titel": "Sous-vide & Grill", "beschreibung": "Temperaturen und Garzeiten für Fleisch, Fisch und Gemüse." },
-  { "slug": "messer-werkzeug", "titel": "Messer & Werkzeug", "beschreibung": "Was du brauchst, was du dir sparen kannst, und wie du es pflegst." }
+  { "slug": "messer-werkzeug", "titel": "Messer & Werkzeug", "beschreibung": "Was du brauchst, was du dir sparen kannst, und wie du es pflegst." },
+  { "slug": "pasta", "titel": "Pasta", "beschreibung": "Nudelmaschine, Nudelteig, Pastamehl, Ravioli und Gnocchi selbst gemacht." },
+  { "slug": "antipasti-aufschnitt", "titel": "Antipasti & Aufschnitt", "beschreibung": "Aufschnittmaschine, Salumi und die italienische Antipasti-Platte." }
 ]

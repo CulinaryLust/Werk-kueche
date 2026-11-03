@@ -10,6 +10,7 @@
   "hauptmenue": [
     { "titel": "Pizza", "url": "/category/pizza-brot/" },
     { "titel": "Espresso & Kaffee", "url": "/category/espresso-kaffee/" },
+    { "titel": "Pasta", "url": "/category/pasta/", "kategorie": "pasta" },
     { "titel": "Über mich", "url": "/ueber-mich/" }
   ],
   "fussmenue": [

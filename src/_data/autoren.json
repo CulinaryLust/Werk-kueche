@@ -8,5 +8,15 @@
     "name": "Chiara Pellini",
     "bio": "Chiara Pellini ist Giacomos Schwester und absoluter Kaffee-Fan. Sie liebt Arabica-Bohnen mit viel Crema, mal pur, mal mit Milch, aus dem Siebträger genauso wie aus der Bialetti oder als guten Filterkaffee. Auf Werkküche schreibt sie über Espresso und Kaffee.",
     "seite": "/ueber-mich/#chiara"
+  },
+  "lena": {
+    "name": "Lena Pellini",
+    "bio": "Lena Pellini ist Giacomos Schwester und Lehrerin für Italienisch, Deutsch und Spanisch. Sie ist ein echter Foodie und sagt: Essen ist ihre Love Language. Auf Werkküche schreibt sie über Pasta: Nudelteig, Mehl, Maschinen und Formen.",
+    "seite": "/ueber-mich/#lena"
+  },
+  "matteo": {
+    "name": "Matteo Pellini",
+    "bio": "Matteo Pellini ist Giacomos Bruder und arbeitet in der Lebensmittelindustrie. Er hat ein Faible für Panini und Antipasti. Auf Werkküche schreibt er über Salumi, Aufschnitt und die italienische Antipasti-Platte.",
+    "seite": "/ueber-mich/#matteo"
   }
 }
