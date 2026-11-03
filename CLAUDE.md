@@ -19,7 +19,7 @@ Statische Website (Eleventy 3). Jeder Push auf `main` baut die Seite und lädt s
 3. Bild nach `src/bilder/` legen (JPG, ca. 1600 px breit, ohne EXIF). Unsplash-Fotos mit Bildnachweis am Artikelende (`<p class="bildnachweis"><small>…</small></p>`).
 4. `npm run build && npm run check`, dann committen und pushen.
 
-**Geplante Veröffentlichung:** Ein Artikel mit `datum` in der Zukunft wird nicht gebaut. Der tägliche Lauf (05:00 UTC) bringt ihn an seinem Tag automatisch online. So werden neue Artikel gestaffelt (ca. 2 pro Woche).
+**Geplante Veröffentlichung:** Ein Artikel mit `datum` in der Zukunft wird nicht gebaut. Der stündliche Lauf bringt ihn an seinem Tag ab ca. 00:17 UTC (01:17/02:17 Uhr deutscher Zeit) automatisch online. GitHub kann geplante Läufe verzögern: Pins für einen neuen Artikel erst ab dem Vormittag seines Datums einplanen und vorher prüfen, ob die URL erreichbar ist. So werden neue Artikel gestaffelt (ca. 2 pro Woche).
 
 ## Regeln
 - Autor ist das Pseudonym Giacomo Pellini (`src/_data/autoren.json`). Keine erfundenen weiteren Autoren, kein Rückdatieren (`datum` nie in die Vergangenheit setzen).

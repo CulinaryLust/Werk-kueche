@@ -5,8 +5,9 @@ on:
     branches: [main]
   pull_request:
   schedule:
-    # Täglich 05:00 UTC: geplante Artikel (Datum erreicht) gehen automatisch online
-    - cron: "0 5 * * *"
+    # Stündlich: geplante Artikel gehen kurz nach Mitternacht (UTC) ihres Datums online.
+    # GitHub verzögert oder verwirft einzelne geplante Läufe, daher nicht nur einmal am Tag.
+    - cron: "17 * * * *"
   workflow_dispatch:
 
 concurrency:
