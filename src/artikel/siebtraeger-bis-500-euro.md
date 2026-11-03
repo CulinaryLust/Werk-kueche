@@ -2,6 +2,7 @@
 titel: "Siebträgermaschine für Einsteiger: Die besten Modelle bis 500 Euro"
 slug: siebtraeger-bis-500-euro
 kategorie: espresso-kaffee
+kaufberatung: true
 beschreibung: "Siebträger bis 500 €: Worauf es ankommt (PID, Boiler, Siebe, Mühle) und welche Modelle von Gaggia, Sage, De'Longhi, Lelit und Ninja passen."
 bild: /bilder/siebtraeger-bis-500-euro.jpg
 bild_alt: "Espresso läuft aus dem Siebträger einer Espressomaschine"

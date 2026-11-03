@@ -3,7 +3,7 @@ layout: base.njk
 ---
 {%- set kat = kategorien | finde("slug", kategorie) -%}
 {%- set a = autoren[autor] -%}
-<article class="artikel">
+<article class="artikel{% if kaufberatung %} kaufberatung{% endif %}">
   <header class="artikel-kopf">
     <a class="etikett" href="/category/{{ kat.slug }}/">{{ kat.titel }}</a>
     <h1>{{ titel }}</h1>

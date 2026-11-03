@@ -2,6 +2,7 @@
 titel: "Pizzaofen kaufen: Gas, Holz oder Elektro?"
 slug: pizzaofen-kaufen
 kategorie: pizza-brot
+kaufberatung: true
 beschreibung: "Gas, Holz, Pellet oder Elektro? Temperatur, Aufheizzeit, Gewicht und Preise von Ooni, Gozney, Burnhard und Effeuno im Vergleich, plus Checkliste."
 bild: /bilder/pizzaofen-kaufen.jpg
 bild_alt: "Neapolitanische Pizza im Holzofen vor offener Flamme"

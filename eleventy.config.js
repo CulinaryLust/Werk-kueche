@@ -84,7 +84,7 @@ export default function (eleventyConfig) {
     });
 
     let box = "";
-    if (empfehlungen) box += `<a class="knopf-gross" href="#${empfehlungen}">Direkt zu den Empfehlungen ↓</a>`;
+    if (empfehlungen && html.includes('<article class="artikel kaufberatung">')) box += `<a class="knopf-gross" href="#${empfehlungen}">Direkt zu den Empfehlungen ↓</a>`;
     if (inhalt.length >= 4) {
       box += `<details><summary>Inhalt</summary><ol>${inhalt.map((h) => `<li><a href="#${h.id}">${h.titel}</a></li>`).join("")}</ol></details>`;
     }
