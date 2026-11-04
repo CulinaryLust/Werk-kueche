@@ -1,6 +1,7 @@
 // Eleventy-Konfiguration für werk-kueche.de
 import fs from "node:fs";
 import path from "node:path";
+import crypto from "node:crypto";
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/wp-content": "wp-content" });
@@ -20,6 +21,9 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("ohne", (liste, url) => liste.filter((a) => a.url !== url));
   eleventyConfig.addFilter("finde", (liste, schluessel, wert) => liste.find((x) => x[schluessel] === wert));
   eleventyConfig.addFilter("head", (liste, n) => liste.slice(0, n));
+  // Version der CSS-Datei für den Link, damit Browser nach jeder Änderung die neue Datei laden
+  eleventyConfig.addFilter("version", (pfad) =>
+    pfad + "?v=" + crypto.createHash("md5").update(fs.readFileSync(path.join("src", pfad))).digest("hex").slice(0, 8));
   eleventyConfig.addFilter("jahr", () => new Date().getFullYear());
   // Kleinere Bildvariante für Kacheln, falls vorhanden (WordPress-Größen wie -768x512.jpg)
   eleventyConfig.addFilter("karte", (pfad) => {
