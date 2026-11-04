@@ -218,7 +218,7 @@ a.etikett:hover { background: var(--akzent); color: var(--weiss); }
 .plusminus .plus::before { content: "+"; background: #e4efe3; color: #2f6b34; }
 .plusminus .minus::before { content: "–"; background: #f6e3dc; color: var(--akzent-dunkel); }
 
-.steckbriefe, .gegenueber { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 1.2em 0; }
+.steckbriefe, .gegenueber { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin: 1.2em 0; }
 .steckbrief, .gegenueber > div { background: var(--weiss); border-radius: var(--radius-klein); box-shadow: var(--schatten); padding: 16px 18px; }
 .steckbrief h3 { margin: 0 0 6px; font-size: 20px; }
 .steckbrief > p { margin: 0; font-size: 15px; line-height: 1.55; color: var(--grau); }
@@ -231,7 +231,7 @@ a.etikett:hover { background: var(--akzent); color: var(--weiss); }
 .balken-name { grid-area: name; font-weight: 600; color: var(--text); }
 .balken-wert { grid-area: wert; color: var(--grau); white-space: nowrap; }
 .balken-bar { grid-area: bar; height: 8px; border-radius: 4px; background: var(--flaeche); position: relative; overflow: hidden; }
-.balken-bar::after { content: ""; position: absolute; inset: 0 auto 0 0; width: calc(var(--wert) / 20 * 100%); background: var(--akzent); border-radius: 4px; }
+.balken-bar::after { content: ""; position: absolute; inset: 0 auto 0 0; width: calc(var(--wert) / var(--max, 20) * 100%); background: var(--akzent); border-radius: 4px; }
 
 .modelle { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 1.2em 0; }
 .modell { background: var(--weiss); border-radius: var(--radius-klein); box-shadow: var(--schatten); padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; }
@@ -270,7 +270,17 @@ a.etikett:hover { background: var(--akzent); color: var(--weiss); }
   .modell-tag { text-align: right; font-size: 11px; }
   .modell-daten { display: flex; flex-wrap: wrap; gap: 4px 6px; }
   .modell-daten div { background: var(--hintergrund); border-radius: 6px; padding: 2px 8px; }
-  .modell-daten dt { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .modell-daten div { display: flex; gap: 5px; align-items: baseline; }
+  .modell-daten dt { font-size: 11px; }
   .modell-daten dd { font-weight: 500; font-size: 13px; }
   .modell-fuss { padding-top: 8px; }
 }
+.modell-text { font-size: 14px; line-height: 1.5; color: var(--grau); }
+.text h3 + .modelle { margin-top: .6em; }
+.gegenueber > div > p:not(.gegenueber-titel) { margin: 6px 0 0; font-size: 15px; line-height: 1.55; color: var(--text-2); }
+.gegenueber-titel { font-size: 20px; }
+.modell .plusminus { margin: 0; font-size: 14px; }
+.modell-ohne { font-size: 14px; color: var(--grau); font-weight: 600; }
+.schritte { list-style: none; counter-reset: schritt; padding: 0; margin: 1.2em 0; display: grid; gap: 8px; }
+.schritte li { counter-increment: schritt; position: relative; margin: 0; padding: 12px 14px 12px 52px; background: var(--weiss); border-radius: var(--radius-klein); font-size: 16px; line-height: 1.55; }
+.schritte li::before { content: counter(schritt); position: absolute; left: 14px; top: 11px; width: 26px; height: 26px; border-radius: 50%; background: var(--text); color: var(--weiss); font-weight: 700; font-size: 14px; line-height: 26px; text-align: center; }
