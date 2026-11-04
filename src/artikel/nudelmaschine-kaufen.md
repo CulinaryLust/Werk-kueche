@@ -11,9 +11,6 @@ datum: 2026-11-12
 ---
 <p><em>Hinweis: Dieser Artikel enthält Werbelinks (*). Für dich ändert sich der Preis nicht.</em></p>
 <p>Frische Pasta braucht nur Mehl, Eier und etwas Geduld. Mit dem Nudelholz geht das auch, aber eine gleichmäßig dünne Teigplatte für Tagliatelle oder Ravioli bekommst du mit einer Maschine deutlich leichter hin. Die Frage ist nur: welche? Eine Handkurbel für 80 Euro, ein Aufsatz für die Küchenmaschine oder ein Gerät, das Mehl und Wasser selbst zu Rigatoni presst?</p>
-<div class="hinweis hinweis-info">
-<p><strong>Damit du weißt, woran du bist:</strong> Ich habe die Maschinen nicht selbst getestet. Die Zahlen stammen von Herstellern, Händlerdatenblättern und veröffentlichten Tests, und ich schreibe jeweils dazu, woher ein Wert kommt. Preise sind ca.-Werte, Stand November 2026, und schwanken je nach Händler und Aktion deutlich.</p>
-</div>
 
 <div class="kurzwahl">
 <p class="kurzwahl-titel">Kurz gesagt: meine Empfehlung</p>
@@ -158,6 +155,8 @@ datum: 2026-11-12
 <li><a href="https://www.amazon.de/s?k=Nudeltrockner+Holz&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Nudeltrockner bei Amazon</a>*</li>
 <li><a href="https://www.amazon.de/s?k=Semola+rimacinata&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Semola rimacinata bei Amazon</a>*</li>
 </ul>
+
+<p class="methodik"><strong>So ist dieser Vergleich entstanden:</strong> Ich habe die Maschinen nicht selbst getestet. Die Zahlen stammen von Herstellern, Händlerdatenblättern und veröffentlichten Tests, und ich schreibe jeweils dazu, woher ein Wert kommt. Preise sind ca.-Werte, Stand November 2026, und schwanken je nach Händler und Aktion deutlich.</p>
 
 <p class="bildnachweis"><small>Titelfoto: <a href="https://unsplash.com/@loren_zot?utm_source=werkkueche&utm_medium=referral" target="_blank" rel="noopener">Lorenzo Tomassetti</a> auf <a href="https://unsplash.com/?utm_source=werkkueche&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></small></p>
 

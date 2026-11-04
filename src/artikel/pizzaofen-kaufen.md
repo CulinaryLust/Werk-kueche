@@ -11,9 +11,6 @@ datum: 2026-11-04
 <p><em>Hinweis: Dieser Artikel enthält Werbelinks (*). Für dich ändert sich der Preis nicht.</em></p>
 <p>Ich bin in München geboren, meine Vorfahren kommen aus Italien. Eine Pizza, die 90 Sekunden im Ofen war, ist für mich der Genuss des Moments. Die Mühe davor steckt im Teig. Und im Ofen.</p>
 <p>Ein normaler Backofen schafft 250–300 °C, die meisten Pizzaöfen hier laut Hersteller bis zu 500 °C. Die Frage ist also nicht, ob sich ein Pizzaofen lohnt, sondern welcher: Gas, Holz, Pellets oder Strom? 30 oder 40 cm? 200 oder 2.000 Euro?</p>
-<div class="hinweis hinweis-info">
-<p><strong>Ehrlich vorweg:</strong> Ich habe die Öfen nicht selbst getestet. Alle Zahlen stammen von Herstellern, Händlerdatenblättern oder aus Tests von Which? und Tom's Guide. Preise sind ca.-Werte, Stand Oktober 2026, und schwanken um 100 Euro und mehr.</p>
-</div>
 
 <div class="kurzwahl">
 <p class="kurzwahl-titel">Kurz gesagt: meine Empfehlung</p>
@@ -237,6 +234,8 @@ datum: 2026-11-04
 <li><a href="https://www.amazon.de/s?k=Pizzaschaufel+perforiert&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Pizzaschaufel perforiert bei Amazon</a>*</li>
 <li><a href="https://www.amazon.de/s?k=Infrarot+Thermometer+Pizzaofen&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Infrarot Thermometer Pizzaofen bei Amazon</a>*</li>
 </ul>
+
+<p class="methodik"><strong>So ist dieser Vergleich entstanden:</strong> Ich habe die Öfen nicht selbst getestet. Alle Zahlen stammen von Herstellern, Händlerdatenblättern oder aus Tests von Which? und Tom's Guide. Preise sind ca.-Werte, Stand Oktober 2026, und schwanken um 100 Euro und mehr.</p>
 
 <p class="bildnachweis"><small>Titelfoto: <a href="https://unsplash.com/@fabrizio_photopf?utm_source=werkkueche&utm_medium=referral" target="_blank" rel="noopener">Fabrizio Pullara</a> auf <a href="https://unsplash.com/?utm_source=werkkueche&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></small></p>
 

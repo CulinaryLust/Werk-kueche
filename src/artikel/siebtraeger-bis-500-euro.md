@@ -11,9 +11,6 @@ datum: 2026-11-06
 <p><em>Hinweis: Dieser Artikel enthält Werbelinks (*). Für dich ändert sich der Preis nicht.</em></p>
 <p>Du willst Espresso wie in einer italienischen Bar, aber nicht gleich 1.500 € ausgeben? Mit 500 € kommst du weit. Du musst nur wissen, wofür du bezahlst und wo die Hersteller sparen.</p>
 <p>Ich bin in München geboren, meine Familie stammt aus Italien. Bei uns am Tisch schmeckt man die Mühe, die jemand in das Essen gesteckt hat. Beim Espresso ist das genauso: Die Maschine ist nur das Werkzeug. Hier erfährst du, welches Werkzeug für deinen Einstieg sinnvoll ist.</p>
-<div class="hinweis hinweis-info">
-<p><strong>Wichtig vorab:</strong> Die technischen Daten stammen von Herstellern, Händlern und Testseiten, die Quellen nenne ich jeweils. Preise schwanken stark, alle Angaben sind ca.-Werte, Stand Oktober 2026.</p>
-</div>
 
 <div class="kurzwahl">
 <p class="kurzwahl-titel">Kurz gesagt: meine Empfehlung</p>
@@ -239,6 +236,8 @@ datum: 2026-11-06
 </div>
 </div>
 <p>Egal, wofür du dich entscheidest: Gute, frisch geröstete Bohnen und eine Waage bringen dir mehr als jedes Extra an der Maschine. Und dann nimm dir die Zeit, den Espresso in Ruhe zu trinken. Genau dafür hast du dir die Mühe gemacht.</p>
+
+<p class="methodik"><strong>So ist dieser Vergleich entstanden:</strong> Die technischen Daten stammen von Herstellern, Händlern und Testseiten, die Quellen nenne ich jeweils. Preise schwanken stark, alle Angaben sind ca.-Werte, Stand Oktober 2026.</p>
 
 <p class="bildnachweis"><small>Titelfoto: <a href="https://unsplash.com/@sizzle_king?utm_source=werkkueche&utm_medium=referral" target="_blank" rel="noopener">Scott K</a> auf <a href="https://unsplash.com/?utm_source=werkkueche&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></small></p>
 <!-- LINKS: Produkte und geplante Partner (De'Longhi/Kaffee24/Roastmarket über AWIN, Sage/Ninja über Amazon) -->

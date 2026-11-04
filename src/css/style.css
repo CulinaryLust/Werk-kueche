@@ -86,7 +86,7 @@ a.etikett:hover { background: var(--akzent); color: var(--weiss); }
 .text tbody tr:nth-child(even) td { background: #fbf8f3; }
 
 /* Werbehinweis und Sprungbox oben im Artikel */
-.werbehinweis { font-size: 14px; line-height: 1.5; color: var(--grau); background: var(--weiss); border: 1px solid var(--linie); border-radius: var(--radius-klein); padding: 10px 14px; }
+.werbehinweis { font-size: 13px; line-height: 1.5; color: var(--grau-hell); margin: 0 0 12px !important; }
 .sprungbox { margin: 0 0 32px; padding: 18px; background: var(--weiss); border-radius: var(--radius); box-shadow: var(--schatten); }
 .sprungbox .knopf-gross { display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%; padding: 14px 18px; border-radius: 12px; background: var(--akzent); color: var(--weiss); font-weight: 700; font-size: 16px; text-decoration: none; }
 .sprungbox .knopf-gross:hover { background: var(--akzent-dunkel); color: var(--weiss); }
@@ -284,3 +284,5 @@ a.etikett:hover { background: var(--akzent); color: var(--weiss); }
 .schritte { list-style: none; counter-reset: schritt; padding: 0; margin: 1.2em 0; display: grid; gap: 8px; }
 .schritte li { counter-increment: schritt; position: relative; margin: 0; padding: 12px 14px 12px 52px; background: var(--weiss); border-radius: var(--radius-klein); font-size: 16px; line-height: 1.55; }
 .schritte li::before { content: counter(schritt); position: absolute; left: 14px; top: 11px; width: 26px; height: 26px; border-radius: 50%; background: var(--text); color: var(--weiss); font-weight: 700; font-size: 14px; line-height: 26px; text-align: center; }
+
+.methodik { margin-top: 2em !important; padding-top: 14px; border-top: 1px solid var(--linie); font-size: 14px; line-height: 1.6; color: var(--grau); }
