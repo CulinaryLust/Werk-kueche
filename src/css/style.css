@@ -187,3 +187,11 @@ a.etikett:hover { background: var(--akzent); color: var(--weiss); }
   .galerie { grid-template-columns: 1fr 1fr; }
   .liste, .aehnlich { padding-left: 16px; padding-right: 16px; }
 }
+
+/* Kurz-Empfehlung oben in Kaufberatungen */
+.kurzwahl { margin: 0 0 24px; padding: 18px 20px; background: var(--weiss); border-left: 4px solid var(--akzent); border-radius: var(--radius); box-shadow: var(--schatten); }
+.kurzwahl-titel { margin: 0 0 8px !important; font-family: var(--titelschrift); font-weight: 700; font-size: 19px; color: var(--text); }
+.kurzwahl ul { margin: 0; padding-left: 20px; }
+.kurzwahl li { margin: 8px 0; line-height: 1.5; }
+.kurzwahl a[rel~="sponsored"] { font-weight: 700; }
+.kurzwahl-mehr { margin: 10px 0 0 !important; font-size: 15px; }

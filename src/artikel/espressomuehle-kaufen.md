@@ -12,6 +12,17 @@ datum: 2026-11-03
 <p>Ich bin in München geboren, meine Vorfahren kommen aus Italien. Für mich ist der Espresso nach dem Essen kein Nebenbei, sondern ein kleines Ritual: ein Moment, der Genuss und Mühe zusammenbringt. Deshalb ärgert mich ein schlechter Espresso mehr als ein mittelmäßiges Hauptgericht. Und oft liegt es nicht an der Maschine, sondern an der Mühle.</p>
 <p>Hier erfährst du, worauf es beim Kauf einer Espressomühle ankommt, welche Technik was bringt und welche Modelle in welcher Preisklasse infrage kommen. Ich habe diese Mühlen nicht selbst getestet. Die technischen Daten stammen von Herstellern und Fachhändlern, die Preise sind Richtwerte, Stand Oktober 2026.</p>
 
+<div class="kurzwahl">
+<p class="kurzwahl-titel">Kurz gesagt: meine Empfehlung</p>
+<ul class="kurzwahl-liste">
+<li><strong>Unter 150 €:</strong> <a href="https://www.amazon.de/s?k=Timemore+C3+ESP+Pro&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Timemore C3 ESP Pro</a>* (Handmühle)</li>
+<li><strong>Um 200 €:</strong> <a href="https://www.amazon.de/s?k=1Zpresso+J-Ultra&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">1Zpresso J-Ultra</a>* für reinen Espresso, elektrisch die <a href="https://www.amazon.de/s?k=Baratza+Encore+ESP&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Baratza Encore ESP</a>*</li>
+<li><strong>Um 300 bis 450 €:</strong> <a href="https://www.amazon.de/s?k=DF64+Gen+2&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">DF64 Gen 2</a>* für Single Dosing, <a href="https://www.amazon.de/s?k=Eureka+Mignon+Specialita&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Eureka Mignon Specialità</a>* für den Alltag</li>
+<li><strong>Ab 600 €:</strong> <a href="https://www.amazon.de/s?k=Niche+Zero+Kaffeem%C3%BChle&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Niche Zero</a>*, wenig Totraum, Kegelmahlwerk</li>
+</ul>
+<p class="kurzwahl-mehr"><a href="#meine-kurzempfehlung-nach-situation">Die Begründung und weitere Mühlen ↓</a></p>
+</div>
+
 <h2>Warum die Mühle den Espresso bestimmt</h2>
 <p>Espresso entsteht in 25 bis 30 Sekunden unter rund 9 bar Druck. In dieser kurzen Zeit muss das Wasser gleichmäßig durch einen Puck aus etwa 18 g Kaffeepulver fließen. Ob das klappt, entscheiden zwei Dinge:</p>
 <ul>

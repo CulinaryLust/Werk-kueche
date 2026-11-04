@@ -13,6 +13,17 @@ datum: 2026-11-04
 <p>Ein normaler Backofen schafft 250–300 °C. Die meisten Pizzaöfen in diesem Artikel sind laut Hersteller für bis zu 500 °C ausgelegt. Die Frage ist also nicht, ob sich ein Pizzaofen lohnt, sondern welcher: Gas, Holz, Pellets oder Strom? 30 oder 40 cm? 200 oder 2.000 Euro?</p>
 <p>Vorweg, damit du weißt, woran du bist: Ich habe die Öfen hier nicht selbst getestet. Alle Zahlen stammen von den Herstellern, aus Händlerdatenblättern oder aus Tests von Which? und Tom's Guide. Ich schreibe jeweils dazu, woher ein Wert kommt. Preise sind ca.-Werte, Stand Oktober 2026. Sie schwanken je nach Händler und Aktion um 100 Euro und mehr.</p>
 
+<div class="kurzwahl">
+<p class="kurzwahl-titel">Kurz gesagt: meine Empfehlung</p>
+<ul class="kurzwahl-liste">
+<li><strong>Einfach anfangen, wenig Budget:</strong> <a href="https://www.amazon.de/s?k=Ooni+Koda+12&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Ooni Koda 12</a>*, Gas, unter 10 kg, in 15 Minuten heiß</li>
+<li><strong>Echtes Holzfeuer:</strong> <a href="https://www.amazon.de/s?k=Ooni+Karu+12&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Ooni Karu 12</a>* oder <a href="https://www.amazon.de/s?k=Burnhard+Nero+Pizzaofen&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Burnhard Nero</a>*, der Nero nimmt auch Pellets</li>
+<li><strong>Für Familie und Freunde (16 Zoll):</strong> <a href="https://www.amazon.de/s?k=Ooni+Koda+16&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Ooni Koda 16</a>* oder <a href="https://www.amazon.de/s?k=Gozney+Arc+XL&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Gozney Arc XL</a>*</li>
+<li><strong>Für drinnen oder den Balkon:</strong> <a href="https://www.amazon.de/s?k=Ooni+Volt+2&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Ooni Volt 2</a>*, der Elektroofen für die Küche</li>
+</ul>
+<p class="kurzwahl-mehr"><a href="#fuer-wen-passt-was">Warum, und für wen welcher Ofen passt ↓</a></p>
+</div>
+
 <h2>Gas, Holz, Pellet oder Elektro: die Unterschiede</h2>
 <p><strong>Gas</strong> ist der einfachste Einstieg. Flasche anschließen, Knopf drehen, nach 15–20 Minuten ist der Ofen heiß. Die Temperatur regelst du per Drehregler, also reproduzierbar von Pizza zu Pizza. Ein echtes Holzaroma bekommst du nicht. Für die meisten Hobbybäcker ist Gas trotzdem die beste Wahl, weil du dich auf Teig und Belag konzentrieren kannst.</p>
 <p><strong>Holz</strong> ist das Original. Du siehst die Flamme über die Pizza rollen, und das Feuer gehört zum Abend dazu. Dafür musst du alle paar Minuten nachlegen, die Temperatur schwankt stärker, und du brauchst trockenes Hartholz in kleinen Scheiten. Plane ein paar Abende Übung ein, bevor die Ergebnisse gleichmäßig werden.</p>

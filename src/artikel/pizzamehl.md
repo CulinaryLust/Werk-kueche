@@ -11,6 +11,16 @@ datum: 2026-11-05
 <p><em>Hinweis: Dieser Artikel enthält Werbelinks (*). Für dich ändert sich der Preis nicht.</em></p>
 <p>Ich bin in München geboren, meine Vorfahren kommen aus Italien. Bei uns am Tisch zählt der Moment, in dem die Pizza aus dem Ofen kommt, und die Mühe, die vorher im Teig steckt. Ein großer Teil dieser Mühe ist eine Entscheidung, die viele unterschätzen: das Mehl. Hier bekommst du die Zahlen, mit denen du sie triffst.</p>
 
+<div class="kurzwahl">
+<p class="kurzwahl-titel">Kurz gesagt: meine Empfehlung</p>
+<ul class="kurzwahl-liste">
+<li><strong>48 Stunden Gare im Kühlschrank:</strong> <a href="https://www.amazon.de/s?k=Caputo+Cuoco+Tipo+00&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Cuoco</a>* oder <a href="https://www.amazon.de/s?k=Le+5+Stagioni+Superiore&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Le 5 Stagioni Superiore</a>*, 65 % Hydration</li>
+<li><strong>Neapolitanisch im Pizzaofen:</strong> <a href="https://www.amazon.de/s?k=Caputo+Pizzeria+Tipo+00&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Pizzeria</a>* oder <a href="https://www.amazon.de/s?k=Le+5+Stagioni+Pizza+Napoletana&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Le 5 Stagioni Napoletana</a>*, ohne Malz</li>
+<li><strong>Günstig starten:</strong> Type 550 aus dem Supermarkt, für lange Gare 20 % <a href="https://www.amazon.de/s?k=Caputo+Manitoba+Oro&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Manitoba Oro</a>* dazu</li>
+</ul>
+<p class="kurzwahl-mehr"><a href="#meine-empfehlung-in-drei-saetzen">Warum, und welche Mehle noch passen ↓</a></p>
+</div>
+
 <h2>Italienische und deutsche Mehltypen: Was die Zahl wirklich sagt</h2>
 <p>Die Typenzahl beschreibt in beiden Ländern den <strong>Mineralstoffgehalt</strong> (Asche), also wie fein das Mehl ausgemahlen ist. Über die Backkraft sagt sie nichts.</p>
 <ul>

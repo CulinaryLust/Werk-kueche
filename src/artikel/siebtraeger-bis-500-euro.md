@@ -13,6 +13,17 @@ datum: 2026-11-06
 <p>Ich bin in München geboren, meine Familie stammt aus Italien. Bei uns am Tisch zählt der Moment, und man schmeckt die Mühe, die jemand in das Essen gesteckt hat. Beim Espresso ist das genauso: Die Maschine ist nur das Werkzeug. Hier erfährst du, welches Werkzeug für deinen Einstieg sinnvoll ist.</p>
 <p>Wichtig vorab: Die technischen Daten stammen von Herstellern, Händlern und Testseiten, die Quellen nenne ich jeweils. Preise schwanken stark, alle Angaben sind ca.-Werte, Stand Oktober 2026.</p>
 
+<div class="kurzwahl">
+<p class="kurzwahl-titel">Kurz gesagt: meine Empfehlung</p>
+<ul class="kurzwahl-liste">
+<li><strong>Richtig lernen:</strong> <a href="https://www.amazon.de/s?k=Gaggia+Classic+Evo+Pro&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Gaggia Classic Evo Pro</a>* oder <a href="https://www.amazon.de/s?k=Sage+Bambino&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Sage Bambino</a>*, dazu eine gute Mühle</li>
+<li><strong>Vor allem Cappuccino, einfach:</strong> <a href="https://www.amazon.de/s?k=Sage+Bambino+Plus&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Sage Bambino Plus</a>* mit automatischem Milchschaum</li>
+<li><strong>Nur ein Gerät mit Mühle:</strong> <a href="https://www.amazon.de/s?k=De%27Longhi+La+Specialista+Arte&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">De'Longhi La Specialista Arte</a>* oder <a href="https://www.amazon.de/s?k=Ninja+Luxe+Caf%C3%A9+ES601EU&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Ninja Luxe Café</a>*</li>
+<li><strong>Erst mal ausprobieren:</strong> <a href="https://www.amazon.de/s?k=De%27Longhi+Dedica+EC685&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">De'Longhi Dedica</a>* plus eine gute Mühle</li>
+</ul>
+<p class="kurzwahl-mehr"><a href="#welche-maschine-passt-zu-dir">Welche Maschine zu dir passt ↓</a></p>
+</div>
+
 <h2>Worauf es bei Einsteiger-Siebträgern ankommt</h2>
 
 <h3>Siebträger-Durchmesser: 58 mm oder kleiner</h3>
