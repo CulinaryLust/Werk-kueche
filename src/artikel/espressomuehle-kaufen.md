@@ -11,9 +11,6 @@ datum: 2026-11-03
 <p><em>Hinweis: Dieser Artikel enthält Werbelinks (*). Für dich ändert sich der Preis nicht.</em></p>
 <p>Ich bin in München geboren, meine Vorfahren kommen aus Italien. Der Espresso nach dem Essen ist für mich ein kleines Ritual. Deshalb ärgert mich ein schlechter Espresso mehr als ein mittelmäßiges Hauptgericht. Und oft liegt es nicht an der Maschine, sondern an der Mühle.</p>
 <p>Hier erfährst du, worauf es beim Kauf ankommt, welche Technik was bringt und welche Modelle in welcher Preisklasse infrage kommen.</p>
-<div class="hinweis hinweis-info">
-<p><strong>Ehrlich vorweg:</strong> Ich habe diese Mühlen nicht selbst getestet. Die technischen Daten stammen von Herstellern und Fachhändlern, die Preise sind Richtwerte, Stand Oktober 2026.</p>
-</div>
 
 <div class="kurzwahl">
 <p class="kurzwahl-titel">Kurz gesagt: meine Empfehlung</p>
@@ -239,6 +236,8 @@ datum: 2026-11-03
 </div>
 </div>
 <p>Egal welche Mühle: Nach dem Kauf kommt das Einstellen. Nimm dir einen ruhigen Vormittag, eine Waage und eine Packung frischer Bohnen. Am Tisch zählt am Ende der Moment mit der Tasse, aber dahinter steckt diese Mühe. Sie lohnt sich.</p>
+
+<p class="methodik"><strong>So ist dieser Vergleich entstanden:</strong> Ich habe diese Mühlen nicht selbst getestet. Die technischen Daten stammen von Herstellern und Fachhändlern, die Preise sind Richtwerte, Stand Oktober 2026.</p>
 
 <p class="bildnachweis"><small>Titelfoto: <a href="https://unsplash.com/@ashkfor121?utm_source=werkkueche&utm_medium=referral" target="_blank" rel="noopener">Ashkan Forouzani</a> auf <a href="https://unsplash.com/?utm_source=werkkueche&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></small></p>
 <!-- LINKS: Produkte und geplante Partner (Kaffee24/Roastmarket über AWIN, sonst Amazon) -->

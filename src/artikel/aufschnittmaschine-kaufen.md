@@ -11,9 +11,6 @@ datum: 2026-11-13
 ---
 <p><em>Hinweis: Dieser Artikel enthält Werbelinks (*). Für dich ändert sich der Preis nicht.</em></p>
 <p>Ein Prosciutto di Parma schmeckt anders, wenn er hauchdünn geschnitten ist. Das Fett schmilzt auf der Zunge, die Scheibe fällt fast durchsichtig aufs Brett. Mit dem Messer schafft das kaum jemand zu Hause. Mit der falschen Maschine auch nicht: Viele Allesschneider sind fürs Brot gebaut und zerreißen feinen Schinken.</p>
-<div class="hinweis hinweis-info">
-<p><strong>Damit du weißt, woran du bist:</strong> Ich habe die Maschinen nicht selbst getestet. Die Angaben stammen von Herstellern, Händlerdatenblättern und Testportalen, und ich schreibe dazu, woher ein Wert kommt. Preise sind ca.-Werte, Stand November 2026.</p>
-</div>
 
 <div class="kurzwahl">
 <p class="kurzwahl-titel">Kurz gesagt: meine Empfehlung</p>
@@ -132,6 +129,8 @@ datum: 2026-11-13
 <li><strong>Messer pflegen:</strong> Ein stumpfes Glattschliffmesser drückt mehr, als es schneidet. Viele Hersteller bieten Schärfaufsätze oder einen Schleifservice an.</li>
 </ol>
 <p>Und dann? Dann fehlt nur noch die Platte. Ein Prosciutto zu einem knusprigen Pizzabrot ist schon ein guter Anfang. Wie du daheim auf echte Pizzatemperatur kommst, steht in <a href="/pizzastein-oder-pizzastahl/">Pizzastein oder Pizzastahl</a>.</p>
+
+<p class="methodik"><strong>So ist dieser Vergleich entstanden:</strong> Ich habe die Maschinen nicht selbst getestet. Die Angaben stammen von Herstellern, Händlerdatenblättern und Testportalen, und ich schreibe dazu, woher ein Wert kommt. Preise sind ca.-Werte, Stand November 2026.</p>
 
 <p class="bildnachweis"><small>Titelfoto: <a href="https://unsplash.com/@alx2bgx?utm_source=werkkueche&utm_medium=referral" target="_blank" rel="noopener">Alex Guillaume</a> auf <a href="https://unsplash.com/?utm_source=werkkueche&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></small></p>
 
