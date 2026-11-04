@@ -187,3 +187,90 @@ a.etikett:hover { background: var(--akzent); color: var(--weiss); }
   .galerie { grid-template-columns: 1fr 1fr; }
   .liste, .aehnlich { padding-left: 16px; padding-right: 16px; }
 }
+
+/* Kurz-Empfehlung oben in Kaufberatungen */
+.kurzwahl { margin: 0 0 24px; padding: 18px 20px; background: var(--weiss); border-left: 4px solid var(--akzent); border-radius: var(--radius); box-shadow: var(--schatten); }
+.kurzwahl-titel { margin: 0 0 8px !important; font-family: var(--titelschrift); font-weight: 700; font-size: 19px; color: var(--text); }
+.kurzwahl ul { margin: 0; padding-left: 20px; }
+.kurzwahl li { margin: 8px 0; line-height: 1.5; }
+.kurzwahl a[rel~="sponsored"] { font-weight: 700; }
+.kurzwahl-mehr { margin: 10px 0 0 !important; font-size: 15px; }
+
+/* Bausteine für scanbare Artikel: Hinweisboxen, Steckbriefe, Gegenüberstellung, Balken, Modellkarten, Profile, Checkliste, Quellen */
+.hinweis { margin: 1.4em 0; padding: 14px 16px 14px 48px; border-radius: var(--radius-klein); background: var(--weiss); border: 1px solid var(--linie); position: relative; font-size: 16px; line-height: 1.6; }
+.hinweis p { margin: 0; }
+.hinweis::before { content: ""; position: absolute; left: 16px; top: 16px; width: 20px; height: 20px; background: var(--grau); -webkit-mask: var(--icon) center / contain no-repeat; mask: var(--icon) center / contain no-repeat; }
+.hinweis-info { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2.2' stroke-linecap='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M12 11v6M12 7.5v.01'/%3E%3C/svg%3E"); }
+.hinweis-tipp { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z'/%3E%3C/svg%3E"); background: #fdf6ee; border-color: #f0dcc6; }
+.hinweis-tipp::before { background: var(--akzent); }
+.hinweis-warnung { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3 2 20h20L12 3z'/%3E%3Cpath d='M12 10v4M12 17v.01'/%3E%3C/svg%3E"); background: #fbefe9; border-color: #efc9b6; }
+.hinweis-warnung::before { background: var(--akzent-dunkel); }
+
+.symbol { display: inline-block; width: 22px; height: 22px; margin-right: 8px; vertical-align: -3px; background: var(--akzent); -webkit-mask: var(--icon) center / contain no-repeat; mask: var(--icon) center / contain no-repeat; }
+.symbol-gas { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='7' y='6' width='10' height='15' rx='3'/%3E%3Cpath d='M10 6V3h4v3M7 11h10'/%3E%3C/svg%3E"); }
+.symbol-holz { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 2c1 3 4 5 4 9a4 4 0 0 1-8 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3-1-5 0-8z'/%3E%3Cpath d='M4 19l16-3M4 16l16 3'/%3E%3C/svg%3E"); }
+.symbol-pellet { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round'%3E%3Crect x='3' y='13' width='8' height='4' rx='2' transform='rotate(-20 7 15)'/%3E%3Crect x='12' y='15' width='8' height='4' rx='2' transform='rotate(15 16 17)'/%3E%3Crect x='8' y='5' width='8' height='4' rx='2' transform='rotate(10 12 7)'/%3E%3C/svg%3E"); }
+.symbol-strom { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M13 2 4 14h7l-1 8 9-12h-7l1-8z'/%3E%3C/svg%3E"); }
+
+.plusminus { list-style: none; padding: 0; margin: 10px 0 0; font-size: 15px; line-height: 1.5; }
+.plusminus li { position: relative; padding-left: 26px; margin: 6px 0; }
+.plusminus li::before { position: absolute; left: 0; top: 1px; width: 18px; height: 18px; border-radius: 50%; font-size: 14px; font-weight: 700; line-height: 18px; text-align: center; }
+.plusminus .plus::before { content: "+"; background: #e4efe3; color: #2f6b34; }
+.plusminus .minus::before { content: "–"; background: #f6e3dc; color: var(--akzent-dunkel); }
+
+.steckbriefe, .gegenueber { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 1.2em 0; }
+.steckbrief, .gegenueber > div { background: var(--weiss); border-radius: var(--radius-klein); box-shadow: var(--schatten); padding: 16px 18px; }
+.steckbrief h3 { margin: 0 0 6px; font-size: 20px; }
+.steckbrief > p { margin: 0; font-size: 15px; line-height: 1.55; color: var(--grau); }
+.gegenueber-titel { margin: 0 !important; font-family: var(--titelschrift); font-weight: 700; font-size: 22px; color: var(--text); }
+.gegenueber-titel span { font-family: var(--schrift); font-weight: 500; font-size: 14px; color: var(--grau); margin-left: 6px; }
+
+.balken-titel { margin-bottom: 8px !important; font-weight: 700; color: var(--text); font-size: 16px; }
+.balken { background: var(--weiss); border-radius: var(--radius-klein); box-shadow: var(--schatten); padding: 14px 16px; display: grid; gap: 12px; }
+.balken-zeile { display: grid; grid-template-columns: 1fr auto; grid-template-areas: "name wert" "bar bar"; gap: 4px 10px; font-size: 15px; line-height: 1.3; }
+.balken-name { grid-area: name; font-weight: 600; color: var(--text); }
+.balken-wert { grid-area: wert; color: var(--grau); white-space: nowrap; }
+.balken-bar { grid-area: bar; height: 8px; border-radius: 4px; background: var(--flaeche); position: relative; overflow: hidden; }
+.balken-bar::after { content: ""; position: absolute; inset: 0 auto 0 0; width: calc(var(--wert) / 20 * 100%); background: var(--akzent); border-radius: 4px; }
+
+.modelle { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 1.2em 0; }
+.modell { background: var(--weiss); border-radius: var(--radius-klein); box-shadow: var(--schatten); padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; }
+.modell p { margin: 0; }
+.modell-kopf { display: flex; flex-direction: column; gap: 2px; }
+.modell-name { font-family: var(--titelschrift); font-weight: 700; font-size: 19px; color: var(--text); line-height: 1.2; }
+.modell-tag { font-size: 12px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--akzent-dunkel); }
+.modell-daten { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 12px; margin: 0; font-size: 14px; line-height: 1.35; }
+.modell-daten dt { color: var(--grau-hell); font-size: 12px; }
+.modell-daten dd { margin: 0; color: var(--text-2); font-weight: 600; }
+.modell-fuss { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: auto !important; padding-top: 10px; border-top: 1px solid var(--linie); }
+.modell-preis { font-weight: 700; color: var(--text); font-size: 16px; line-height: 1.2; }
+.modell-preis small { display: block; font-weight: 500; font-size: 11px; color: var(--grau-hell); }
+.modell-knopf, .profil-knopf { flex: none; padding: 8px 14px; border-radius: 999px; background: var(--akzent); color: var(--weiss) !important; font-weight: 700; font-size: 14px; text-decoration: none; white-space: nowrap; }
+.modell-knopf:hover, .profil-knopf:hover { background: var(--akzent-dunkel); }
+
+.profile { display: grid; gap: 10px; margin: 1.2em 0; }
+.profil { background: var(--weiss); border-radius: var(--radius-klein); box-shadow: var(--schatten); padding: 14px 16px; border-left: 4px solid var(--akzent); }
+.profil p { margin: 0; }
+.profil-wer { font-size: 13px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--akzent-dunkel); }
+.profil-was { margin-top: 4px !important; font-size: 16px; line-height: 1.55; }
+.profil-knoepfe { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px !important; }
+
+.checkliste { list-style: none; padding: 0; margin: 1.2em 0; display: grid; gap: 8px; }
+.checkliste li { position: relative; margin: 0; padding: 12px 14px 12px 46px; background: var(--weiss); border-radius: var(--radius-klein); font-size: 16px; line-height: 1.55; }
+.checkliste li::before { content: ""; position: absolute; left: 14px; top: 14px; width: 20px; height: 20px; border-radius: 50%; background: var(--akzent) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12l4 4 8-8'/%3E%3C/svg%3E") center / 14px no-repeat; }
+
+.quellen { margin: 1em 0 1.6em; padding: 12px 16px; border: 1px solid var(--linie); border-radius: var(--radius-klein); font-size: 15px; line-height: 1.55; color: var(--grau); }
+.quellen summary { cursor: pointer; font-weight: 700; color: var(--text); }
+.quellen p, .quellen ul { margin: 10px 0 0; }
+
+@media (max-width: 640px) {
+  .steckbriefe, .gegenueber, .modelle { grid-template-columns: 1fr; gap: 10px; }
+  .modell { padding: 12px 14px; gap: 8px; }
+  .modell-kopf { flex-direction: row; align-items: baseline; justify-content: space-between; gap: 8px; }
+  .modell-tag { text-align: right; font-size: 11px; }
+  .modell-daten { display: flex; flex-wrap: wrap; gap: 4px 6px; }
+  .modell-daten div { background: var(--hintergrund); border-radius: 6px; padding: 2px 8px; }
+  .modell-daten dt { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .modell-daten dd { font-weight: 500; font-size: 13px; }
+  .modell-fuss { padding-top: 8px; }
+}
