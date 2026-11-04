@@ -83,6 +83,13 @@ export default function (eleventyConfig) {
       return `<ul class="produktliste">${karten.join("")}</ul>`;
     });
 
+    // Gibt es Modellkarten, zeigt der Sprungknopf auf den Vergleich statt auf die Linkliste am Ende
+    const modelle = text.indexOf('<div class="modelle">');
+    if (modelle >= 0) {
+      const h2 = text.lastIndexOf('<h2 id="', modelle);
+      if (h2 >= 0) empfehlungen = text.slice(h2 + 8, text.indexOf('"', h2 + 8));
+    }
+
     let box = "";
     if (empfehlungen && html.includes('<article class="artikel kaufberatung">')) box += `<a class="knopf-gross" href="#${empfehlungen}">Direkt zu den Empfehlungen ↓</a>`;
     if (inhalt.length >= 4) {
