@@ -15,9 +15,9 @@ datum: 2026-11-12
 <div class="kurzwahl">
 <p class="kurzwahl-titel">Kurz gesagt: meine Empfehlung</p>
 <ul class="kurzwahl-liste">
-<li><strong>Einfach anfangen:</strong> <a href="https://www.amazon.de/s?k=Marcato+Atlas+150&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Marcato Atlas 150</a>*, robust und gut erweiterbar</li>
-<li><strong>Du hast eine KitchenAid:</strong> <a href="https://www.amazon.de/s?k=KitchenAid+5KSMPRA&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Walzensatz 5KSMPRA</a>*, beide Hände frei</li>
-<li><strong>Rigatoni und Fusilli ohne Üben:</strong> <a href="https://www.amazon.de/s?k=Philips+7000+Pastamaker+HR2665&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Philips 7000</a>*, knetet und presst selbst</li>
+<li><strong>Einfach anfangen:</strong> <a href="https://www.amazon.de/dp/B00SX7LT84?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Marcato Atlas 150</a>*, robust und gut erweiterbar</li>
+<li><strong>Du hast eine KitchenAid:</strong> <a href="https://www.amazon.de/dp/B01H6QNNZY?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Walzensatz 5KSMPRA</a>*, beide Hände frei</li>
+<li><strong>Rigatoni und Fusilli ohne Üben:</strong> <a href="https://www.amazon.de/dp/B0B8DV6CK5?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Philips 7000</a>*, knetet und presst selbst</li>
 </ul>
 <p class="kurzwahl-mehr"><a href="#fuer-wen-passt-was">Für wen welche Maschine passt ↓</a></p>
 </div>
@@ -53,13 +53,13 @@ datum: 2026-11-12
 <p class="modell-kopf"><span class="modell-name">Marcato Atlas 150</span><span class="modell-tag">Meistempfohlen</span></p>
 <dl class="modell-daten"><div><dt>Breite</dt><dd>150 mm</dd></div><div><dt>Stufen</dt><dd>10</dd></div><div><dt>Platte</dt><dd>ca. 0,5–4,8 mm</dd></div><div><dt>Gewicht</dt><dd>2,2 kg (MediaMarkt)</dd></div></dl>
 <p class="modell-text">Schneidaufsatz für Fettuccine und Tagliolini dabei. Viele Zusatzaufsätze, etwa für Ravioli, und ein passender Motor (Pastadrive). In US-Tests regelmäßig beste manuelle Maschine, unter anderem bei Cook's Illustrated und Forbes.</p>
-<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>75–105 €</span><a class="modell-knopf" href="https://www.amazon.de/s?k=Marcato+Atlas+150&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>75–105 €</span><a class="modell-knopf" href="https://www.amazon.de/dp/B00SX7LT84?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">Imperia SP150</span><span class="modell-tag">Italienische Tradition</span></p>
 <dl class="modell-daten"><div><dt>Breite</dt><dd>150 mm</dd></div><div><dt>Antrieb</dt><dd>Kurbel</dd></div><div><dt>Gefertigt</dt><dd>Turin (lt. Verkäufer)</dd></div></dl>
 <p class="modell-text">Gilt als ebenso solide. Laut englischsprachigen Vergleichen etwas fummeliger einzustellen, weniger Zusatzaufsätze als bei Marcato.</p>
-<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>72–100 €</span><a class="modell-knopf" href="https://www.amazon.de/s?k=Imperia+SP150+Nudelmaschine&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>72–100 €</span><a class="modell-knopf" href="https://www.amazon.de/dp/B0001IXA0I?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 </div>
 <p class="balken-titel">Worauf du achten solltest</p>
@@ -76,13 +76,13 @@ datum: 2026-11-12
 <p class="modell-kopf"><span class="modell-name">Walzensatz 5KSMPRA</span><span class="modell-tag">3-teilig, Edelstahl</span></p>
 <dl class="modell-daten"><div><dt>Art</dt><dd>Walzen</dd></div><div><dt>Breite</dt><dd>140 mm</dd></div><div><dt>Schneider</dt><dd>Tagliatelle, Spaghetti</dd></div></dl>
 <p class="modell-text">UVP 229 Euro. Die Platten sind etwas schmaler als bei der Marcato.</p>
-<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>140–160 €</span><a class="modell-knopf" href="https://www.amazon.de/s?k=KitchenAid+5KSMPRA&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>140–160 €</span><a class="modell-knopf" href="https://www.amazon.de/dp/B01H6QNNZY?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">Pastapresse 5KSMPEXTA</span><span class="modell-tag">Extruder</span></p>
 <dl class="modell-daten"><div><dt>Art</dt><dd>Extruder</dd></div><div><dt>Matrizen</dt><dd>6, u. a. Rigatoni, Fusilli</dd></div><div><dt>Abschneider</dt><dd>eingebaut</dd></div></dl>
 <p class="modell-text">Funktion gelobt, Reinigung der Matrizen und Kunststoff-Abschneider kritisiert. Kompatibilität mit deinem Mixer prüfen, die Händlerangaben widersprechen sich.</p>
-<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>190–250 €</span><a class="modell-knopf" href="https://www.amazon.de/s?k=KitchenAid+5KSMPEXTA&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>190–250 €</span><a class="modell-knopf" href="https://www.amazon.de/dp/B01IYIY5JG?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 </div>
 <div class="hinweis hinweis-info">
@@ -102,7 +102,7 @@ datum: 2026-11-12
 <li class="minus">Matrizen und Mehlreste reinigen macht Arbeit</li>
 <li class="minus">Ein Gerät mehr auf der Arbeitsfläche</li>
 </ul>
-<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>160–300 €</span><a class="modell-knopf" href="https://www.amazon.de/s?k=Philips+7000+Pastamaker+HR2665&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>160–300 €</span><a class="modell-knopf" href="https://www.amazon.de/dp/B0B8DV6CK5?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 </div>
 <details class="quellen">
@@ -115,27 +115,27 @@ datum: 2026-11-12
 <div class="profil">
 <p class="profil-wer">Einfach anfangen</p>
 <p class="profil-was"><strong>Marcato Atlas 150.</strong> Robust, gut erweiterbar, wiederverkaufbar.</p>
-<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/s?k=Marcato+Atlas+150&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Marcato Atlas 150 bei Amazon*</a></p>
+<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/dp/B00SX7LT84?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Marcato Atlas 150 bei Amazon*</a></p>
 </div>
 <div class="profil">
 <p class="profil-wer">Wenig ausgeben, aber kein Billigteil</p>
 <p class="profil-was"><strong>Imperia SP150,</strong> oft ein paar Euro günstiger.</p>
-<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/s?k=Imperia+SP150+Nudelmaschine&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Imperia SP150 bei Amazon*</a></p>
+<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/dp/B0001IXA0I?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Imperia SP150 bei Amazon*</a></p>
 </div>
 <div class="profil">
 <p class="profil-wer">Du hast eine KitchenAid</p>
 <p class="profil-was"><strong>Walzensatz 5KSMPRA.</strong> Wenn du danach auch Formen willst, die Pastapresse dazu.</p>
-<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/s?k=KitchenAid+5KSMPRA&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Walzensatz 5KSMPRA bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/s?k=KitchenAid+5KSMPEXTA&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Pastapresse 5KSMPEXTA bei Amazon*</a></p>
+<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/dp/B01H6QNNZY?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Walzensatz 5KSMPRA bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/dp/B01IYIY5JG?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Pastapresse 5KSMPEXTA bei Amazon*</a></p>
 </div>
 <div class="profil">
 <p class="profil-wer">Rigatoni und Fusilli, ohne viel zu üben</p>
 <p class="profil-was"><strong>Philips 7000.</strong> Plane für Ravioli trotzdem Walzen oder ein Nudelholz ein.</p>
-<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/s?k=Philips+7000+Pastamaker+HR2665&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Philips 7000 bei Amazon*</a></p>
+<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/dp/B0B8DV6CK5?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Philips 7000 bei Amazon*</a></p>
 </div>
 <div class="profil">
 <p class="profil-wer">Du kurbelst nicht gern</p>
 <p class="profil-was"><strong>Marcato Atlas 150 plus Pastadrive-Motor.</strong></p>
-<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/s?k=Marcato+Atlas+150&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Marcato Atlas 150 bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/s?k=Marcato+Pastadrive&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Pastadrive Motor bei Amazon*</a></p>
+<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/dp/B00SX7LT84?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Marcato Atlas 150 bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/s?k=Marcato+Pastadrive&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Pastadrive Motor bei Amazon*</a></p>
 </div>
 </div>
 

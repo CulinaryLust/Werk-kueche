@@ -14,9 +14,9 @@ datum: 2026-11-05
 <div class="kurzwahl">
 <p class="kurzwahl-titel">Kurz gesagt: meine Empfehlung</p>
 <ul class="kurzwahl-liste">
-<li><strong>48 Stunden Gare im Kühlschrank:</strong> <a href="https://www.amazon.de/s?k=Caputo+Cuoco+Tipo+00&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Cuoco</a>* oder <a href="https://www.amazon.de/s?k=Le+5+Stagioni+Superiore&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Le 5 Stagioni Superiore</a>*, 65 % Hydration</li>
-<li><strong>Neapolitanisch im Pizzaofen:</strong> <a href="https://www.amazon.de/s?k=Caputo+Pizzeria+Tipo+00&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Pizzeria</a>* oder <a href="https://www.amazon.de/s?k=Le+5+Stagioni+Pizza+Napoletana&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Le 5 Stagioni Napoletana</a>*, ohne Malz</li>
-<li><strong>Günstig starten:</strong> Type 550 aus dem Supermarkt, für lange Gare 20 % <a href="https://www.amazon.de/s?k=Caputo+Manitoba+Oro&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Manitoba Oro</a>* dazu</li>
+<li><strong>48 Stunden Gare im Kühlschrank:</strong> <a href="https://www.amazon.de/dp/B01MT159SE?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Cuoco</a>* oder <a href="https://www.amazon.de/s?k=Le+5+Stagioni+Superiore&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Le 5 Stagioni Superiore</a>*, 65 % Hydration</li>
+<li><strong>Neapolitanisch im Pizzaofen:</strong> <a href="https://www.amazon.de/dp/B07TLYYFWJ?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Pizzeria</a>* oder <a href="https://www.amazon.de/dp/B00GSSGBAQ?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Le 5 Stagioni Napoletana</a>*, ohne Malz</li>
+<li><strong>Günstig starten:</strong> Type 550 aus dem Supermarkt, für lange Gare 20 % <a href="https://www.amazon.de/dp/B01B1V3HEM?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Manitoba Oro</a>* dazu</li>
 </ul>
 <p class="kurzwahl-mehr"><a href="#meine-empfehlung-in-drei-saetzen">Warum, und welche Mehle noch passen ↓</a></p>
 </div>
@@ -70,27 +70,27 @@ datum: 2026-11-05
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">Caputo Pizzeria</span><span class="modell-tag">Tipo 00 · blau</span></p>
 <dl class="modell-daten"><div><dt>Protein</dt><dd>12,5 %</dd></div><div><dt>W</dt><dd>260–280</dd></div><div><dt>Gare</dt><dd>8–24 h</dd></div><div><dt>Ofen</dt><dd>Pizzaofen, Backofen</dd></div></dl>
-<p class="modell-fuss"><span></span><a class="modell-knopf" href="https://www.amazon.de/s?k=Caputo+Pizzeria+Tipo+00&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span></span><a class="modell-knopf" href="https://www.amazon.de/dp/B07TLYYFWJ?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">Caputo Cuoco</span><span class="modell-tag">Tipo 00 · rot</span></p>
 <dl class="modell-daten"><div><dt>Protein</dt><dd>13 %</dd></div><div><dt>W</dt><dd>300–320</dd></div><div><dt>Gare</dt><dd>24–72 h</dd></div><div><dt>Ofen</dt><dd>Backofen, Pizzaofen</dd></div></dl>
-<p class="modell-fuss"><span></span><a class="modell-knopf" href="https://www.amazon.de/s?k=Caputo+Cuoco+Tipo+00&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span></span><a class="modell-knopf" href="https://www.amazon.de/dp/B01MT159SE?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">Caputo Nuvola</span><span class="modell-tag">Tipo 0</span></p>
 <dl class="modell-daten"><div><dt>Protein</dt><dd>12,5 %</dd></div><div><dt>W</dt><dd>270–290</dd></div><div><dt>Gare</dt><dd>bis 72 h (Hersteller)</dd></div><div><dt>Ofen</dt><dd>Pizzaofen, Backofen</dd></div></dl>
-<p class="modell-fuss"><span></span><a class="modell-knopf" href="https://www.amazon.de/s?k=Caputo+Nuvola&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span></span><a class="modell-knopf" href="https://www.amazon.de/dp/B095STCBJ8?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">Caputo Nuvola Super</span><span class="modell-tag">Tipo 0</span></p>
 <dl class="modell-daten"><div><dt>Protein</dt><dd>13,5 %</dd></div><div><dt>W</dt><dd>320–340</dd></div><div><dt>Gare</dt><dd>24–72 h</dd></div><div><dt>Ofen</dt><dd>Pizzaofen, Backofen</dd></div></dl>
-<p class="modell-fuss"><span></span><a class="modell-knopf" href="https://www.amazon.de/s?k=Caputo+Nuvola&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span></span><a class="modell-knopf" href="https://www.amazon.de/dp/B095STCBJ8?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">Le 5 Stagioni Napoletana</span><span class="modell-tag">Tipo 00</span></p>
 <dl class="modell-daten"><div><dt>Protein</dt><dd>13 % (Trockenmasse)</dd></div><div><dt>W</dt><dd>nicht angegeben</dd></div><div><dt>Gare</dt><dd>lange Reife</dd></div><div><dt>Ofen</dt><dd>Pizzaofen</dd></div></dl>
-<p class="modell-fuss"><span></span><a class="modell-knopf" href="https://www.amazon.de/s?k=Le+5+Stagioni+Pizza+Napoletana&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span></span><a class="modell-knopf" href="https://www.amazon.de/dp/B00GSSGBAQ?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">Le 5 Stagioni Superiore</span><span class="modell-tag">Tipo 00</span></p>
@@ -100,12 +100,12 @@ datum: 2026-11-05
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">Molino Grassi Pizza e Focaccia</span><span class="modell-tag">Tipo 00</span></p>
 <dl class="modell-daten"><div><dt>Protein</dt><dd>12 g/100 g, min. 12,8 % (Trockenmasse)</dd></div><div><dt>W</dt><dd>290 ± 30</dd></div><div><dt>Gare</dt><dd>12–48 h</dd></div><div><dt>Ofen</dt><dd>Pizzaofen, Backofen</dd></div></dl>
-<p class="modell-fuss"><span></span><a class="modell-knopf" href="https://www.amazon.de/s?k=Molino+Grassi+Farina+00+Pizza&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span></span><a class="modell-knopf" href="https://www.amazon.de/dp/B010VAZDAA?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">Caputo Manitoba Oro</span><span class="modell-tag">Tipo 0 · Verstärker</span></p>
 <dl class="modell-daten"><div><dt>Protein</dt><dd>14 %</dd></div><div><dt>W</dt><dd>360–380</dd></div><div><dt>Gare</dt><dd>nur als Mischanteil</dd></div><div><dt>Ofen</dt><dd>beide</dd></div></dl>
-<p class="modell-fuss"><span></span><a class="modell-knopf" href="https://www.amazon.de/s?k=Caputo+Manitoba+Oro&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span></span><a class="modell-knopf" href="https://www.amazon.de/dp/B01B1V3HEM?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">Weizenmehl Type 550</span><span class="modell-tag">z. B. Diamant</span></p>
@@ -196,17 +196,17 @@ datum: 2026-11-05
 <div class="profil">
 <p class="profil-wer">48 Stunden Gare im Kühlschrank</p>
 <p class="profil-was"><strong>Caputo Cuoco, Nuvola Super oder Le 5 Stagioni Superiore,</strong> 65 % Hydration.</p>
-<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/s?k=Caputo+Cuoco+Tipo+00&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Cuoco bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/s?k=Caputo+Nuvola&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Nuvola Super bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/s?k=Le+5+Stagioni+Superiore&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Le 5 Stagioni Superiore bei Amazon*</a></p>
+<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/dp/B01MT159SE?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Cuoco bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/dp/B095STCBJ8?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Nuvola Super bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/s?k=Le+5+Stagioni+Superiore&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Le 5 Stagioni Superiore bei Amazon*</a></p>
 </div>
 <div class="profil">
 <p class="profil-wer">Neapolitanisch im Pizzaofen</p>
 <p class="profil-was"><strong>Caputo Pizzeria oder Le 5 Stagioni Napoletana,</strong> 60–65 % Hydration, ohne Malz.</p>
-<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/s?k=Caputo+Pizzeria+Tipo+00&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Pizzeria bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/s?k=Le+5+Stagioni+Pizza+Napoletana&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Le 5 Stagioni Napoletana bei Amazon*</a></p>
+<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/dp/B07TLYYFWJ?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Pizzeria bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/dp/B00GSSGBAQ?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Le 5 Stagioni Napoletana bei Amazon*</a></p>
 </div>
 <div class="profil">
 <p class="profil-wer">Günstig starten</p>
 <p class="profil-was"><strong>Type 550 aus dem Supermarkt,</strong> 62 % Hydration, Gare 8–24 Stunden. Für längere Gare 20 % Manitoba dazu.</p>
-<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/s?k=Caputo+Manitoba+Oro&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Manitoba Oro bei Amazon*</a></p>
+<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/dp/B01B1V3HEM?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Manitoba Oro bei Amazon*</a></p>
 </div>
 </div>
 <p>Den kompletten Zeitplan mit Mengen findest du in <a href="/neapolitanischer-pizzateig-48h/">Neapolitanischer Pizzateig mit 48 Stunden Gare</a>.</p>

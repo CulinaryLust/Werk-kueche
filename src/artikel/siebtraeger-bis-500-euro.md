@@ -15,10 +15,10 @@ datum: 2026-11-06
 <div class="kurzwahl">
 <p class="kurzwahl-titel">Kurz gesagt: meine Empfehlung</p>
 <ul class="kurzwahl-liste">
-<li><strong>Richtig lernen:</strong> <a href="https://www.amazon.de/s?k=Gaggia+Classic+Evo+Pro&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Gaggia Classic Evo Pro</a>* oder <a href="https://www.amazon.de/s?k=Sage+Bambino&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Sage Bambino</a>*, dazu eine gute Mühle</li>
-<li><strong>Vor allem Cappuccino, einfach:</strong> <a href="https://www.amazon.de/s?k=Sage+Bambino+Plus&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Sage Bambino Plus</a>* mit automatischem Milchschaum</li>
-<li><strong>Nur ein Gerät mit Mühle:</strong> <a href="https://www.amazon.de/s?k=De%27Longhi+La+Specialista+Arte&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">De'Longhi La Specialista Arte</a>* oder <a href="https://www.amazon.de/s?k=Ninja+Luxe+Caf%C3%A9+ES601EU&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Ninja Luxe Café</a>*</li>
-<li><strong>Erst mal ausprobieren:</strong> <a href="https://www.amazon.de/s?k=De%27Longhi+Dedica+EC685&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">De'Longhi Dedica</a>* plus eine gute Mühle</li>
+<li><strong>Richtig lernen:</strong> <a href="https://www.amazon.de/dp/B0BZW9RVPF?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Gaggia Classic Evo Pro</a>* oder <a href="https://www.amazon.de/dp/B09713NW8H?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Sage Bambino</a>*, dazu eine gute Mühle</li>
+<li><strong>Vor allem Cappuccino, einfach:</strong> <a href="https://www.amazon.de/dp/B07GB2JVD7?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Sage Bambino Plus</a>* mit automatischem Milchschaum</li>
+<li><strong>Nur ein Gerät mit Mühle:</strong> <a href="https://www.amazon.de/dp/B09RR1C9FB?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">De'Longhi La Specialista Arte</a>* oder <a href="https://www.amazon.de/dp/B0DFCSXC1S?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Ninja Luxe Café</a>*</li>
+<li><strong>Erst mal ausprobieren:</strong> <a href="https://www.amazon.de/dp/B06X3Z9MF3?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">De'Longhi Dedica</a>* plus eine gute Mühle</li>
 </ul>
 <p class="kurzwahl-mehr"><a href="#welche-maschine-passt-zu-dir">Welche Maschine zu dir passt ↓</a></p>
 </div>
@@ -124,7 +124,7 @@ datum: 2026-11-06
 <li class="minus">Wenig Spielraum für Feintuning</li>
 <li class="minus">Milchdüse eher für Schaum als für Latte Art</li>
 </ul>
-<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>110–130 €</span><a class="modell-knopf" href="https://www.amazon.de/s?k=De%27Longhi+Dedica+EC685&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>110–130 €</span><a class="modell-knopf" href="https://www.amazon.de/dp/B06X3Z9MF3?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">Sage Bambino</span><span class="modell-tag">Schnell und mit PID</span></p>
@@ -136,7 +136,7 @@ datum: 2026-11-06
 <li class="minus">54 mm ist kein Gastro-Standard</li>
 <li class="minus">Für mehrere Milchgetränke hintereinander brauchst du Geduld</li>
 </ul>
-<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>230–350 €</span><a class="modell-knopf" href="https://www.amazon.de/s?k=Sage+Bambino&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>230–350 €</span><a class="modell-knopf" href="https://www.amazon.de/dp/B09713NW8H?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">Ninja Luxe Café ES601EU</span><span class="modell-tag">Hybrid mit Mühle</span></p>
@@ -148,7 +148,7 @@ datum: 2026-11-06
 <li class="minus">Du lernst weniger, weil die Maschine viel abnimmt</li>
 <li class="minus">Coffeeness kritisiert teils inkonsistente Mahlgrade</li>
 </ul>
-<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>380–410 €</span><a class="modell-knopf" href="https://www.amazon.de/s?k=Ninja+Luxe+Caf%C3%A9+ES601EU&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>380–410 €</span><a class="modell-knopf" href="https://www.amazon.de/dp/B0DFCSXC1S?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">De'Longhi La Specialista Arte</span><span class="modell-tag">Alles in einem Gerät</span></p>
@@ -160,13 +160,13 @@ datum: 2026-11-06
 <li class="minus">8 Mahlstufen sind wenig für feines Einstellen</li>
 <li class="minus">Mühle nicht separat aufrüstbar</li>
 </ul>
-<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>380–470 €</span><a class="modell-knopf" href="https://www.amazon.de/s?k=De%27Longhi+La+Specialista+Arte&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>380–470 €</span><a class="modell-knopf" href="https://www.amazon.de/dp/B09RR1C9FB?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">Sage Bambino Plus</span><span class="modell-tag">Cappuccino ohne Übung</span></p>
 <dl class="modell-daten"><div><dt>Heizung</dt><dd>ThermoJet, ca. 3 s</dd></div><div><dt>Siebträger</dt><dd>54 mm</dd></div><div><dt>PID</dt><dd>ja</dd></div></dl>
 <p class="modell-text">Wie der Bambino, aber mit automatischem Milchschaum: je drei Stufen für Temperatur und Schaumdichte.</p>
-<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>400–460 €</span><a class="modell-knopf" href="https://www.amazon.de/s?k=Sage+Bambino+Plus&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>400–460 €</span><a class="modell-knopf" href="https://www.amazon.de/dp/B07GB2JVD7?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">Gaggia Classic Evo Pro</span><span class="modell-tag">Der Klassiker</span></p>
@@ -178,7 +178,7 @@ datum: 2026-11-06
 <li class="minus">Brühtemperatur schwankt: Kaffeemacher empfiehlt 7 bis 8 Sekunden spülen und 1,5 bis 2 Minuten Pause zwischen Bezügen</li>
 <li class="minus">10 bis 15 Minuten Aufheizzeit</li>
 </ul>
-<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>400–460 €</span><a class="modell-knopf" href="https://www.amazon.de/s?k=Gaggia+Classic+Evo+Pro&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>400–460 €</span><a class="modell-knopf" href="https://www.amazon.de/dp/B0BZW9RVPF?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">Lelit Anna PL41TEM</span><span class="modell-tag">Boiler plus PID</span></p>
@@ -212,17 +212,17 @@ datum: 2026-11-06
 <div class="profil">
 <p class="profil-wer">Richtig lernen, Mühle vorhanden oder eingeplant</p>
 <p class="profil-was"><strong>Gaggia Classic Evo Pro oder Sage Bambino.</strong></p>
-<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/s?k=Gaggia+Classic+Evo+Pro&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Gaggia Classic Evo Pro bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/s?k=Sage+Bambino&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Sage Bambino bei Amazon*</a></p>
+<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/dp/B0BZW9RVPF?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Gaggia Classic Evo Pro bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/dp/B09713NW8H?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Sage Bambino bei Amazon*</a></p>
 </div>
 <div class="profil">
 <p class="profil-wer">Vor allem Cappuccino, einfach</p>
 <p class="profil-was"><strong>Sage Bambino Plus.</strong></p>
-<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/s?k=Sage+Bambino+Plus&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Sage Bambino Plus bei Amazon*</a></p>
+<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/dp/B07GB2JVD7?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Sage Bambino Plus bei Amazon*</a></p>
 </div>
 <div class="profil">
 <p class="profil-wer">Nur ein Gerät in der Küche</p>
 <p class="profil-was"><strong>De'Longhi La Specialista Arte oder Ninja Luxe Café.</strong></p>
-<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/s?k=De%27Longhi+La+Specialista+Arte&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">La Specialista Arte bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/s?k=Ninja+Luxe+Caf%C3%A9+ES601EU&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Ninja Luxe Café bei Amazon*</a></p>
+<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/dp/B09RR1C9FB?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">La Specialista Arte bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/dp/B0DFCSXC1S?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Ninja Luxe Café bei Amazon*</a></p>
 </div>
 <div class="profil">
 <p class="profil-wer">Temperaturkontrolle und Boiler</p>
@@ -232,7 +232,7 @@ datum: 2026-11-06
 <div class="profil">
 <p class="profil-wer">Erst mal testen, ob Siebträger etwas für dich ist</p>
 <p class="profil-was"><strong>De'Longhi Dedica</strong> plus eine gute Mühle.</p>
-<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/s?k=De%27Longhi+Dedica+EC685&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">De'Longhi Dedica bei Amazon*</a></p>
+<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/dp/B06X3Z9MF3?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">De'Longhi Dedica bei Amazon*</a></p>
 </div>
 </div>
 <p>Egal, wofür du dich entscheidest: Gute, frisch geröstete Bohnen und eine Waage bringen dir mehr als jedes Extra an der Maschine. Und dann nimm dir die Zeit, den Espresso in Ruhe zu trinken. Genau dafür hast du dir die Mühe gemacht.</p>
