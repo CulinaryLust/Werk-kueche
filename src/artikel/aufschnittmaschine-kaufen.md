@@ -15,8 +15,8 @@ datum: 2026-11-13
 <div class="kurzwahl">
 <p class="kurzwahl-titel">Kurz gesagt: meine Empfehlung</p>
 <ul class="kurzwahl-liste">
-<li><strong>Ab und zu Salami und Käse:</strong> <a href="https://www.amazon.de/s?k=Ritter+solida+4&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Ritter solida 4</a>* plus <a href="https://www.amazon.de/s?k=Ritter+Schinkenmesser+glatt+554.185&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Glattschliffmesser</a>*</li>
-<li><strong>Jede Woche Schinken am Stück:</strong> <a href="https://www.amazon.de/s?k=Graef+Master+M20&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Graef Master M20</a>*, schwer und ruhig</li>
+<li><strong>Ab und zu Salami und Käse:</strong> <a href="https://www.amazon.de/dp/B003P4UADU?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Ritter solida 4</a>* plus <a href="https://www.amazon.de/dp/B002RWWNC2?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Glattschliffmesser</a>*</li>
+<li><strong>Jede Woche Schinken am Stück:</strong> <a href="https://www.amazon.de/dp/B00NIO9T8O?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Graef Master M20</a>*, schwer und ruhig</li>
 <li><strong>Schön in der Küche:</strong> <a href="https://www.amazon.de/s?k=Berkel+Home+Line+250+Plus&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Berkel Home Line 250 Plus</a>* im Retro-Design</li>
 </ul>
 <p class="kurzwahl-mehr"><a href="#fuer-wen-passt-was">Für wen welche Maschine passt ↓</a></p>
@@ -67,19 +67,19 @@ datum: 2026-11-13
 <p class="modell-kopf"><span class="modell-name">Ritter solida 4</span><span class="modell-tag">Günstiger Einstieg</span></p>
 <dl class="modell-daten"><div><dt>Messer</dt><dd>ca. 17 cm, Wellenschliff</dd></div><div><dt>Motor</dt><dd>65 W Eco</dd></div><div><dt>Gewicht</dt><dd>3 kg</dd></div><div><dt>Schnitt</dt><dd>bis 2,3 cm</dd></div></dl>
 <p class="modell-text">Deutsche Fertigung, Vollmetall, abnehmbarer Schlitten mit ca. 24 cm Weg (laut Hersteller). Das glatte Schinkenmesser kaufst du für ca. 38 € dazu. Testberichte.de: Note 1,5.</p>
-<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>130–170 €</span><a class="modell-knopf" href="https://www.amazon.de/s?k=Ritter+solida+4&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>130–170 €</span><a class="modell-knopf" href="https://www.amazon.de/dp/B003P4UADU?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">Graef Sliced Kitchen S32020</span><span class="modell-tag">Graef zum kleineren Preis</span></p>
 <dl class="modell-daten"><div><dt>Typ</dt><dd>Einstiegsmodell</dd></div><div><dt>Fertigung</dt><dd>Made in Germany (lt. Händler)</dd></div></dl>
 <p class="modell-text">Alternative zur Ritter, wenn du Graef-Qualität willst, aber nicht 350 Euro ausgeben möchtest.</p>
-<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>ca. 185 €</span><a class="modell-knopf" href="https://www.amazon.de/s?k=Graef+Sliced+Kitchen+S32020&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>ca. 185 €</span><a class="modell-knopf" href="https://www.amazon.de/dp/B078X1XCSS?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">Graef Master M20</span><span class="modell-tag">Für dünne Scheiben</span></p>
 <dl class="modell-daten"><div><dt>Messer</dt><dd>hartverchromt</dd></div><div><dt>Motor</dt><dd>170 W</dd></div><div><dt>Gewicht</dt><dd>knapp 9 kg</dd></div><div><dt>Schnitt</dt><dd>0–20 mm</dd></div></dl>
 <p class="modell-text">Generalüberholt zeitweise um 260 Euro. Graef steht in Haushaltsvergleichen am häufigsten vorne. Achte bei der Bestellung auf die Messervariante.</p>
-<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>330–370 €</span><a class="modell-knopf" href="https://www.amazon.de/s?k=Graef+Master+M20&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>330–370 €</span><a class="modell-knopf" href="https://www.amazon.de/dp/B00NIO9T8O?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">Berkel Home Line 250 Plus</span><span class="modell-tag">Retro-Design</span></p>
@@ -104,12 +104,12 @@ datum: 2026-11-13
 <div class="profil">
 <p class="profil-wer">Ab und zu Salami und Käse, manchmal Brot</p>
 <p class="profil-was"><strong>Ritter solida 4</strong> mit zusätzlichem Glattschliffmesser.</p>
-<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/s?k=Ritter+solida+4&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Ritter solida 4 bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/s?k=Ritter+Schinkenmesser+glatt+554.185&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Glattschliffmesser bei Amazon*</a></p>
+<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/dp/B003P4UADU?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Ritter solida 4 bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/dp/B002RWWNC2?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Glattschliffmesser bei Amazon*</a></p>
 </div>
 <div class="profil">
 <p class="profil-wer">Schinken und Salami am Stück, jede Woche</p>
 <p class="profil-was"><strong>Graef Master M20.</strong> Schwer, ruhig, für dünne Scheiben gemacht.</p>
-<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/s?k=Graef+Master+M20&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Graef Master M20 bei Amazon*</a></p>
+<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/dp/B00NIO9T8O?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Graef Master M20 bei Amazon*</a></p>
 </div>
 <div class="profil">
 <p class="profil-wer">Soll in der Küche stehen und gut aussehen</p>

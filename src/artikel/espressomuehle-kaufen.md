@@ -15,9 +15,9 @@ datum: 2026-11-03
 <div class="kurzwahl">
 <p class="kurzwahl-titel">Kurz gesagt: meine Empfehlung</p>
 <ul class="kurzwahl-liste">
-<li><strong>Unter 150 €:</strong> <a href="https://www.amazon.de/s?k=Timemore+C3+ESP+Pro&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Timemore C3 ESP Pro</a>* (Handmühle)</li>
-<li><strong>Um 200 €:</strong> <a href="https://www.amazon.de/s?k=1Zpresso+J-Ultra&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">1Zpresso J-Ultra</a>* für reinen Espresso, elektrisch die <a href="https://www.amazon.de/s?k=Baratza+Encore+ESP&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Baratza Encore ESP</a>*</li>
-<li><strong>Um 300 bis 450 €:</strong> <a href="https://www.amazon.de/s?k=DF64+Gen+2&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">DF64 Gen 2</a>* für Single Dosing, <a href="https://www.amazon.de/s?k=Eureka+Mignon+Specialita&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Eureka Mignon Specialità</a>* für den Alltag</li>
+<li><strong>Unter 150 €:</strong> <a href="https://www.amazon.de/dp/B0C8YSWMN6?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Timemore C3 ESP Pro</a>* (Handmühle)</li>
+<li><strong>Um 200 €:</strong> <a href="https://www.amazon.de/dp/B0CLRYHX1Z?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">1Zpresso J-Ultra</a>* für reinen Espresso, elektrisch die <a href="https://www.amazon.de/dp/B0CDCDR385?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Baratza Encore ESP</a>*</li>
+<li><strong>Um 300 bis 450 €:</strong> <a href="https://www.amazon.de/s?k=DF64+Gen+2&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">DF64 Gen 2</a>* für Single Dosing, <a href="https://www.amazon.de/dp/B07PYGW97W?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Eureka Mignon Specialità</a>* für den Alltag</li>
 <li><strong>Ab 600 €:</strong> <a href="https://www.amazon.de/s?k=Niche+Zero+Kaffeem%C3%BChle&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Niche Zero</a>*, wenig Totraum, Kegelmahlwerk</li>
 </ul>
 <p class="kurzwahl-mehr"><a href="#meine-kurzempfehlung-nach-situation">Die Begründung und weitere Mühlen ↓</a></p>
@@ -152,13 +152,13 @@ datum: 2026-11-03
 <p class="modell-kopf"><span class="modell-name">Timemore C3 ESP (Pro)</span><span class="modell-tag">Einstieg</span></p>
 <dl class="modell-daten"><div><dt>Mahlwerk</dt><dd>Kegel, 38 mm, Edelstahl S2C</dd></div><div><dt>Einstellung</dt><dd>30 Klicks pro Umdrehung</dd></div></dl>
 <p class="modell-text">Die günstigste Möglichkeit, überhaupt espressotauglich zu mahlen. Für den Einstieg mit einer einfachen Maschine.</p>
-<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>70–140 €</span><a class="modell-knopf" href="https://www.amazon.de/s?k=Timemore+C3+ESP+Pro&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>70–140 €</span><a class="modell-knopf" href="https://www.amazon.de/dp/B0C8YSWMN6?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">1Zpresso J-Ultra</span><span class="modell-tag">Für reinen Espresso</span></p>
 <dl class="modell-daten"><div><dt>Mahlwerk</dt><dd>Kegel, 48 mm, beschichtet</dd></div><div><dt>Einstellung</dt><dd>8 µm pro Klick</dd></div></dl>
 <p class="modell-text">Speziell für Espresso gebaut. Der Vorgänger JX-Pro (48 mm, 12,5 µm pro Klick) ist teils noch günstiger zu finden.</p>
-<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>ca. 200 €</span><a class="modell-knopf" href="https://www.amazon.de/s?k=1Zpresso+J-Ultra&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>ca. 200 €</span><a class="modell-knopf" href="https://www.amazon.de/dp/B0CLRYHX1Z?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">Comandante C40 MK4</span><span class="modell-tag">Espresso und Filter</span></p>
@@ -173,13 +173,13 @@ datum: 2026-11-03
 <p class="modell-kopf"><span class="modell-name">Baratza Encore ESP</span><span class="modell-tag">Elektrischer Einstieg</span></p>
 <dl class="modell-daten"><div><dt>Mahlwerk</dt><dd>Kegel, 40 mm</dd></div><div><dt>Einstellung</dt><dd>40 Stufen, 20 für Espresso</dd></div></dl>
 <p class="modell-text">Günstig und gestuft, für einfache Maschinen.</p>
-<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>150–185 €</span><a class="modell-knopf" href="https://www.amazon.de/s?k=Baratza+Encore+ESP&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>150–185 €</span><a class="modell-knopf" href="https://www.amazon.de/dp/B0CDCDR385?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">DF54</span><span class="modell-tag">Single Dosing günstig</span></p>
 <dl class="modell-daten"><div><dt>Mahlwerk</dt><dd>Scheibe, 54 mm</dd></div><div><dt>Einstellung</dt><dd>stufenlos</dd></div></dl>
 <p class="modell-text">Wird auch als G-Iota oder MiiCoffee verkauft. Achte auf die Version (aktuell V4).</p>
-<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>230–300 €</span><a class="modell-knopf" href="https://www.amazon.de/s?k=DF54+Kaffeem%C3%BChle&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>230–300 €</span><a class="modell-knopf" href="https://www.amazon.de/dp/B0D1NMR67G?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">Eureka Mignon Facile</span><span class="modell-tag">Einfache Bedienung</span></p>
@@ -191,7 +191,7 @@ datum: 2026-11-03
 <p class="modell-kopf"><span class="modell-name">Eureka Mignon Specialità</span><span class="modell-tag">Für den Alltag</span></p>
 <dl class="modell-daten"><div><dt>Mahlwerk</dt><dd>Scheibe, 55 mm</dd></div><div><dt>Einstellung</dt><dd>stufenlos, 1350 U/min</dd></div></dl>
 <p class="modell-text">Touchdisplay mit zwei programmierbaren Dosen. Gut für Haushalte mit mehreren Espressotrinkern und gleicher Bohne.</p>
-<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>360–430 €</span><a class="modell-knopf" href="https://www.amazon.de/s?k=Eureka+Mignon+Specialita&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+<p class="modell-fuss"><span class="modell-preis"><small>Richtpreis</small>360–430 €</span><a class="modell-knopf" href="https://www.amazon.de/dp/B07PYGW97W?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
 </div>
 <div class="modell">
 <p class="modell-kopf"><span class="modell-name">DF64 Gen 2</span><span class="modell-tag">Single Dosing</span></p>
@@ -217,17 +217,17 @@ datum: 2026-11-03
 <div class="profil">
 <p class="profil-wer">Unter 150 €</p>
 <p class="profil-was"><strong>Handmühle wie die Timemore C3 ESP.</strong> Elektrisch wird es in diesem Bereich für Espresso schwierig.</p>
-<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/s?k=Timemore+C3+ESP+Pro&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Timemore C3 ESP Pro bei Amazon*</a></p>
+<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/dp/B0C8YSWMN6?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Timemore C3 ESP Pro bei Amazon*</a></p>
 </div>
 <div class="profil">
 <p class="profil-wer">Um 200 €</p>
 <p class="profil-was"><strong>1Zpresso J-Ultra</strong> für reinen Espresso, <strong>Comandante C40</strong>, wenn du auch Filter machst. Elektrisch: <strong>Baratza Encore ESP</strong>.</p>
-<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/s?k=1Zpresso+J-Ultra&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">1Zpresso J-Ultra bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/s?k=Comandante+C40+MK4&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Comandante C40 bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/s?k=Baratza+Encore+ESP&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Baratza Encore ESP bei Amazon*</a></p>
+<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/dp/B0CLRYHX1Z?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">1Zpresso J-Ultra bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/s?k=Comandante+C40+MK4&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Comandante C40 bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/dp/B0CDCDR385?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Baratza Encore ESP bei Amazon*</a></p>
 </div>
 <div class="profil">
 <p class="profil-wer">Um 300 bis 450 €</p>
 <p class="profil-was"><strong>DF54 oder DF64</strong> für Single Dosing, <strong>Eureka Mignon</strong> für den Alltag mit Bohnenbehälter.</p>
-<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/s?k=DF64+Gen+2&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">DF64 Gen 2 bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/s?k=DF54+Kaffeem%C3%BChle&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">DF54 bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/s?k=Eureka+Mignon+Specialita&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Eureka Mignon Specialità bei Amazon*</a></p>
+<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/s?k=DF64+Gen+2&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">DF64 Gen 2 bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/dp/B0D1NMR67G?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">DF54 bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/dp/B07PYGW97W?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Eureka Mignon Specialità bei Amazon*</a></p>
 </div>
 <div class="profil">
 <p class="profil-wer">Ab 600 €</p>
