@@ -73,7 +73,7 @@ datum: 2026-11-17
 <ul>
 <li><a href="https://www.amazon.de/s?k=Mehl+Tipo+00+Pasta&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Mehl Tipo 00 bei Amazon</a>*</li>
 <li><a href="https://www.amazon.de/s?k=Semola+rimacinata&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Semola rimacinata bei Amazon</a>*</li>
-<li><a href="https://www.amazon.de/s?k=Marcato+Atlas+150&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Marcato Atlas 150 bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/dp/B00SX7LT84?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Marcato Atlas 150 bei Amazon</a>*</li>
 <li><a href="https://www.amazon.de/s?k=Teigschaber+Edelstahl&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Teigschaber bei Amazon</a>*</li>
 <li><a href="https://www.amazon.de/s?k=Nudeltrockner+Holz&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Nudeltrockner bei Amazon</a>*</li>
 <li><a href="https://www.amazon.de/s?k=K%C3%BCchenwaage+digital+1g&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Digitale Küchenwaage bei Amazon</a>*</li>

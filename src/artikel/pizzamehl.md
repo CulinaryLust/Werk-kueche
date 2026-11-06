@@ -14,117 +14,202 @@ datum: 2026-11-05
 <div class="kurzwahl">
 <p class="kurzwahl-titel">Kurz gesagt: meine Empfehlung</p>
 <ul class="kurzwahl-liste">
-<li><strong>48 Stunden Gare im Kühlschrank:</strong> <a href="https://www.amazon.de/s?k=Caputo+Cuoco+Tipo+00&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Cuoco</a>* oder <a href="https://www.amazon.de/s?k=Le+5+Stagioni+Superiore&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Le 5 Stagioni Superiore</a>*, 65 % Hydration</li>
-<li><strong>Neapolitanisch im Pizzaofen:</strong> <a href="https://www.amazon.de/s?k=Caputo+Pizzeria+Tipo+00&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Pizzeria</a>* oder <a href="https://www.amazon.de/s?k=Le+5+Stagioni+Pizza+Napoletana&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Le 5 Stagioni Napoletana</a>*, ohne Malz</li>
-<li><strong>Günstig starten:</strong> Type 550 aus dem Supermarkt, für lange Gare 20 % <a href="https://www.amazon.de/s?k=Caputo+Manitoba+Oro&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Manitoba Oro</a>* dazu</li>
+<li><strong>48 Stunden Gare im Kühlschrank:</strong> <a href="https://www.amazon.de/dp/B01MT159SE?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Cuoco</a>* oder <a href="https://www.amazon.de/s?k=Le+5+Stagioni+Superiore&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Le 5 Stagioni Superiore</a>*, 65 % Hydration</li>
+<li><strong>Neapolitanisch im Pizzaofen:</strong> <a href="https://www.amazon.de/dp/B07TLYYFWJ?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Pizzeria</a>* oder <a href="https://www.amazon.de/dp/B00GSSGBAQ?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Le 5 Stagioni Napoletana</a>*, ohne Malz</li>
+<li><strong>Günstig starten:</strong> Type 550 aus dem Supermarkt, für lange Gare 20 % <a href="https://www.amazon.de/dp/B01B1V3HEM?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Manitoba Oro</a>* dazu</li>
 </ul>
 <p class="kurzwahl-mehr"><a href="#meine-empfehlung-in-drei-saetzen">Warum, und welche Mehle noch passen ↓</a></p>
 </div>
 
 <h2>Italienische und deutsche Mehltypen: Was die Zahl wirklich sagt</h2>
 <p>Die Typenzahl beschreibt in beiden Ländern den <strong>Mineralstoffgehalt</strong> (Asche), also wie fein das Mehl ausgemahlen ist. Über die Backkraft sagt sie nichts.</p>
-<ul>
-<li><strong>Tipo 00:</strong> höchstens 0,55 % Asche. Sehr fein, sehr hell.</li>
-<li><strong>Tipo 0:</strong> höchstens 0,65 % Asche. Etwas mehr Schale, minimal dunkler.</li>
-<li><strong>Tipo 1 und Tipo 2:</strong> höchstens 0,80 % bzw. 0,95 % Asche. Kräftiger im Geschmack, nimmt mehr Wasser auf.</li>
-<li><strong>Integrale:</strong> Vollkorn, 1,30–1,70 % Asche.</li>
-</ul>
-<p>Die deutschen Typen zählen in Milligramm Asche pro 100 g Trockenmasse. <strong>Type 405</strong> liegt also bei rund 0,4 %, <strong>Type 550</strong> bei rund 0,55 %, <strong>Type 1050</strong> bei rund 1 %. Vom Ausmahlgrad her entspricht Tipo 00 grob Type 405 bis 550, Tipo 2 grob Type 1050.</p>
-<p>Der Haken: Ein Tipo 00 kann 9 % Protein haben oder 13 %. Für Pizza zählt genau das. Deshalb ist „Tipo 00“ allein noch kein Pizzamehl.</p>
+<p class="balken-titel">Italienische Typen: Asche höchstens</p>
+<div class="balken">
+<div class="balken-zeile" style="--wert: 0.55; --max: 1.7"><span class="balken-name">Tipo 00 · sehr fein, sehr hell</span><span class="balken-bar"></span><span class="balken-wert">0,55 %</span></div>
+<div class="balken-zeile" style="--wert: 0.65; --max: 1.7"><span class="balken-name">Tipo 0 · etwas mehr Schale</span><span class="balken-bar"></span><span class="balken-wert">0,65 %</span></div>
+<div class="balken-zeile" style="--wert: 0.8; --max: 1.7"><span class="balken-name">Tipo 1 · kräftiger, nimmt mehr Wasser</span><span class="balken-bar"></span><span class="balken-wert">0,80 %</span></div>
+<div class="balken-zeile" style="--wert: 0.95; --max: 1.7"><span class="balken-name">Tipo 2</span><span class="balken-bar"></span><span class="balken-wert">0,95 %</span></div>
+<div class="balken-zeile" style="--wert: 1.7; --max: 1.7"><span class="balken-name">Integrale · Vollkorn</span><span class="balken-bar"></span><span class="balken-wert">1,30–1,70 %</span></div>
+</div>
+<p>Die deutschen Typen zählen in Milligramm Asche pro 100 g Trockenmasse: <strong>Type 405</strong> liegt bei rund 0,4 %, <strong>Type 550</strong> bei rund 0,55 %, <strong>Type 1050</strong> bei rund 1 %. Tipo 00 entspricht also grob Type 405 bis 550, Tipo 2 grob Type 1050.</p>
+<div class="hinweis hinweis-warnung">
+<p><strong>Der Haken:</strong> Ein Tipo 00 kann 9 % Protein haben oder 13 %. Für Pizza zählt genau das. „Tipo 00“ allein ist noch kein Pizzamehl.</p>
+</div>
 
 <h2>Protein und W-Wert: Was sie für deine Gare bedeuten</h2>
-<p>Der <strong>Proteingehalt</strong> zeigt, wie viel Klebereiweiß im Mehl steckt. Der <strong>W-Wert</strong> kommt aus dem Alveographen und misst, wie viel Kraft ein Teig aufbringt, bevor er reißt. Je höher W, desto länger hält das Klebergerüst während der Gare.</p>
-<p>Als Faustregel aus der Pizzeria-Praxis:</p>
-<ul>
-<li><strong>W 180–250:</strong> kurze Gare, etwa 2–8 Stunden bei Raumtemperatur.</li>
-<li><strong>W 250–300:</strong> mittlere Gare, 8–24 Stunden, gern mit Kühlschrankphase.</li>
-<li><strong>W 300–350:</strong> lange Gare, 24–72 Stunden, meist kalt im Kühlschrank.</li>
-<li><strong>W über 350:</strong> sehr stark, als Mischanteil oder für Vorteige wie Biga.</li>
-</ul>
-<p>Ein zu schwaches Mehl in 48 Stunden Kühlschrank wird schlaff und klebrig. Ein zu starkes Mehl in 4 Stunden bleibt zäh und schnurrt beim Ausziehen zurück.</p>
+<p>Der <strong>Proteingehalt</strong> zeigt, wie viel Klebereiweiß im Mehl steckt. Der <strong>W-Wert</strong> kommt aus dem Alveographen und misst, wie viel Kraft ein Teig aufbringt, bevor er reißt. Je höher W, desto länger hält das Klebergerüst. Faustregel aus der Pizzeria-Praxis:</p>
+<div class="gegenueber">
+<div>
+<p class="gegenueber-titel">W 180–250 <span>kurze Gare</span></p>
+<p>2–8 Stunden bei Raumtemperatur.</p>
+
+</div>
+<div>
+<p class="gegenueber-titel">W 250–300 <span>mittlere Gare</span></p>
+<p>8–24 Stunden, gern mit Kühlschrankphase.</p>
+
+</div>
+<div>
+<p class="gegenueber-titel">W 300–350 <span>lange Gare</span></p>
+<p>24–72 Stunden, meist kalt im Kühlschrank.</p>
+
+</div>
+<div>
+<p class="gegenueber-titel">W über 350 <span>sehr stark</span></p>
+<p>Als Mischanteil oder für Vorteige wie Biga.</p>
+
+</div>
+</div>
+<div class="hinweis hinweis-tipp">
+<p><strong>Passt es nicht zusammen,</strong> merkst du es sofort: Ein zu schwaches Mehl wird nach 48 Stunden im Kühlschrank schlaff und klebrig. Ein zu starkes Mehl bleibt nach 4 Stunden zäh und schnurrt beim Ausziehen zurück.</p>
+</div>
 
 <h2>Die Mehle im Vergleich</h2>
-<p>Alle Werte stammen von den Herstellerseiten bzw. Datenblättern. Wo kein W-Wert veröffentlicht ist, steht „nicht angegeben“.</p>
-<table>
-<thead><tr><th>Mehl</th><th>Protein laut Hersteller</th><th>W-Wert</th><th>Gare</th><th>Ofen</th></tr></thead>
-<tbody>
-<tr><td>Caputo Pizzeria (blau), Tipo 00</td><td>12,5 %</td><td>260–280</td><td>8–24 h</td><td>Pizzaofen, Backofen</td></tr>
-<tr><td>Caputo Cuoco (rot), Tipo 00</td><td>13 %</td><td>300–320</td><td>24–72 h</td><td>Backofen, Pizzaofen</td></tr>
-<tr><td>Caputo Nuvola, Tipo 0</td><td>12,5 %</td><td>270–290</td><td>bis 72 h (Herstellerempfehlung)</td><td>Pizzaofen, Backofen</td></tr>
-<tr><td>Caputo Nuvola Super, Tipo 0</td><td>13,5 %</td><td>320–340</td><td>24–72 h</td><td>Pizzaofen, Backofen</td></tr>
-<tr><td>Le 5 Stagioni Napoletana, Tipo 00</td><td>13 % (Trockenmasse)</td><td>nicht angegeben</td><td>lange Reife</td><td>Pizzaofen</td></tr>
-<tr><td>Le 5 Stagioni Superiore, Tipo 00</td><td>13 % (Trockenmasse)</td><td>nicht angegeben</td><td>lange Kühlschrankgare</td><td>Backofen, Pizzaofen</td></tr>
-<tr><td>Molino Grassi Pizza e Focaccia, Tipo 00</td><td>12 g/100 g (Nährwert), min. 12,8 % (Trockenmasse)</td><td>290 ± 30</td><td>12–48 h</td><td>Pizzaofen, Backofen</td></tr>
-<tr><td>Caputo Manitoba Oro, Tipo 0</td><td>14 %</td><td>360–380</td><td>nur als Mischanteil</td><td>beide</td></tr>
-<tr><td>Weizenmehl Type 550 (z. B. Diamant)</td><td>11 g/100 g (laut Händlerangabe)</td><td>nicht angegeben</td><td>4–24 h</td><td>Backofen</td></tr>
-</tbody>
-</table>
-<p>Die Gare-Spalte leitet sich aus dem W-Wert ab. Nur bei Nuvola nennt Caputo selbst einen Zeitplan: rund 72 Stunden, davon 48 im Kühlschrank und 24 bei etwa 22 °C. Cuoco gehört zur Saccorosso-Linie, für die Caputo lange Ruhezeiten empfiehlt. Le 5 Stagioni beschreibt die Napoletana als Mehl für neapolitanische Teige mit langer Reife und die Superiore ausdrücklich für Teige mit Reife im Kühlschrank.</p>
-
-<h2>Manitoba: Wann sich das starke Mehl lohnt</h2>
-<p>Manitoba war ursprünglich kanadischer Weizen, heute steht der Name in Italien für sehr starke Mehle. Caputo Manitoba Oro hat laut Hersteller 14 % Protein und W 360–380. Pur gibt das eine zähe, gummiartige Pizza.</p>
-<p>Sinnvoll ist Manitoba als <strong>Verstärker</strong>, wenn dein Hauptmehl für die geplante Gare zu schwach ist.</p>
-
-<h2>Mischungen: So rechnest du</h2>
-<p>Der W-Wert einer Mischung liegt ungefähr beim gewichteten Mittel. Das ist keine exakte Physik, reicht aber für die Planung.</p>
-<ul>
-<li><strong>70 % Caputo Pizzeria + 30 % Manitoba Oro:</strong> ungefähr W 300. Gut für 24–48 Stunden kalt.</li>
-<li><strong>80 % Type 550 + 20 % Manitoba:</strong> mehr Stabilität für eine Übernachtgare im Kühlschrank.</li>
-<li><strong>80 % Tipo 00 + 20 % Tipo 1 oder Tipo 2:</strong> mehr Geschmack und Farbe, die Schale nimmt zusätzlich etwas Wasser auf.</li>
-</ul>
-<p>Wiege beide Mehle ab und vermische sie trocken, bevor das Wasser dazukommt.</p>
-
-<h2>Hydration: Wie viel Wasser welches Mehl verträgt</h2>
-<p>Die Hersteller geben die Wasseraufnahme im Farinographen an: Molino Grassi Pizza e Focaccia mindestens 56 %, Le 5 Stagioni Napoletana 57 %. Das ist der Wert für einen normal festen Teig. Für Pizza gehst du darüber hinaus, je nach Mehl und Ofen.</p>
-<ul>
-<li><strong>Type 550:</strong> 60–63 %. Darüber wird der Teig schnell klebrig, weil das Klebergerüst schwächer ist.</li>
-<li><strong>Tipo 00 mit W 260–290</strong> (Caputo Pizzeria, Molino Grassi): 60–65 %.</li>
-<li><strong>Tipo 00 oder 0 mit W über 300</strong> (Cuoco, Nuvola Super): 65–70 %.</li>
-<li><strong>Mit Tipo 1, Tipo 2 oder Integrale:</strong> plus 2–5 Prozentpunkte.</li>
-</ul>
-<p>Rechne immer in Bäckerprozent: 1000 g Mehl und 650 g Wasser sind 65 % Hydration. Wenn du neu anfängst, starte am unteren Ende und erhöhe in Schritten von 2 Prozentpunkten.</p>
-
-<h2>Backofen oder Pizzaofen: Das ändert die Mehlwahl</h2>
-<h3>Backofen mit 250–300 °C</h3>
-<p>Die Pizza bleibt 6–9 Minuten im Ofen, auf Stahl etwa 4–6 Minuten. In dieser Zeit verdunstet viel Wasser, der Rand trocknet aus. Deshalb hilft hier:</p>
-<ul>
-<li>ein <strong>stärkeres Mehl</strong> mit W um 300 und <strong>65–70 % Hydration</strong>,</li>
-<li>2–3 % Olivenöl im Teig, damit er nicht hart wird,</li>
-<li>ein Mehl mit etwas Malz oder 1 % Zucker. Das bräunt den Rand trotz niedriger Temperatur.</li>
-</ul>
-<p>Type 550 funktioniert hier gut und kostet meist einen Bruchteil. Den Unterschied zu Tipo 00 merkst du eher in der Textur als in der Farbe. Wie du Stein oder Stahl dazu einsetzt, liest du in <a href="/pizzastein-oder-pizzastahl/">Pizzastein oder Pizzastahl</a>.</p>
-
-<h3>Pizzaofen mit 400–500 °C</h3>
-<p>Die Pizza backt in 60–90 Sekunden. Hier ist <strong>Mehl ohne Malz</strong> Pflicht. Malz und Zucker karamellisieren bei diesen Temperaturen sofort, der Boden wird schwarz, bevor der Rand aufgeht. Prüfe die Zutatenliste: Steht dort nur Weichweizenmehl, passt es. Steht dort Gerstenmalzmehl, Malzmehl oder Zucker, nimm ein anderes.</p>
-<p>Die italienischen Pizzamehle mit W 260–290 (Caputo Pizzeria, Molino Grassi, Le 5 Stagioni Napoletana) sind für genau diese Hitze gemacht. Hydration 60–65 %, kein Öl, kein Zucker. Welcher Ofen für zu Hause passt, steht in <a href="/pizzaofen-kaufen/">Pizzaofen kaufen</a>.</p>
-
-<h2>Meine Empfehlung in drei Sätzen</h2>
-<ul>
-<li><strong>Du planst 48 Stunden Gare im Kühlschrank:</strong> Caputo Cuoco, Nuvola Super oder Le 5 Stagioni Superiore, 65 % Hydration.</li>
-<li><strong>Du backst im Pizzaofen neapolitanisch:</strong> Caputo Pizzeria oder Le 5 Stagioni Napoletana, 60–65 % Hydration, ohne Malz.</li>
-<li><strong>Du willst günstig starten:</strong> Type 550 aus dem Supermarkt, 62 % Hydration, Gare 8–24 Stunden. Für längere Gare 20 % Manitoba dazu.</li>
-</ul>
-<p>Den kompletten Zeitplan mit Mengen findest du in <a href="/neapolitanischer-pizzateig-48h/">Neapolitanischer Pizzateig mit 48 Stunden Gare</a>.</p>
-
-<h2>Quellen der Herstellerwerte</h2>
+<p>Alle Werte laut Herstellerseiten bzw. Datenblättern. Die Knöpfe führen zur Amazon-Suche mit allen Packungsgrößen und aktuellen Preisen.</p>
+<div class="modelle">
+<div class="modell">
+<p class="modell-kopf"><span class="modell-name">Caputo Pizzeria</span><span class="modell-tag">Tipo 00 · blau</span></p>
+<dl class="modell-daten"><div><dt>Protein</dt><dd>12,5 %</dd></div><div><dt>W</dt><dd>260–280</dd></div><div><dt>Gare</dt><dd>8–24 h</dd></div><div><dt>Ofen</dt><dd>Pizzaofen, Backofen</dd></div></dl>
+<p class="modell-fuss"><span></span><a class="modell-knopf" href="https://www.amazon.de/dp/B07TLYYFWJ?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+</div>
+<div class="modell">
+<p class="modell-kopf"><span class="modell-name">Caputo Cuoco</span><span class="modell-tag">Tipo 00 · rot</span></p>
+<dl class="modell-daten"><div><dt>Protein</dt><dd>13 %</dd></div><div><dt>W</dt><dd>300–320</dd></div><div><dt>Gare</dt><dd>24–72 h</dd></div><div><dt>Ofen</dt><dd>Backofen, Pizzaofen</dd></div></dl>
+<p class="modell-fuss"><span></span><a class="modell-knopf" href="https://www.amazon.de/dp/B01MT159SE?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+</div>
+<div class="modell">
+<p class="modell-kopf"><span class="modell-name">Caputo Nuvola</span><span class="modell-tag">Tipo 0</span></p>
+<dl class="modell-daten"><div><dt>Protein</dt><dd>12,5 %</dd></div><div><dt>W</dt><dd>270–290</dd></div><div><dt>Gare</dt><dd>bis 72 h (Hersteller)</dd></div><div><dt>Ofen</dt><dd>Pizzaofen, Backofen</dd></div></dl>
+<p class="modell-fuss"><span></span><a class="modell-knopf" href="https://www.amazon.de/dp/B095STCBJ8?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+</div>
+<div class="modell">
+<p class="modell-kopf"><span class="modell-name">Caputo Nuvola Super</span><span class="modell-tag">Tipo 0</span></p>
+<dl class="modell-daten"><div><dt>Protein</dt><dd>13,5 %</dd></div><div><dt>W</dt><dd>320–340</dd></div><div><dt>Gare</dt><dd>24–72 h</dd></div><div><dt>Ofen</dt><dd>Pizzaofen, Backofen</dd></div></dl>
+<p class="modell-fuss"><span></span><a class="modell-knopf" href="https://www.amazon.de/dp/B095STCBJ8?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+</div>
+<div class="modell">
+<p class="modell-kopf"><span class="modell-name">Le 5 Stagioni Napoletana</span><span class="modell-tag">Tipo 00</span></p>
+<dl class="modell-daten"><div><dt>Protein</dt><dd>13 % (Trockenmasse)</dd></div><div><dt>W</dt><dd>nicht angegeben</dd></div><div><dt>Gare</dt><dd>lange Reife</dd></div><div><dt>Ofen</dt><dd>Pizzaofen</dd></div></dl>
+<p class="modell-fuss"><span></span><a class="modell-knopf" href="https://www.amazon.de/dp/B00GSSGBAQ?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+</div>
+<div class="modell">
+<p class="modell-kopf"><span class="modell-name">Le 5 Stagioni Superiore</span><span class="modell-tag">Tipo 00</span></p>
+<dl class="modell-daten"><div><dt>Protein</dt><dd>13 % (Trockenmasse)</dd></div><div><dt>W</dt><dd>nicht angegeben</dd></div><div><dt>Gare</dt><dd>lange Kühlschrankgare</dd></div><div><dt>Ofen</dt><dd>Backofen, Pizzaofen</dd></div></dl>
+<p class="modell-fuss"><span></span><a class="modell-knopf" href="https://www.amazon.de/s?k=Le+5+Stagioni+Superiore&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+</div>
+<div class="modell">
+<p class="modell-kopf"><span class="modell-name">Molino Grassi Pizza e Focaccia</span><span class="modell-tag">Tipo 00</span></p>
+<dl class="modell-daten"><div><dt>Protein</dt><dd>12 g/100 g, min. 12,8 % (Trockenmasse)</dd></div><div><dt>W</dt><dd>290 ± 30</dd></div><div><dt>Gare</dt><dd>12–48 h</dd></div><div><dt>Ofen</dt><dd>Pizzaofen, Backofen</dd></div></dl>
+<p class="modell-fuss"><span></span><a class="modell-knopf" href="https://www.amazon.de/dp/B010VAZDAA?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+</div>
+<div class="modell">
+<p class="modell-kopf"><span class="modell-name">Caputo Manitoba Oro</span><span class="modell-tag">Tipo 0 · Verstärker</span></p>
+<dl class="modell-daten"><div><dt>Protein</dt><dd>14 %</dd></div><div><dt>W</dt><dd>360–380</dd></div><div><dt>Gare</dt><dd>nur als Mischanteil</dd></div><div><dt>Ofen</dt><dd>beide</dd></div></dl>
+<p class="modell-fuss"><span></span><a class="modell-knopf" href="https://www.amazon.de/dp/B01B1V3HEM?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Bei Amazon ansehen*</a></p>
+</div>
+<div class="modell">
+<p class="modell-kopf"><span class="modell-name">Weizenmehl Type 550</span><span class="modell-tag">z. B. Diamant</span></p>
+<dl class="modell-daten"><div><dt>Protein</dt><dd>11 g/100 g (Händler)</dd></div><div><dt>W</dt><dd>nicht angegeben</dd></div><div><dt>Gare</dt><dd>4–24 h</dd></div><div><dt>Ofen</dt><dd>Backofen</dd></div></dl>
+<p class="modell-fuss"><span></span><span class="modell-ohne">im Supermarkt</span></p>
+</div>
+</div>
+<details class="quellen">
+<summary>Woher die Zahlen kommen und wie die Gare abgeleitet ist</summary>
+<p>Die Gare leitet sich aus dem W-Wert ab. Nur bei Nuvola nennt Caputo selbst einen Zeitplan: rund 72 Stunden, davon 48 im Kühlschrank und 24 bei etwa 22 °C. Cuoco gehört zur Saccorosso-Linie, für die Caputo lange Ruhezeiten empfiehlt. Le 5 Stagioni beschreibt die Napoletana als Mehl für neapolitanische Teige mit langer Reife und die Superiore ausdrücklich für Teige mit Reife im Kühlschrank.</p>
 <ul>
 <li>Mulino Caputo, Produktseiten Pizzeria, Saccorosso, Nuvola, Nuvola Super und Manitoba Oro (mulinocaputo.it)</li>
 <li>Le 5 Stagioni, Produktseiten Pizza Napoletana Rossa und Superiore (le5stagioni.com)</li>
 <li>Molino Grassi, Datenblatt Farina 00 Pizza e Focaccia, Rev. 22 vom 01.07.2024 (molinograssi.it)</li>
 <li>Diamant Backmehl Type 550, Nährwertangabe im REWE-Onlineshop</li>
 </ul>
+</details>
 
-<h2>Wo du die Mehle findest</h2>
-<p>Die Links führen zur Suche bei Amazon, so siehst du alle Varianten und aktuellen Preise. Preise ändern sich oft, vergleiche vor dem Kauf.</p>
-<ul>
-<li><a href="https://www.amazon.de/s?k=Caputo+Pizzeria+Tipo+00&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Pizzeria Tipo 00 bei Amazon</a>*</li>
-<li><a href="https://www.amazon.de/s?k=Caputo+Cuoco+Tipo+00&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Cuoco Tipo 00 bei Amazon</a>*</li>
-<li><a href="https://www.amazon.de/s?k=Caputo+Nuvola&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Nuvola bei Amazon</a>*</li>
-<li><a href="https://www.amazon.de/s?k=Le+5+Stagioni+Pizza+Napoletana&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Le 5 Stagioni Pizza Napoletana bei Amazon</a>*</li>
-<li><a href="https://www.amazon.de/s?k=Le+5+Stagioni+Superiore&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Le 5 Stagioni Superiore bei Amazon</a>*</li>
-<li><a href="https://www.amazon.de/s?k=Molino+Grassi+Farina+00+Pizza&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Molino Grassi Farina 00 Pizza bei Amazon</a>*</li>
-<li><a href="https://www.amazon.de/s?k=Caputo+Manitoba+Oro&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Manitoba Oro bei Amazon</a>*</li>
+<h2>Manitoba: Wann sich das starke Mehl lohnt</h2>
+<p>Manitoba war ursprünglich kanadischer Weizen, heute steht der Name in Italien für sehr starke Mehle. Caputo Manitoba Oro hat laut Hersteller 14 % Protein und W 360–380. Pur gibt das eine zähe, gummiartige Pizza.</p>
+<div class="hinweis hinweis-tipp">
+<p><strong>Als Verstärker</strong> ist Manitoba sinnvoll: wenn dein Hauptmehl für die geplante Gare zu schwach ist.</p>
+</div>
+
+<h2>Mischungen: So rechnest du</h2>
+<p>Der W-Wert einer Mischung liegt ungefähr beim gewichteten Mittel. Keine exakte Physik, reicht aber für die Planung.</p>
+<div class="gegenueber">
+<div>
+<p class="gegenueber-titel">70 % Caputo Pizzeria + 30 % Manitoba Oro</p>
+<p>Ungefähr W 300. Gut für 24–48 Stunden kalt.</p>
+
+</div>
+<div>
+<p class="gegenueber-titel">80 % Type 550 + 20 % Manitoba</p>
+<p>Mehr Stabilität für eine Übernachtgare im Kühlschrank.</p>
+
+</div>
+<div>
+<p class="gegenueber-titel">80 % Tipo 00 + 20 % Tipo 1 oder 2</p>
+<p>Mehr Geschmack und Farbe, die Schale nimmt zusätzlich etwas Wasser auf.</p>
+
+</div>
+</div>
+<p>Wiege beide Mehle ab und vermische sie trocken, bevor das Wasser dazukommt.</p>
+
+<h2>Hydration: Wie viel Wasser welches Mehl verträgt</h2>
+<p>Die Hersteller geben die Wasseraufnahme im Farinographen an: Molino Grassi mindestens 56 %, Le 5 Stagioni Napoletana 57 %. Das ist der Wert für einen normal festen Teig. Für Pizza gehst du darüber hinaus:</p>
+<p class="balken-titel">Empfohlene Hydration für Pizza</p>
+<div class="balken">
+<div class="balken-zeile" style="--wert: 63; --max: 70"><span class="balken-name">Type 550 · darüber wird es klebrig</span><span class="balken-bar"></span><span class="balken-wert">60–63 %</span></div>
+<div class="balken-zeile" style="--wert: 65; --max: 70"><span class="balken-name">Tipo 00, W 260–290</span><span class="balken-bar"></span><span class="balken-wert">60–65 %</span></div>
+<div class="balken-zeile" style="--wert: 70; --max: 70"><span class="balken-name">Tipo 00 oder 0, W über 300</span><span class="balken-bar"></span><span class="balken-wert">65–70 %</span></div>
+</div>
+<p><small>Mit Tipo 1, Tipo 2 oder Integrale jeweils plus 2–5 Prozentpunkte.</small></p>
+<div class="hinweis hinweis-info">
+<p><strong>Bäckerprozent:</strong> 1000 g Mehl und 650 g Wasser sind 65 % Hydration. Wenn du neu anfängst, starte am unteren Ende und erhöhe in Schritten von 2 Prozentpunkten.</p>
+</div>
+
+<h2>Backofen oder Pizzaofen: Das ändert die Mehlwahl</h2>
+<div class="steckbriefe">
+<div class="steckbrief">
+<h3>Backofen, 250–300 °C</h3>
+<p>6–9 Minuten, auf Stahl etwa 4–6 Minuten. Viel Wasser verdunstet, der Rand trocknet aus. Das hilft:</p>
+<ul class="plusminus">
+<li class="plus">Stärkeres Mehl mit W um 300 und 65–70 % Hydration</li>
+<li class="plus">2–3 % Olivenöl, damit der Teig nicht hart wird</li>
+<li class="plus">Etwas Malz oder 1 % Zucker: bräunt den Rand trotz niedriger Temperatur</li>
+<li class="plus">Type 550 funktioniert gut und kostet einen Bruchteil</li>
 </ul>
+</div>
+<div class="steckbrief">
+<h3>Pizzaofen, 400–500 °C</h3>
+<p>60–90 Sekunden. Gemacht für Caputo Pizzeria, Molino Grassi, Le 5 Stagioni Napoletana (W 260–290).</p>
+<ul class="plusminus">
+<li class="plus">60–65 % Hydration</li>
+<li class="plus">Kein Öl, kein Zucker</li>
+<li class="minus">Malz und Zucker karamellisieren sofort, der Boden wird schwarz, bevor der Rand aufgeht</li>
+</ul>
+</div>
+</div>
+<div class="hinweis hinweis-warnung">
+<p><strong>Im Pizzaofen nur Mehl ohne Malz:</strong> Steht in der Zutatenliste nur Weichweizenmehl, passt es. Steht dort Gerstenmalzmehl, Malzmehl oder Zucker, nimm ein anderes.</p>
+</div>
+<p>Wie du im Backofen Stein oder Stahl einsetzt, liest du in <a href="/pizzastein-oder-pizzastahl/">Pizzastein oder Pizzastahl</a>. Welcher Ofen für zu Hause passt, steht in <a href="/pizzaofen-kaufen/">Pizzaofen kaufen</a>.</p>
+
+<h2>Meine Empfehlung in drei Sätzen</h2>
+<div class="profile">
+<div class="profil">
+<p class="profil-wer">48 Stunden Gare im Kühlschrank</p>
+<p class="profil-was"><strong>Caputo Cuoco, Nuvola Super oder Le 5 Stagioni Superiore,</strong> 65 % Hydration.</p>
+<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/dp/B01MT159SE?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Cuoco bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/dp/B095STCBJ8?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Nuvola Super bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/s?k=Le+5+Stagioni+Superiore&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Le 5 Stagioni Superiore bei Amazon*</a></p>
+</div>
+<div class="profil">
+<p class="profil-wer">Neapolitanisch im Pizzaofen</p>
+<p class="profil-was"><strong>Caputo Pizzeria oder Le 5 Stagioni Napoletana,</strong> 60–65 % Hydration, ohne Malz.</p>
+<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/dp/B07TLYYFWJ?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Pizzeria bei Amazon*</a><a class="profil-knopf" href="https://www.amazon.de/dp/B00GSSGBAQ?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Le 5 Stagioni Napoletana bei Amazon*</a></p>
+</div>
+<div class="profil">
+<p class="profil-wer">Günstig starten</p>
+<p class="profil-was"><strong>Type 550 aus dem Supermarkt,</strong> 62 % Hydration, Gare 8–24 Stunden. Für längere Gare 20 % Manitoba dazu.</p>
+<p class="profil-knoepfe"><a class="profil-knopf" href="https://www.amazon.de/dp/B01B1V3HEM?tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Caputo Manitoba Oro bei Amazon*</a></p>
+</div>
+</div>
+<p>Den kompletten Zeitplan mit Mengen findest du in <a href="/neapolitanischer-pizzateig-48h/">Neapolitanischer Pizzateig mit 48 Stunden Gare</a>.</p>
 
 <p class="bildnachweis"><small>Titelfoto: <a href="https://unsplash.com/@tinkerman?utm_source=werkkueche&utm_medium=referral" target="_blank" rel="noopener">Immo Wegmann</a> auf <a href="https://unsplash.com/?utm_source=werkkueche&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></small></p>
 
