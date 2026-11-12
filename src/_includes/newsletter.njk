@@ -1,0 +1,19 @@
+{#- Anmeldung zum Newsletter (Brevo). Erscheint erst, wenn in site.json newsletter.formular_url gesetzt ist. Reines HTML-Formular, kein Skript, keine Cookies. -#}
+{%- if site.newsletter and site.newsletter.formular_url %}
+<aside class="newsletter" aria-labelledby="newsletter-titel">
+  <div>
+    <h2 id="newsletter-titel">{{ site.newsletter.titel }}</h2>
+    <p>{{ site.newsletter.text }}</p>
+  </div>
+  <form method="post" action="{{ site.newsletter.formular_url }}" target="_blank">
+    <label for="newsletter-email">E-Mail-Adresse</label>
+    <div class="newsletter-zeile">
+      <input type="email" id="newsletter-email" name="EMAIL" autocomplete="email" placeholder="du@beispiel.de" required>
+      <button type="submit">{{ site.newsletter.knopf }}</button>
+    </div>
+    <input type="text" name="email_address_check" value="" class="newsletter-falle" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <input type="hidden" name="locale" value="de">
+    <p class="newsletter-klein">Du bekommst eine E-Mail zur Bestätigung. Abmelden geht jederzeit mit einem Klick. Details in der <a href="/datenschutzerklaerung/#newsletter">Datenschutzerklärung</a>.</p>
+  </form>
+</aside>
+{%- endif %}

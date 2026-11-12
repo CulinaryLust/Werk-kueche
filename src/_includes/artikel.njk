@@ -10,7 +10,8 @@ layout: base.njk
     <p class="meta"><img src="{{ site.icon | replace('.png', '-150x150.png') }}" alt="" width="32" height="32"><span>von <a href="{{ a.seite }}">{{ a.name }}</a></span><span class="punkt">·</span><span>{{ content | lesezeit }} Min. Lesezeit</span></p>
   </header>
   {%- if bild %}
-  <img class="titelbild" src="{{ bild }}" alt="{{ bild_alt }}" width="1600" height="1066">
+  {%- set titelSrcset = bild | srcset %}
+  <img class="titelbild" src="{{ bild }}"{% if titelSrcset %} srcset="{{ titelSrcset }}" sizes="(max-width: 720px) 100vw, 680px"{% endif %} alt="{{ bild_alt }}" width="1600" height="1066" fetchpriority="high" decoding="async">
   {%- endif %}
   <div class="text">
 {{ content | safe }}
@@ -20,6 +21,7 @@ layout: base.njk
     <div><p class="autorname">{{ a.name }}</p><p>{{ a.bio }}</p></div>
   </aside>
 </article>
+{% include "newsletter.njk" %}
 {%- set aehnlich = collections.artikelNeu | inKategorien(kategorie) | ohne(page.url) %}
 {%- if aehnlich.length %}
 <section class="aehnlich">
@@ -29,13 +31,47 @@ layout: base.njk
   </div>
 </section>
 {%- endif %}
-<script type="application/ld+json">{{ {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": titel,
-  "description": beschreibung,
-  "image": bild | absolut(site.url),
-  "author": { "@type": "Person", "name": a.name, "url": a.seite | absolut(site.url) },
-  "publisher": { "@type": "Organization", "name": site.name, "logo": { "@type": "ImageObject", "url": site.logo | absolut(site.url) } },
-  "mainEntityOfPage": page.url | absolut(site.url)
-} | dump | safe }}</script>
+{%- set artikelUrl = page.url | absolut(site.url) -%}
+{%- set bildUrl = bild | absolut(site.url) -%}
+{%- set autorDaten = { "@type": "Person", "name": a.name, "url": a.seite | absolut(site.url) } -%}
+{%- set graph = [
+  {
+    "@type": "Article",
+    "headline": titel,
+    "description": beschreibung,
+    "image": bildUrl,
+    "datePublished": datum | isoDatum,
+    "inLanguage": "de-DE",
+    "author": autorDaten,
+    "publisher": { "@type": "Organization", "name": site.name, "url": site.url, "logo": { "@type": "ImageObject", "url": site.logo | absolut(site.url) } },
+    "mainEntityOfPage": artikelUrl
+  },
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": site.name, "item": site.url + "/" },
+      { "@type": "ListItem", "position": 2, "name": kat.titel, "item": ("/category/" ~ kat.slug ~ "/") | absolut(site.url) },
+      { "@type": "ListItem", "position": 3, "name": titel, "item": artikelUrl }
+    ]
+  }
+] -%}
+{%- if rezept -%}
+{%- set graph = graph | anhaengen({
+    "@type": "Recipe",
+    "name": rezept.name or titel,
+    "description": beschreibung,
+    "image": [bildUrl],
+    "author": autorDaten,
+    "datePublished": datum | isoDatum,
+    "recipeCategory": rezept.kategorie,
+    "recipeCuisine": "Italienisch",
+    "keywords": rezept.stichworte,
+    "recipeYield": rezept.ergibt,
+    "prepTime": rezept.arbeitszeit,
+    "cookTime": rezept.backzeit,
+    "totalTime": rezept.gesamtzeit,
+    "recipeIngredient": rezept.zutaten,
+    "recipeInstructions": rezept.schritte | schritte
+  }) -%}
+{%- endif %}
+<script type="application/ld+json">{{ { "@context": "https://schema.org", "@graph": graph } | dump | safe }}</script>

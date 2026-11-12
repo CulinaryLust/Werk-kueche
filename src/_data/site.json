@@ -8,17 +8,54 @@
   "logo": "/wp-content/uploads/2026/10/werkkueche-logo.png",
   "icon": "/wp-content/uploads/2026/10/werkkueche-icon.png",
   "hauptmenue": [
-    { "titel": "Pizza", "url": "/category/pizza-brot/" },
-    { "titel": "Espresso & Kaffee", "url": "/category/espresso-kaffee/" },
-    { "titel": "Pasta", "url": "/category/pasta/", "kategorie": "pasta" },
-    { "titel": "Über mich", "url": "/ueber-mich/" }
+    {
+      "titel": "Pizza",
+      "url": "/category/pizza-brot/"
+    },
+    {
+      "titel": "Espresso & Kaffee",
+      "url": "/category/espresso-kaffee/"
+    },
+    {
+      "titel": "Pasta",
+      "url": "/category/pasta/",
+      "kategorie": "pasta"
+    },
+    {
+      "titel": "Über mich",
+      "url": "/ueber-mich/"
+    }
   ],
   "fussmenue": [
-    { "titel": "Impressum", "url": "/impressum/" },
-    { "titel": "Datenschutzerklärung", "url": "/datenschutzerklaerung/" },
-    { "titel": "Affiliate-Hinweis", "url": "/affiliate-hinweis/" },
-    { "titel": "Kontakt", "url": "/kontakt/" },
-    { "titel": "Über mich", "url": "/ueber-mich/" }
+    {
+      "titel": "Impressum",
+      "url": "/impressum/"
+    },
+    {
+      "titel": "Datenschutzerklärung",
+      "url": "/datenschutzerklaerung/"
+    },
+    {
+      "titel": "Affiliate-Hinweis",
+      "url": "/affiliate-hinweis/"
+    },
+    {
+      "titel": "Kontakt",
+      "url": "/kontakt/"
+    },
+    {
+      "titel": "Über mich",
+      "url": "/ueber-mich/"
+    }
   ],
-  "startseite_kategorien": ["pizza-brot", "espresso-kaffee"]
+  "startseite_kategorien": [
+    "pizza-brot",
+    "espresso-kaffee"
+  ],
+  "newsletter": {
+    "formular_url": "",
+    "titel": "Der Pizzateig-Spickzettel als PDF",
+    "text": "Mengen für 2 bis 10 Pizzen, Zeitplan und Backtemperaturen auf einer Seite. Dazu neue Anleitungen und Kaufberatungen, höchstens einmal pro Woche.",
+    "knopf": "Spickzettel holen"
+  }
 }

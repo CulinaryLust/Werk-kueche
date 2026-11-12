@@ -17,8 +17,9 @@ Statische Website (Eleventy 3). Jeder Push auf `main` baut die Seite und lädt s
    kaufberatung: true           # optional: nur bei Kaufberatungen/Vergleichen, zeigt oben den Knopf "Direkt zu den Empfehlungen"
    ---
    ```
-3. Bild nach `src/bilder/` legen (JPG, ca. 1600 px breit, ohne EXIF). Unsplash-Fotos mit Bildnachweis am Artikelende (`<p class="bildnachweis"><small>…</small></p>`).
-4. `npm run build && npm run check`, dann committen und pushen.
+3. Bild nach `src/bilder/` legen (JPG, ca. 1600 px breit, ohne EXIF), dann `python3 werkzeug/bildvarianten.py src/bilder/<slug>.jpg` für die Handy-Größen (768/1024 px, werden automatisch per srcset genutzt). Unsplash-Fotos mit Bildnachweis am Artikelende (`<p class="bildnachweis"><small>…</small></p>`).
+4. Rezepte (Anleitungen mit Zutatenliste) bekommen im Kopf zusätzlich `rezept:` (siehe `neapolitanischer-pizzateig-48h.html`). Daraus entstehen Rezept-Daten für Google und Pinterest-Rezept-Pins.
+5. `npm run build && npm run check`, dann committen und pushen.
 
 **Geplante Veröffentlichung:** Ein Artikel mit `datum` in der Zukunft wird nicht gebaut. Der stündliche Lauf bringt ihn an seinem Tag ab ca. 00:17 UTC (01:17/02:17 Uhr deutscher Zeit) automatisch online. GitHub kann geplante Läufe verzögern: Pins für einen neuen Artikel erst ab dem Vormittag seines Datums einplanen und vorher prüfen, ob die URL erreichbar ist. So werden neue Artikel gestaffelt (ca. 2 pro Woche).
 
@@ -41,6 +42,8 @@ Statische Website (Eleventy 3). Jeder Push auf `main` baut die Seite und lädt s
 - `src/wp-content/uploads/` Bilder aus der WordPress-Zeit (Pfade bleiben gleich)
 - `src/static/` wird 1:1 ins Wurzelverzeichnis kopiert (`.htaccess`, `robots.txt`)
 - Feed für Pinterest: `/feed/`, Sitemap: `/sitemap.xml`
+- Messung ohne Cookies: `src/_data/amazonTags.json` ordnet jedem Artikel eine eigene Amazon-Tracking-ID zu. In Artikeln immer `tag=werkkueche-21` schreiben, der Build ersetzt es. Neue Artikel dort eintragen und die ID im PartnerNet anlegen. AWIN-Links (`awin1.com/cread.php`) bekommen automatisch `clickref=<slug>`.
+- Newsletter: `site.json` > `newsletter.formular_url` (Brevo). Leer = Formular ausgeblendet. Vorlage `src/_includes/newsletter.njk`, Spickzettel `src/static/downloads/`.
 
 ## Deploy
 GitHub Actions (`.github/workflows/deploy.yml`), Secrets `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD`. Der FTP-Zugang ist im KAS auf das Verzeichnis `/werk-kueche-static/` beschränkt, auf das die Domain werk-kueche.de zeigt. WordPress liegt davon getrennt und ist nicht öffentlich.

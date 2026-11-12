@@ -7,6 +7,25 @@ beschreibung: "Frischer Eiernudelteig Schritt für Schritt: Mengen pro Person, M
 bild: /bilder/nudelteig-grundrezept.jpg
 bild_alt: "Mehlberg mit aufgeschlagenem Ei auf einem Holzbrett, daneben frische Bandnudeln"
 datum: 2026-11-17
+rezept:
+  kategorie: "Pasta"
+  stichworte: "Nudelteig, Pasta selber machen, Eiernudeln, Tipo 00, Semola"
+  ergibt: "ca. 300 g frische Pasta (2 Portionen)"
+  arbeitszeit: PT30M
+  backzeit: PT4M
+  gesamtzeit: PT1H10M
+  zutaten:
+    - "200 g Mehl Tipo 00 (oder 100 g Tipo 00 und 100 g Semola rimacinata)"
+    - "2 Eier, Größe M"
+    - "1 Prise Salz (optional)"
+  schritte:
+    - "Mehl auf ein Brett häufen, eine Mulde formen und die Eier hineinschlagen."
+    - "Die Eier mit einer Gabel verquirlen und dabei langsam Mehl vom Rand einarbeiten."
+    - "Mit den Händen 8 bis 10 Minuten kneten, bis der Teig glatt ist und langsam zurückfedert."
+    - "In Frischhaltefolie wickeln und mindestens 30 Minuten bei Raumtemperatur ruhen lassen."
+    - "In 3 bis 4 Stücke teilen und mit der Nudelmaschine Stufe für Stufe oder mit dem Nudelholz dünn ausrollen."
+    - "Nudeln schneiden, mit Semola bestäuben und zu lockeren Nestern legen."
+    - "In reichlich Salzwasser 2 bis 4 Minuten kochen."
 ---
 <p><em>Hinweis: Dieser Artikel enthält Werbelinks (*). Für dich ändert sich der Preis nicht.</em></p>
 <p>Frische Pasta ist einfacher, als sie aussieht. Mehl, Eier, ein Brett und eine halbe Stunde Geduld. Die bekannte Faustregel lautet: <strong>100 g Mehl und 1 Ei pro Person</strong>. Sie stimmt fast, und wenn du weißt, warum sie manchmal nicht stimmt, gelingt der Teig jedes Mal.</p>

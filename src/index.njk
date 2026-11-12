@@ -9,7 +9,7 @@ koerperKlasse: start
   <div>
     <h1>{{ site.untertitel }}</h1>
     <p>{{ site.beschreibung }}</p>
-    <p class="knoepfe"><a href="#neueste">Neueste Anleitungen ↓</a></p>
+    <p class="knoepfe"><a href="/pizzateig-rechner/">Zum Pizzateig-Rechner</a> <a href="#neueste">Neueste Anleitungen ↓</a></p>
   </div>
 </section>
 </div>
@@ -27,3 +27,11 @@ koerperKlasse: start
   {%- for x in collections.artikelNeu | inKategorien(site.startseite_kategorien) | head(9) %}{% include "kachel.njk" %}{% endfor %}
   </div>
 </section>
+{% include "newsletter.njk" %}
+<script type="application/ld+json">{{ {
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "WebSite", "name": site.name, "url": site.url + "/", "inLanguage": "de-DE", "description": site.beschreibung },
+    { "@type": "Organization", "name": site.name, "url": site.url + "/", "logo": site.logo | absolut(site.url), "sameAs": [site.pinterest_profil] }
+  ]
+} | dump | safe }}</script>

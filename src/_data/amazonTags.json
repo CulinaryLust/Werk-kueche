@@ -1,0 +1,21 @@
+{
+  "_hinweis": "Amazon-Tracking-ID je Artikel (Dateiname ohne Endung). Beim Bauen wird tag=werkkueche-21 automatisch ersetzt. Erst auf aktiv: true stellen, wenn die IDs im PartnerNet angelegt sind (Konto > Tracking-IDs verwalten), sonst gehen Provisionen verloren. Artikel ohne Eintrag behalten die Standard-ID.",
+  "aktiv": false,
+  "standard": "werkkueche-21",
+  "artikel": {
+    "pizzaofen-kaufen": "wkpizzaofen-21",
+    "pizzamehl": "wkpizzamehl-21",
+    "pizzastein-oder-pizzastahl": "wkpizzastein-21",
+    "neapolitanischer-pizzateig-48h": "wkpizzateig-21",
+    "pizzateig-rechner": "wkteigrechner-21",
+    "geschenke-pizza-espresso": "wkgeschenke-21",
+    "siebtraeger-bis-500-euro": "wksiebtraeger-21",
+    "espressomuehle-kaufen": "wkmuehle-21",
+    "espresso-einstellen": "wkespresso-21",
+    "milch-aufschaeumen-dampflanze": "wkmilchschaum-21",
+    "nudelmaschine-kaufen": "wknudelmasch-21",
+    "nudelteig-grundrezept": "wknudelteig-21",
+    "aufschnittmaschine-kaufen": "wkaufschnitt-21",
+    "salumi-guide": "wksalumi-21"
+  }
+}
