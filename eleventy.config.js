@@ -34,7 +34,32 @@ export default function (eleventyConfig) {
     const variante = fs.readdirSync(ordner).find((f) => f.startsWith(name + "-768x"));
     return variante ? path.posix.join(path.dirname(pfad), variante) : pfad;
   });
+  // srcset aus vorhandenen Größenvarianten (name-768x512.jpg usw.) plus Original
+  const jpegBreite = (datei) => {
+    const b = fs.readFileSync(datei);
+    for (let i = 2; i < b.length - 9; ) {
+      if (b[i] !== 0xff) return null;
+      const typ = b[i + 1];
+      if (typ >= 0xc0 && typ <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(typ)) return b.readUInt16BE(i + 7);
+      i += 2 + b.readUInt16BE(i + 2);
+    }
+    return null;
+  };
+  eleventyConfig.addFilter("srcset", (pfad) => {
+    const datei = path.join("src", pfad);
+    if (!/\.jpe?g$/i.test(pfad) || !fs.existsSync(datei)) return "";
+    const name = path.basename(datei, path.extname(datei));
+    const varianten = fs.readdirSync(path.dirname(datei))
+      .map((f) => [f, f.match(new RegExp("^" + name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "-(\\d+)x\\d+\\.jpe?g$"))])
+      .filter(([, m]) => m && +m[1] >= 600 && +m[1] <= 1100)
+      .map(([f, m]) => `${path.posix.join(path.dirname(pfad), f)} ${m[1]}w`);
+    if (!varianten.length) return "";
+    const breite = jpegBreite(datei);
+    return [...varianten, breite ? `${pfad} ${breite}w` : null].filter(Boolean).join(", ");
+  });
   eleventyConfig.addFilter("isoDatum", datumText);
+  eleventyConfig.addFilter("anhaengen", (liste, x) => [...liste, x]);
+  eleventyConfig.addFilter("schritte", (liste = []) => liste.map((text) => ({ "@type": "HowToStep", text })));
   eleventyConfig.addFilter("rfcDatum", (d) => new Date(datumText(d) + "T08:00:00Z").toUTCString());
   eleventyConfig.addFilter("auszug", (html, woerter = 25) => {
     const text = String(html).replace(/<p class="bildnachweis">[\s\S]*?<\/p>/g, "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
