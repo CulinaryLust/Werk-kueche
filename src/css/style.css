@@ -334,3 +334,5 @@ a.etikett:hover { background: var(--akzent); color: var(--weiss); }
 .newsletter-falle { position: absolute; left: -9999px; }
 .newsletter .newsletter-klein { font-size: 13px; color: var(--grau); margin: 10px 0 0; }
 @media (max-width: 760px) { .newsletter { margin-left: 20px; margin-right: 20px; } }
+.knopf-download { display: inline-block; padding: 14px 22px; border-radius: 12px; background: var(--akzent); color: var(--weiss) !important; font-weight: 700; text-decoration: none; }
+.knopf-download:hover { background: var(--akzent-dunkel); }
