@@ -1,0 +1,185 @@
+---
+titel: "Pizzateig-Rechner: Mehl, Wasser, Salz und Hefe für jede Menge"
+slug: pizzateig-rechner
+kategorie: pizza-brot
+beschreibung: "Pizzateig-Rechner für neapolitanische Pizza: Anzahl, Teiggewicht, Hydration und Gehzeit wählen, Mengen in Gramm und Zeitplan sofort ablesen."
+bild: /bilder/pizzateig-rechner.jpg
+bild_alt: "Glatte Teigkugel auf einem Holzbrett"
+datum: 2026-11-12
+autor: giacomo
+---
+<p>Wie viel Mehl für 4 Pizzen? Und wie viel Hefe, wenn der Teig 48 Stunden im Kühlschrank liegt statt 8 Stunden in der Küche? Stell ein, was du vorhast. Der Rechner gibt dir die Mengen in Gramm und einen Zeitplan.</p>
+<p><em>Hinweis: Dieser Artikel enthält Werbelinks (*). Für dich ändert sich der Preis nicht.</em></p>
+
+<div class="rechner" id="rechner">
+  <form class="rechner-eingabe" onsubmit="return false">
+    <label>Anzahl Pizzen
+      <span class="zaehler"><button type="button" data-schritt="-1" aria-label="Eine Pizza weniger">−</button><input type="number" id="r-anzahl" value="4" min="1" max="40" inputmode="numeric"><button type="button" data-schritt="1" aria-label="Eine Pizza mehr">+</button></span>
+    </label>
+    <label>Gewicht pro Teigballen
+      <select id="r-gewicht">
+        <option value="230">230 g (ca. 28 cm)</option>
+        <option value="260" selected>260 g (ca. 30 cm, Standard)</option>
+        <option value="280">280 g (ca. 32 cm)</option>
+        <option value="400">400 g (ca. 40 cm, 16 Zoll)</option>
+      </select>
+    </label>
+    <label>Gehzeit
+      <select id="r-gare">
+        <option value="rt8">Heute: 8 Stunden bei Raumtemperatur</option>
+        <option value="rt24">24 Stunden bei Raumtemperatur</option>
+        <option value="k24">24 Stunden im Kühlschrank</option>
+        <option value="k48" selected>48 Stunden im Kühlschrank (Empfehlung)</option>
+        <option value="k72">72 Stunden im Kühlschrank</option>
+      </select>
+    </label>
+    <label>Hydration (Wasseranteil): <output id="r-hyd-wert">65 %</output>
+      <input type="range" id="r-hyd" min="58" max="72" value="65" step="1">
+      <small id="r-hyd-tipp"></small>
+    </label>
+    <label>Hefe
+      <select id="r-hefe">
+        <option value="frisch" selected>Frische Hefe</option>
+        <option value="trocken">Trockenhefe</option>
+      </select>
+    </label>
+    <label>Backen am
+      <input type="datetime-local" id="r-backen">
+    </label>
+  </form>
+  <div class="rechner-ergebnis" aria-live="polite">
+    <h3>Deine Mengen</h3>
+    <dl>
+      <div><dt>Mehl (Tipo 00)</dt><dd id="e-mehl"></dd></div>
+      <div><dt>Wasser (kalt)</dt><dd id="e-wasser"></dd></div>
+      <div><dt>Salz</dt><dd id="e-salz"></dd></div>
+      <div><dt id="e-hefe-name">Frische Hefe</dt><dd id="e-hefe"></dd></div>
+    </dl>
+    <p class="rechner-summe" id="e-summe"></p>
+    <h3>Dein Zeitplan</h3>
+    <ol class="rechner-plan" id="e-plan"></ol>
+    <p class="rechner-knoepfe"><button type="button" id="r-kopieren">Mengen kopieren</button><button type="button" onclick="window.print()">Drucken</button></p>
+  </div>
+</div>
+<noscript><p>Der Rechner braucht JavaScript. Die Mengen für 6 Teigballen findest du im <a href="/neapolitanischer-pizzateig-48h/">Rezept für neapolitanischen Pizzateig</a>.</p></noscript>
+
+<h2>So rechnet der Rechner</h2>
+<ul>
+<li><strong>Bäckerprozente:</strong> Alle Zutaten beziehen sich auf die Mehlmenge. 65 % Hydration heißt 650 g Wasser auf 1.000 g Mehl.</li>
+<li><strong>Salz:</strong> 2,8 % vom Mehl. Das ist der übliche Wert für neapolitanischen Teig.</li>
+<li><strong>Hefe:</strong> Je länger der Teig geht, desto weniger Hefe braucht er. Im Kühlschrank arbeitet Hefe nur noch sehr langsam, deshalb zählt die Zeit bei Raumtemperatur am meisten. Die Hefemenge ist ein Richtwert für eine Küche mit 20 bis 22 °C und einen Kühlschrank mit 4 bis 5 °C.</li>
+<li><strong>Trockenhefe:</strong> ein Drittel der Menge frischer Hefe.</li>
+</ul>
+<div class="hinweis-tipp"><p><strong>Tipp:</strong> Hefemengen unter 2 g kannst du mit einer normalen Küchenwaage nicht abwiegen. Eine Feinwaage mit 0,1 g Auflösung kostet wenig und ist für lange Teigführungen das wichtigste Werkzeug.</p></div>
+
+<h2>Welche Hydration passt zu dir?</h2>
+<ul>
+<li><strong>58 bis 62 %:</strong> fester Teig, leicht zu formen. Gut für den Einstieg und für den Haushaltsbackofen.</li>
+<li><strong>63 bis 67 %:</strong> der klassische Bereich für neapolitanische Pizza im Pizzaofen.</li>
+<li><strong>68 bis 72 %:</strong> weicher, klebriger Teig mit sehr luftigem Rand. Braucht ein starkes Mehl und etwas Übung.</li>
+</ul>
+<p>Welches Mehl wie viel Wasser verträgt, steht in <a href="/pizzamehl/">Das richtige Mehl für Pizza</a>. Die Zubereitung Schritt für Schritt findest du im <a href="/neapolitanischer-pizzateig-48h/">Rezept für neapolitanischen Pizzateig mit 48 Stunden Gare</a>.</p>
+
+<h2>Und dann: backen</h2>
+<p>Der beste Teig braucht Hitze. Im Haushaltsbackofen hilft ein <a href="/pizzastein-oder-pizzastahl/">Pizzastein oder Pizzastahl</a>. Wer öfter backt, findet in <a href="/pizzaofen-kaufen/">Pizzaofen kaufen: Gas, Holz oder Elektro?</a> den passenden Ofen.</p>
+
+<h2>Ausrüstung für deinen Teig</h2>
+<p>Die Links führen zur Suche bei Amazon. Dort vergleichst du aktuelle Preise und Bewertungen selbst.</p>
+<ul>
+<li><a href="https://www.amazon.de/s?k=digitale+K%C3%BCchenwaage+0%2C1+g&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Feinwaage (0,1 g) für Hefe und Salz bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Tipo+00+Pizzamehl&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Tipo-00-Mehl bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Pizzateig+Box&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Teigboxen bei Amazon</a>*</li>
+<li><a href="https://www.amazon.de/s?k=Pizzastahl+Backofen&amp;tag=werkkueche-21" rel="sponsored nofollow noopener" target="_blank">Pizzastahl für den Backofen bei Amazon</a>*</li>
+</ul>
+
+<p class="bildnachweis"><small>Titelfoto: <a href="https://unsplash.com/@davidtoddmccarty?utm_source=werkkueche&utm_medium=referral" target="_blank" rel="noopener">David Todd McCarty</a> auf <a href="https://unsplash.com/?utm_source=werkkueche&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></small></p>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  // Gare: Stunden bei Raumtemperatur vor dem Kühlen, im Kühlschrank, bei Raumtemperatur vor dem Backen
+  var GARE = {
+    rt8:  { vor: 2, kalt: 0,  nach: 6 },
+    rt24: { vor: 2, kalt: 0,  nach: 22 },
+    k24:  { vor: 2, kalt: 24, nach: 5 },
+    k48:  { vor: 2, kalt: 48, nach: 5 },
+    k72:  { vor: 2, kalt: 72, nach: 5 }
+  };
+  var SALZ = 0.028;
+  var zahl = function (n, stellen) { return n.toLocaleString("de-DE", { minimumFractionDigits: stellen, maximumFractionDigits: stellen }); };
+  var zeit = function (d) {
+    return d.toLocaleDateString("de-DE", { weekday: "short", day: "numeric", month: "numeric" }) + ", " +
+      d.toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit" }) + " Uhr";
+  };
+  var lokal = function (d) {
+    var p = function (n) { return String(n).padStart(2, "0"); };
+    return d.getFullYear() + "-" + p(d.getMonth() + 1) + "-" + p(d.getDate()) + "T" + p(d.getHours()) + ":" + p(d.getMinutes());
+  };
+  // Vorschlag: übermorgen 19 Uhr
+  var start = new Date(); start.setDate(start.getDate() + 2); start.setHours(19, 0, 0, 0);
+  $("r-backen").value = lokal(start);
+
+  var text = "";
+  function rechnen() {
+    var anzahl = Math.min(40, Math.max(1, parseInt($("r-anzahl").value, 10) || 1));
+    var gewicht = +$("r-gewicht").value;
+    var hyd = +$("r-hyd").value / 100;
+    var g = GARE[$("r-gare").value];
+    var trocken = $("r-hefe").value === "trocken";
+    // Frische Hefe in % vom Mehl: Richtwert, kalte Stunden zählen nur zu einem Zwanzigstel
+    var hefeAnteil = Math.min(0.015, Math.max(0.0003, 0.014 / (g.vor + g.nach + 0.05 * g.kalt)));
+    if (trocken) hefeAnteil /= 3;
+    var teig = anzahl * gewicht;
+    var mehl = teig / (1 + hyd + SALZ + hefeAnteil);
+    var hefe = mehl * hefeAnteil;
+    $("r-hyd-wert").textContent = Math.round(hyd * 100) + " %";
+    $("r-hyd-tipp").textContent = hyd < 0.63 ? "Fester Teig, gut für den Einstieg und den Backofen." : hyd <= 0.67 ? "Klassisch neapolitanisch." : "Weich und klebrig, braucht starkes Mehl und Übung.";
+    $("e-mehl").textContent = zahl(Math.round(mehl), 0) + " g";
+    $("e-wasser").textContent = zahl(Math.round(mehl * hyd), 0) + " g";
+    $("e-salz").textContent = zahl(Math.round(mehl * SALZ), 0) + " g";
+    $("e-hefe-name").textContent = trocken ? "Trockenhefe" : "Frische Hefe";
+    $("e-hefe").textContent = zahl(hefe, hefe < 10 ? 1 : 0) + " g";
+    $("e-summe").textContent = "Ergibt " + anzahl + (anzahl === 1 ? " Teigballen" : " Teigballen") + " à " + gewicht + " g (" + zahl(teig, 0) + " g Teig).";
+
+    var backen = new Date($("r-backen").value);
+    if (isNaN(backen)) backen = start;
+    var h = 3600000;
+    var kneten = new Date(backen - (g.vor + g.kalt + g.nach) * h - 0.5 * h);
+    var ballen = new Date(backen - (g.kalt + g.nach) * h);
+    var raus = new Date(backen - g.nach * h);
+    var plan = [[kneten, "Teig kneten, dann " + g.vor + " Stunden abgedeckt ruhen lassen"]];
+    if (g.kalt) {
+      plan.push([ballen, "Ballen formen und abgedeckt in den Kühlschrank stellen"]);
+      plan.push([raus, "Ballen herausnehmen und bei Raumtemperatur akklimatisieren"]);
+    } else {
+      plan.push([ballen, "Ballen formen und abgedeckt bei Raumtemperatur gehen lassen"]);
+    }
+    plan.push([new Date(backen - 0.75 * h), "Ofen mit Stein oder Stahl vorheizen"]);
+    plan.push([backen, "Backen"]);
+    $("e-plan").innerHTML = plan.map(function (p) { return "<li><strong>" + zeit(p[0]) + ":</strong> " + p[1] + "</li>"; }).join("");
+    var jetzt = new Date();
+    if (kneten < jetzt) $("e-plan").innerHTML += '<li class="rechner-warnung">Für diese Gehzeit ist es schon zu spät. Wähle eine kürzere Gehzeit oder einen späteren Backtermin.</li>';
+
+    text = "Pizzateig für " + anzahl + " Pizzen à " + gewicht + " g (" + $("r-gare").selectedOptions[0].textContent + "):\n" +
+      "Mehl Tipo 00: " + $("e-mehl").textContent + "\nWasser: " + $("e-wasser").textContent + "\nSalz: " + $("e-salz").textContent + "\n" +
+      $("e-hefe-name").textContent + ": " + $("e-hefe").textContent + "\n\n" +
+      plan.map(function (p) { return zeit(p[0]) + ": " + p[1]; }).join("\n") + "\n\nBerechnet mit https://werk-kueche.de/pizzateig-rechner/";
+  }
+  ["r-anzahl", "r-gewicht", "r-gare", "r-hyd", "r-hefe", "r-backen"].forEach(function (id) {
+    $(id).addEventListener("input", rechnen);
+  });
+  document.querySelectorAll(".zaehler button").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var feld = $("r-anzahl");
+      feld.value = Math.min(40, Math.max(1, (parseInt(feld.value, 10) || 1) + +b.dataset.schritt));
+      rechnen();
+    });
+  });
+  $("r-kopieren").addEventListener("click", function () {
+    var knopf = this;
+    var fertig = function () { knopf.textContent = "Kopiert ✓"; setTimeout(function () { knopf.textContent = "Mengen kopieren"; }, 2000); };
+    if (navigator.clipboard) navigator.clipboard.writeText(text).then(fertig, function () {});
+  });
+  rechnen();
+})();
+</script>

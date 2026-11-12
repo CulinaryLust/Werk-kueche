@@ -21,6 +21,7 @@ layout: base.njk
     <div><p class="autorname">{{ a.name }}</p><p>{{ a.bio }}</p></div>
   </aside>
 </article>
+{% include "newsletter.njk" %}
 {%- set aehnlich = collections.artikelNeu | inKategorien(kategorie) | ohne(page.url) %}
 {%- if aehnlich.length %}
 <section class="aehnlich">

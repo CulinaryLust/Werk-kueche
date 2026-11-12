@@ -87,6 +87,13 @@ export default function (eleventyConfig) {
     if (start < 0 || ende < start) return html;
     let text = html.slice(start, ende);
 
+    // Messung ohne Cookies: eigene Amazon-Tracking-ID und AWIN-Klickreferenz je Artikel
+    const tags = JSON.parse(fs.readFileSync("src/_data/amazonTags.json", "utf8"));
+    const eigeneId = tags.aktiv && tags.artikel[this.page.fileSlug];
+    if (eigeneId) text = text.replaceAll(`tag=${tags.standard}`, `tag=${eigeneId}`);
+    text = text.replace(/href="(https:\/\/www\.awin1\.com\/cread\.php\?[^"]*)"/g, (m, url) =>
+      /[?&;]clickref=/.test(url) ? m : `href="${url}&amp;clickref=${this.page.fileSlug}"`);
+
     const vergeben = new Set();
     const inhalt = [];
     text = text.replace(/<h2>([\s\S]*?)<\/h2>/g, (m, innen) => {

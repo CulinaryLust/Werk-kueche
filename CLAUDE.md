@@ -42,6 +42,8 @@ Statische Website (Eleventy 3). Jeder Push auf `main` baut die Seite und lädt s
 - `src/wp-content/uploads/` Bilder aus der WordPress-Zeit (Pfade bleiben gleich)
 - `src/static/` wird 1:1 ins Wurzelverzeichnis kopiert (`.htaccess`, `robots.txt`)
 - Feed für Pinterest: `/feed/`, Sitemap: `/sitemap.xml`
+- Messung ohne Cookies: `src/_data/amazonTags.json` ordnet jedem Artikel eine eigene Amazon-Tracking-ID zu. In Artikeln immer `tag=werkkueche-21` schreiben, der Build ersetzt es. Neue Artikel dort eintragen und die ID im PartnerNet anlegen. AWIN-Links (`awin1.com/cread.php`) bekommen automatisch `clickref=<slug>`.
+- Newsletter: `site.json` > `newsletter.formular_url` (Brevo). Leer = Formular ausgeblendet. Vorlage `src/_includes/newsletter.njk`, Spickzettel `src/static/downloads/`.
 
 ## Deploy
 GitHub Actions (`.github/workflows/deploy.yml`), Secrets `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD`. Der FTP-Zugang ist im KAS auf das Verzeichnis `/werk-kueche-static/` beschränkt, auf das die Domain werk-kueche.de zeigt. WordPress liegt davon getrennt und ist nicht öffentlich.
