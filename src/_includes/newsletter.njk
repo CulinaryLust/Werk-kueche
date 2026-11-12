@@ -1,11 +1,11 @@
-{#- Anmeldung zum Newsletter (Brevo). Erscheint erst, wenn in site.json newsletter.formular_url gesetzt ist. Reines HTML-Formular, kein Skript, keine Cookies. -#}
+{#- Anmeldung zum Newsletter (Brevo). Erscheint erst, wenn in site.json newsletter.formular_url gesetzt ist. Keine Cookies, keine fremden Skripte: Erst beim Absenden gehen die Angaben an Brevo. -#}
 {%- if site.newsletter and site.newsletter.formular_url %}
 <aside class="newsletter" aria-labelledby="newsletter-titel">
   <div>
     <h2 id="newsletter-titel">{{ site.newsletter.titel }}</h2>
     <p>{{ site.newsletter.text }}</p>
   </div>
-  <form method="post" action="{{ site.newsletter.formular_url }}" target="_blank">
+  <form method="post" action="{{ site.newsletter.formular_url }}" target="_blank" data-newsletter>
     <label for="newsletter-email">E-Mail-Adresse</label>
     <div class="newsletter-zeile">
       <input type="email" id="newsletter-email" name="EMAIL" autocomplete="email" placeholder="du@beispiel.de" required>
@@ -13,7 +13,31 @@
     </div>
     <input type="text" name="email_address_check" value="" class="newsletter-falle" tabindex="-1" autocomplete="off" aria-hidden="true">
     <input type="hidden" name="locale" value="de">
-    <p class="newsletter-klein">Du bekommst eine E-Mail zur Bestätigung. Abmelden geht jederzeit mit einem Klick. Details in der <a href="/datenschutzerklaerung/#newsletter">Datenschutzerklärung</a>.</p>
+    <p class="newsletter-klein">Du bekommst eine E-Mail zur Bestätigung, darin steht auch der Link zum Spickzettel. Abmelden geht jederzeit mit einem Klick. Details in der <a href="/datenschutzerklaerung/#newsletter">Datenschutzerklärung</a>.</p>
+    <p class="newsletter-meldung" role="status" hidden></p>
   </form>
 </aside>
+<script>
+(function () {
+  document.querySelectorAll("form[data-newsletter]").forEach(function (f) {
+    f.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var knopf = f.querySelector("button"), meldung = f.querySelector(".newsletter-meldung");
+      knopf.disabled = true;
+      var zeigen = function (text, ok) {
+        meldung.textContent = text; meldung.hidden = false; meldung.classList.toggle("fehler", !ok);
+        knopf.disabled = false;
+        if (ok) f.querySelector(".newsletter-zeile").hidden = true;
+      };
+      fetch(f.action + "?isAjax=1", { method: "POST", body: new URLSearchParams(new FormData(f)) })
+        .then(function (r) { return r.json(); })
+        .then(function (d) {
+          if (d && d.success) zeigen("Fast geschafft: Schau in dein Postfach und bestätige die Anmeldung. Dort wartet auch dein Spickzettel.", true);
+          else zeigen("Das hat nicht geklappt. Bitte prüfe die E-Mail-Adresse und versuch es noch einmal.", false);
+        })
+        .catch(function () { zeigen("Das hat gerade nicht geklappt. Bitte versuch es später noch einmal.", false); });
+    });
+  });
+})();
+</script>
 {%- endif %}
